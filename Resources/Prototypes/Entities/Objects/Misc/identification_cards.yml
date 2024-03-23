@@ -614,6 +614,7 @@
     - JobIconQuarterMaster
     - JobIconBotanist
     - JobIconBoxer
+    - JobIconBrigmedic # dedok seniors
     - JobIconAtmosphericTechnician
     - JobIconNanotrasen
     - JobIconPrisoner
@@ -653,6 +654,12 @@
     - JobIconTechnicalAssistant
     - JobIconServiceWorker
     - JobIconSecurityCadet
+    # dedok seniors start
+    - JobIconSeniorPhysician
+    - JobIconSeniorOfficer
+    - JobIconSeniorEngineer
+    - JobIconSeniorResearcher
+    # dedok seniors end
     - JobIconZookeeper
     - JobIconVisitor
   - type: ActivatableUI
@@ -833,6 +840,8 @@
     layers:
     - state: default
     - state: idseniorengineer
+  - type: PresetIdCard # dedok seniors
+    job: SeniorEngineer
 
 - type: entity
   parent: IDCardStandard
@@ -843,6 +852,8 @@
     layers:
     - state: default
     - state: idseniorresearcher
+  - type: PresetIdCard # dedok seniors
+    job: SeniorResearcher
 
 - type: entity
   parent: IDCardStandard
@@ -853,6 +864,8 @@
     layers:
     - state: default
     - state: idseniorphysician
+  - type: PresetIdCard # dedok seniors
+    job: SeniorPhysician 
 
 - type: entity
   parent: IDCardStandard
@@ -863,3 +876,5 @@
     layers:
     - state: default
     - state: idseniorofficer
+  - type: PresetIdCard # dedok seniors
+    job: SeniorOfficer
