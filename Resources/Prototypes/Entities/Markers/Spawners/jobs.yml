@@ -336,18 +336,6 @@
       - state: green
       - state: ce
 
-- type: entity # dedok seniors
-  id: SpawnPointSeniorEngineer
-  parent: SpawnPointJobBase
-  name: seniorengineer
-  components:
-  - type: SpawnPoint
-    job_id: SeniorEngineer
-  - type: Sprite
-    layers:
-      - state: green
-      - state: seniorengineer
-
 - type: entity
   id: SpawnPointStationEngineer
   parent: SpawnPointJobBase
@@ -385,18 +373,6 @@
     layers:
       - state: green
       - state: cmo
-
-- type: entity # dedok seniors
-  id: SpawnPointSeniorPhysician
-  parent: SpawnPointJobBase
-  name: seniorphysician
-  components:
-  - type: SpawnPoint
-    job_id: SeniorPhysician
-  - type: Sprite
-    layers:
-      - state: green
-      - state: seniorphysician
 
 - type: entity
   id: SpawnPointMedicalDoctor
@@ -448,18 +424,6 @@
       - state: green
       - state: rd
 
-- type: entity # dedok seniors
-  id: SpawnPointSeniorResearcher
-  parent: SpawnPointJobBase
-  name: seniorresearcher
-  components:
-  - type: SpawnPoint
-    job_id: SeniorResearcher
-  - type: Sprite
-    layers:
-      - state: green
-      - state: seniorresearcher
-
 - type: entity
   id: SpawnPointScientist
   parent: SpawnPointJobBase
@@ -497,18 +461,6 @@
     layers:
       - state: green
       - state: warden
-
-- type: entity # dedok seniors
-  id: SpawnPointSeniorOfficer
-  parent: SpawnPointJobBase
-  name: seniorofficer
-  components:
-  - type: SpawnPoint
-    job_id: SeniorOfficer
-  - type: Sprite
-    layers:
-      - state: green
-      - state: seniorofficer
 
 - type: entity
   id: SpawnPointSecurityOfficer
