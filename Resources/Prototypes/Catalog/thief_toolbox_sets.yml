@@ -89,6 +89,7 @@
   content:
   - EncryptionKeyStationMaster
   - CyberPen
+  - SpyCrewMonitor # dedok handheld crew monitor
   - BriefcaseThiefBribingBundleFilled
   - ClothingMaskGasVoiceChameleon
   #- todo Chameleon Stamp
