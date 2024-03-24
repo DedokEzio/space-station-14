@@ -201,7 +201,7 @@
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
 
-- type: technology
+- type: technology # dedok handheld crewmonitor
   id: CrewMonitoring
   name: research-technology-crew-monitoring
   icon:
