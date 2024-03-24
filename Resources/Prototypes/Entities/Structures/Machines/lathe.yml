@@ -162,6 +162,7 @@
       - WeaponCapacitorRechargerCircuitboard
       - AntiPsychicKnifeRecipe
       - Ring
+      - VehicleWheelchairFolded
       - SapphireRing
       - HandheldStationMap
       - ClothingHeadHatWelding
@@ -858,6 +859,7 @@
       - MedkitAdvanced
       - MedkitRadiation
       - MedkitCombat
+      - VehicleWheelchairFolded
       - Scalpel
       - Retractor
       - Cautery
