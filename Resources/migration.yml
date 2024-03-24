@@ -287,7 +287,8 @@ TransmitterSubspaceStockPart: null
 ClothingHeadHatHoodRad: null
 
 # 2024-01-12
-SpaceMedipen: null
+# SpaceMedipen: null # reverted
+# dedok spacepens
 
 # 2024-01-18
 ClothingHeadHelmetVoidParamed: null
