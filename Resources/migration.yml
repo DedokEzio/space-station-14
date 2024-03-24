@@ -259,7 +259,9 @@ DrinkGoldschlagerGlass: DrinkGildlagerGlass
 
 # 2024-01-07
 ClosetBase: ClosetSteelBase
-MonkeyCubeBox: VariantCubeBox
+# MonkeyCubeBox: VariantCubeBox
+# meh
+# dedok
 
 # 2024-01-08
 SalvagePartsT4Spawner: SalvageLootSpawner
@@ -305,10 +307,11 @@ DefaultStationBeaconTeslaEngine: null
 FoodBoxDonkpocketGondola: FoodBoxDonkpocketPizza
 
 # 2024-01-31
-SpyCrewMonitor: null
-SpyCrewMonitorEmpty: null
-SyndiCrewMonitor: null
-SyndiCrewMonitorEmpty: null
+#SpyCrewMonitor: null
+#SpyCrewMonitorEmpty: null
+#SyndiCrewMonitor: null
+#SyndiCrewMonitorEmpty: null
+# reverted # dedok handheldcrewmonitor
 
 SpawnVehicleWheelchair: null
 SpawnVehicleWheelchairFolded: null
@@ -348,7 +351,7 @@ AirlockHatch: AirlockHatchBasik
 AirlockHatchMaintenance: AirlockHatchMaint
 
 # 2024-02-18
-WeaponTurretSyndicateBroken: WeaponTurretLaserNanoTrasenAI
+# WeaponTurretSyndicateBroken: WeaponTurretLaserNanoTrasenAI # i didnt think this is good idea, better just to map them, but i mind backmen didnt has a mappers
 
 # 2024-02-19
 Drone: null
@@ -366,7 +369,7 @@ CrateBaseWeldable: CrateGenericSteel
 
 # 2024-09-03 Backmen
 WeaponRifleLecterRubber: WeaponRifleFamas
-WeaponTaser: WeaponDominatorNT
+#WeaponTaser: WeaponDominatorNT #hsssss
 
 # 2024-03-11
 WeaponLauncherRocket: WeaponLauncherRL5
