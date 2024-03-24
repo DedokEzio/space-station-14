@@ -1481,6 +1481,22 @@
   categories:
   - UplinkPointless
 
+- type: listing # dedok
+  id: UplinkSyndicateSegwayCrate
+  name: uplink-syndicate-segway-crate-name
+  description: uplink-syndicate-segway-crate-desc
+  icon: { sprite: /Textures/Objects/Vehicles/syndicatesegway.rsi, state: icon }
+  productEntity: CrateFunSyndicateSegway
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkPointless
+  conditions:
+  - !type:BuyerWhitelistCondition
+    blacklist:
+      components:
+      - SurplusBundle
+
 # Job Specific
 
 - type: listing
