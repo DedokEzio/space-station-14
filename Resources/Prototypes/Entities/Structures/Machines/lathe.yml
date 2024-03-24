@@ -274,6 +274,7 @@
       - AnomalyScanner
       - AnomalyLocator
       - AnomalyLocatorWide
+      - HandheldCrewMonitor # dedok handheldcrewmonitor
       - Scalpel
       - Retractor
       - Cautery
@@ -866,6 +867,7 @@
       - ClothingEyesGlassesChemical
     dynamicRecipes:
       - ChemicalPayload
+      - HandheldCrewMonitor # dedok handheldcrewmonitor
       - CryostasisBeaker
       - BluespaceBeaker
 #      - BluespaceBeaker1
