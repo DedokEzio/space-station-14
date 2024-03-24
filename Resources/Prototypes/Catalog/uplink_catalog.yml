@@ -715,6 +715,17 @@
   categories:
   - UplinkDeception
 
+- type: listing
+  id: Observationkit
+  name: uplink-observation-kit-name
+  description: uplink-observation-kit-desc
+  icon: { sprite: /Textures/Objects/Storage/boxicons.rsi, state: tracks }
+  productEntity: Observationskit
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkDeception
+
 # Disruption
 
 - type: listing
