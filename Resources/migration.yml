@@ -303,8 +303,8 @@ DefaultStationBeaconTeslaEngine: null
 # ClothingBackpackDuffelSecurityFilledDetective: ClothingBackpackDuffelFilledDetective
 # ClothingBackpackSatchelSecurityFilledDetective: ClothingBackpackSatchelFilledDetective
 
-# 2024-01-28
-FoodBoxDonkpocketGondola: FoodBoxDonkpocketPizza
+# 2024-01-28 # reverted # dedok
+# FoodBoxDonkpocketGondola: FoodBoxDonkpocketPizza
 
 # 2024-01-31
 #SpyCrewMonitor: null
