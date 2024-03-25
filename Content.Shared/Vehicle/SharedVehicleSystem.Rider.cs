@@ -1,5 +1,5 @@
 using Content.Shared.Hands;
-using Content.Shared.Physics.Pull;
+using Content.Shared.Physics;
 using Content.Shared.Vehicle.Components;
 using Robust.Shared.GameStates;
 
@@ -33,7 +33,7 @@ public abstract partial class SharedVehicleSystem
         }
     }
 
-    private void OnPullAttempt(EntityUid uid, RiderComponent component, PullAttemptEvent args)
+    private void OnPullAttempt(EntityUid uid, RiderComponent component, args)
     {
         if (component.Vehicle != null)
             args.Cancelled = true;
