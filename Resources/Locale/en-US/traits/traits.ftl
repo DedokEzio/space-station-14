@@ -35,3 +35,6 @@ trait-socialanxiety-desc = You are anxious when you speak and stutter.
 
 trait-snoring-name = Snoring
 trait-snoring-desc = You will snore while sleeping.
+
+trait-wheelchair-bound-name = Wheelchair Bound
+trait-wheelchair-bound-desc = You cannot move without your wheelchair. Wheelchair included.

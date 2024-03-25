@@ -236,3 +236,10 @@
     Steel: 1000
     Plastic: 1400
 
+- type: latheRecipe # dedok vehicles
+  id: VehicleWheelchairFolded
+  result: VehicleWheelchairFolded
+  completetime: 2
+  materials:
+    Steel: 500
+    Plastic: 300
