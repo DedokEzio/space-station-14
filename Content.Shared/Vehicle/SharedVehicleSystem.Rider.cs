@@ -30,8 +30,4 @@ public abstract partial class SharedVehicleSystem
         {
             _buckle.TryUnbuckle(uid, uid, true);
         }
-    }
-
-    private void OnPullAttempt(EntityUid uid, RiderComponent component)
-    }
 }
