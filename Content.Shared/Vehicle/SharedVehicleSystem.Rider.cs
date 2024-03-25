@@ -33,7 +33,5 @@ public abstract partial class SharedVehicleSystem
     }
 
     private void OnPullAttempt(EntityUid uid, RiderComponent component)
-    {
-        if (component.Vehicle != null)
     }
 }
