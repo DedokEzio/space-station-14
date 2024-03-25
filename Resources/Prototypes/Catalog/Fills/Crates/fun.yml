@@ -182,17 +182,6 @@
       - id: DiceBag
         amount: 6
 
-- type: entity # dedok
-  id: CrateFunATV
-  parent: CrateLivestock
-  name: ATV crate
-  description: An Absolutely Taxable Vehicle to help cargo with hauling.
-  components:
-  - type: StorageFill
-    contents:
-      - id: VehicleATV
-      - id: VehicleKeyATV
-
 - type: entity
   id: CrateFunSadTromboneImplants
   parent: CrateGenericSteel
@@ -258,17 +247,6 @@
         amount: 2
       - id: WeaponWaterPistol
         amount: 4
- 
-- type: entity # dedok
-  id: CrateFunSyndicateSegway
-  parent: CrateLivestock
-  name: Syndicate segway crate
-  description: A crate containing a two-wheeler that will help you escape from the security officers. Or not.
-  components:
-    - type: StorageFill
-      contents:
-        - id: VehicleSyndicateSegway
-        - id: VehicleKeySyndicateSegway
 
 - type: entity
   id: CrateFunBoxing
@@ -329,7 +307,6 @@
         prob: 0.5
         orGroup: Dummy
       - id: RevolverCapGun
-      - id: VehicleUnicycleFolded # dedok
       - id: BalloonNT
       - id: ClothingShoesClownLarge
       - id: ClothingHeadHatMagician

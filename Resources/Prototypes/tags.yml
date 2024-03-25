@@ -766,9 +766,6 @@
 - type: Tag
   id: IntercomElectronics
 
-- type: Tag # dedok vehicles
-  id: JanicartKeys 
-
 - type: Tag
   id: JawsOfLife
 
@@ -1258,9 +1255,6 @@
 
 - type: Tag
   id: UraniumGlassShard
-
-- type: Tag # dedok vehicles
-  id: VehicleKey
 
 - type: Tag
   id: Vegetable

@@ -222,7 +222,6 @@
         - WetFloorSign
         - HolosignProjector
         - Plunger
-        - JanicartKeys
       components:
         - LightReplacer
     maxItemSize: Large
