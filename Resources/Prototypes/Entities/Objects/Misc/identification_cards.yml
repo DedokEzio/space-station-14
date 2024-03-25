@@ -878,3 +878,19 @@
     - state: idseniorofficer
   - type: PresetIdCard # dedok seniors
     job: SeniorOfficer
+
+# blueshield start
+
+- type: entity
+  parent: IDCardStandard
+  id: BlueShieldIDCard
+  name: Blue Shield ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: idblueshield
+    - state: default
+  - type: PresetIdCard
+    job: Blueshield
+
+# blueshield end
