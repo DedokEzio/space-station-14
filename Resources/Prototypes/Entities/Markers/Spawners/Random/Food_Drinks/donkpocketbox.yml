@@ -16,8 +16,7 @@
         - FoodBoxDonkpocketPizza
         - FoodBoxDonkpocketStonk
         - FoodBoxDonkpocketBerry
-        - FoodBoxDonkpocketGondola
         - FoodBoxDonkpocketHonk
         - FoodBoxDonkpocketDink
-      chance: 0.9
+      chance: 0.5
       offset: 0.0
