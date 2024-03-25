@@ -1069,3 +1069,22 @@
       whitelist:
         components:
           - Cartridge
+
+# blueshield start
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: BlueShieldPDA
+  name: BlueShield PDA
+  description: The shield on this PDA means safety for the life of the heads, hmm, in my opinion there are not enough strips here.
+  components:
+  - type: PDA
+    id: BlueShieldIDCard
+  - type: Appearance
+    visuals:
+      - type: PDAVisualizer
+        state: pda-blueshield
+  - type: Icon
+    state: pda-blueshield
+
+# blueshield end
