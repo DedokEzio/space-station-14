@@ -1,0 +1,67 @@
+- type: job
+  id: Blueshield
+  name: blueshield
+  description: job-description-blueshield
+  playTimeTracker: JobBlueshield
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  whitelistRequired: false
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 90000 #50 hrs
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 108000 #50 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 180000 #50 hrs
+  startingGear: BlueshieldGear
+  icon: "BlueShield"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  setPreference: true
+  access:
+  - Blueshield
+  - Maintenance
+  - Command
+  - Service
+  - External
+  - Brig
+  - Security
+  - Medical
+  - Chemistry
+  - CentralCommand
+  - CCSecurity
+  minBankBalance: 300
+  maxBankBalance: 500
+  wageDepartment: CentCom
+  wage: 80
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: PsionicBonusChance
+        flatBonus: 0.025
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: BlueshieldGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueShield
+    head: ClothingHeadBeretBlueShield
+    back: ClothingBackpackSecurityFilled
+    belt: ClothingBeltSecurityFilled
+    shoes: ClothingShoesBlueShieldShoes
+    eyes: ClothingEyesGlassesSunglassesMed
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterBlueShieldVest
+    suitstorage: WeaponSubMachineGunDrozd
+    id: BlueShieldPDA
+    ears: ClothingHeadsetAltCentCom
+    mask: ClothingMaskGasSecurity
+  innerClothingSkirt: ClothingUniformJumpskirtBlueShield
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled
