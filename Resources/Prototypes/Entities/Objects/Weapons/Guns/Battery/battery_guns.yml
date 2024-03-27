@@ -203,7 +203,7 @@
   parent: BaseWeaponBattery
   id: WeaponLaserCarbine
   description: Favoured by Nanotrasen Security for being cheap and easy to use.
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
@@ -329,7 +329,7 @@
   parent: BaseWeaponBattery
   id: WeaponLaserCannon
   description: A heavy duty, high powered laser weapon.
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
@@ -385,7 +385,7 @@
   parent: BaseWeaponBattery
   id: WeaponXrayCannon
   description: An experimental weapon that uses concentrated x-ray energy against its target.
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/xray.rsi
