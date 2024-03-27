@@ -1078,7 +1078,7 @@
   name: BlueShield PDA
   description: The shield on this PDA means safety for the life of the heads, hmm, in my opinion there are not enough strips here.
   components:
-  - type: PDA
+  - type: Pda
     id: BlueShieldIDCard
   - type: Appearance
     visuals:
