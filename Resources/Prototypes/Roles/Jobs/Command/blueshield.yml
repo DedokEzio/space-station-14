@@ -21,7 +21,7 @@
   canBeAntag: false
   setPreference: true
   access:
-  - Blueshield
+  - BlueShield
   - Maintenance
   - Command
   - Service
