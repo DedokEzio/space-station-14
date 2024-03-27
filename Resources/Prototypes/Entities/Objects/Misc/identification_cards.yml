@@ -884,13 +884,17 @@
 - type: entity
   parent: IDCardStandard
   id: BlueShieldIDCard
-  name: Blue Shield ID card
+  name: blueshield ID card
   components:
-  - type: Sprite
-    layers:
-    - state: idblueshield
-    - state: default
-  - type: PresetIdCard
-    job: Blueshield
+    - type: Sprite
+      layers:
+        - state: silver
+        - state: idblueshield
+    - type: PresetIdCard
+      job: Blueshield
+    - type: Access
+      tags:
+        - CCSecurity
+        - CentralCommand
 
 # blueshield end
