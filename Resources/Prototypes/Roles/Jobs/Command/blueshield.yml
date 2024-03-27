@@ -52,8 +52,8 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitBlueShield
     head: ClothingHeadBeretBlueShield
-    back: ClothingBackpackSecurityFilled
-    belt: ClothingBeltSecurityFilled
+    back: ClothingBackpackBlueshieldFilled
+    belt: ClothingBeltBlueshieldWebbinFilled
     shoes: ClothingShoesBlueShieldShoes
     eyes: ClothingEyesGlassesSunglassesMed
     gloves: ClothingHandsGlovesCombat
@@ -63,5 +63,5 @@
     ears: ClothingHeadsetAltCentCom
     mask: ClothingMaskGasSecurity
   innerClothingSkirt: ClothingUniformJumpskirtBlueShield
-  satchel: ClothingBackpackSatchelSecurityFilled
-  duffelbag: ClothingBackpackDuffelSecurityFilled
+  satchel: ClothingBackpackBlueshieldFilled # blueshield didnt need duffels and satchels
+  duffelbag: ClothingBackpackBlueshieldFilled
