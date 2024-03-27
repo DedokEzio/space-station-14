@@ -124,23 +124,23 @@
   components:
   - type: StorageFill
     contents:
+      - id: ClothingNeckCloakNanotrasen
+      - id: ClothingUniformJumpsuitNanotrasen
       - id: WeaponDisabler
       - id: ClothingUniformJumpskirtBlueShield
       - id: ClothingUniformJumpsuitBlueShield
       - id: ClothingEyesGlassesSunglasses
       - id: BriefcaseBrown
-      - id: ClothingHeadsetCentCom
+      - id: ClothingHeadsetAltCentCom
       - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBlueShieldShoes
       - id: ClothingOuterBlueShieldVest
       - id: ClothingHeadBeretBlueShield
-      - id: MedkitCombatFilled
       - id: MedkitFilled
       - id: MedkitAdvancedFilled
       - id: ClothingBeltSecurityFilled
       - id: FlashlightSeclite
       - id: ClothingEyesGlassesSecurity
-      - id: ClothingEyesGlassesSunglassesMed
       - id: WeaponMultiphaseEnergyGun
       - id: PinpointerNuclear
       - id: PinpointerUniversal
@@ -155,23 +155,23 @@
   components:
   - type: StorageFill
     contents:
+      - id: ClothingNeckCloakNanotrasen
+      - id: ClothingUniformJumpsuitNanotrasen
       - id: WeaponDisabler
       - id: ClothingUniformJumpskirtBlueShield
       - id: ClothingUniformJumpsuitBlueShield
       - id: ClothingEyesGlassesSunglasses
       - id: BriefcaseBrown
-      - id: ClothingHeadsetCentCom
+      - id: ClothingHeadsetAltCentCom
       - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBlueShieldShoes
       - id: ClothingOuterBlueShieldVest
       - id: ClothingHeadBeretBlueShield
-      - id: MedkitCombatFilled
       - id: MedkitFilled
       - id: MedkitAdvancedFilled
       - id: ClothingBeltSecurityFilled
       - id: FlashlightSeclite
       - id: ClothingEyesGlassesSecurity
-      - id: ClothingEyesGlassesSunglassesMed
       - id: WeaponMultiphaseEnergyGun
       - id: PinpointerNuclear
       - id: PinpointerUniversal
