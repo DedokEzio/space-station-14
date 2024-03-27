@@ -86,7 +86,7 @@ ClothingOuterVestKevlar: ClothingOuterArmorBasic
 
 # 2023-07-12
 # New Vendings
-VendingMachineCigs: BackmenVendingMachineCigs
+# VendingMachineCigs: BackmenVendingMachineCigs # where the fucking zippos damn?
 VendingMachineCoffee: BackmenVendingMachineCoffee
 VendingMachineCola: BackmenVendingMachineCola
 VendingMachineColaBlack: BackmenVendingMachineColaBlack
@@ -187,34 +187,34 @@ GeneratorUraniumMachineCircuitboard: PortableGeneratorSuperPacmanMachineCircuitb
 FoodTinBeansOpen: FoodTinBeans
 FoodTinMREOpen: FoodTinMRE
 
-# 2023-11-05
-WeaponRifleAk: WeaponAKMSRifle
-WeaponXrayCannon: WeaponEarthGovXRay
-WeaponLaserCarbine: WeaponEarthGovLaserRifle
-WeaponLaserCannon: WeaponEarthGovLaserSniper
-WeaponRifleLecter: WeaponRifleAR18
-WeaponSubMachineGunAtreides: WeaponSubMachineGunMP7
-WeaponPistolViper: WeaponPistolHIB88M4
-WeaponPistolMk58: WeaponPistolACP14
-WeaponPistolMk58Nonlethal: WeaponPistolG22NonLethal
-WeaponSubMachineGunDrozd: WeaponSubMachineGunVectorSpecial
-WeaponSubMachineGunDrozdRubber: WeaponSubMachineGunMP5NonLethal
-WeaponShotgunEnforcer: WeaponShotgun39
-WeaponShotgunEnforcerRubber: WeaponShotgun39NonLethal
-WeaponSubMachineGunWt550: WeaponSubMachineGunP90
-MagazinePistolSubMachineGunTopMounted: MagazinePistolTopSubMachineGun
-WeaponShotgunKammerer: WeaponShotguntrenchgun4034
-WeaponSubMachineGunC20r: WeaponSubMachineGunMP7
-WeaponRevolverMateba: WeaponRevolverMatebaNew
-WeaponSniperMosin: WeaponSniperMosinNew
-WeaponShotgunBulldog: WeaponShotgunZauer
+# 2023-11-05 # yeah i prefer standart guns
+#WeaponRifleAk: WeaponAKMSRifle
+#WeaponXrayCannon: WeaponEarthGovXRay
+#WeaponLaserCarbine: WeaponEarthGovLaserRifle
+#WeaponLaserCannon: WeaponEarthGovLaserSniper
+#WeaponRifleLecter: WeaponRifleAR18
+#WeaponSubMachineGunAtreides: WeaponSubMachineGunMP7
+#WeaponPistolViper: WeaponPistolHIB88M4
+#WeaponPistolMk58: WeaponPistolACP14
+#WeaponPistolMk58Nonlethal: WeaponPistolG22NonLethal
+#WeaponSubMachineGunDrozd: WeaponSubMachineGunVectorSpecial
+#WeaponSubMachineGunDrozdRubber: WeaponSubMachineGunMP5NonLethal
+#WeaponShotgunEnforcer: WeaponShotgun39
+#WeaponShotgunEnforcerRubber: WeaponShotgun39NonLethal
+#WeaponSubMachineGunWt550: WeaponSubMachineGunP90
+#MagazinePistolSubMachineGunTopMounted: MagazinePistolTopSubMachineGun
+#WeaponShotgunKammerer: WeaponShotguntrenchgun4034
+#WeaponSubMachineGunC20r: WeaponSubMachineGunMP7
+#3WeaponRevolverMateba: WeaponRevolverMatebaNew
+#WeaponSniperMosin: WeaponSniperMosinNew
+#WeaponShotgunBulldog: WeaponShotgunZauer
 
 # 2023-11-11 Backmen: AI
-ToyAi: SpawnPointStationAI
+ToyAi: SpawnPointStationAI # want to revert but still no spawner for ai, so this is only conclusion
 
 # 2023-11-26
-WeaponSniperHristov: WeaponRifleSR127
-MagazineBoxAntiMateriel: MagazineAntiMaterielRifleSR
+# WeaponSniperHristov: WeaponRifleSR127
+#MagazineBoxAntiMateriel: MagazineAntiMaterielRifleSR
 
 # 2023-12-10 # reverted
 # SpawnPointSeniorResearcher: null
@@ -344,7 +344,7 @@ VehicleJanicartDestroyed: null
 
 # 2024-02-01
 YellowOxygenTank: OxygenTank
-YellowOxygenTankFilled: OxygenTankFilled
+YellowOxygenTankFilled: OxygenTankFilled # oh no, im to lazy to revert this, maybe next time
 
 # 2024-01-30 Backmen
 AirlockHatch: AirlockHatchBasik
@@ -368,11 +368,11 @@ AmePartStealObjective: AmePartFlatpackStealObjective
 CrateBaseWeldable: CrateGenericSteel
 
 # 2024-09-03 Backmen
-WeaponRifleLecterRubber: WeaponRifleFamas
+#WeaponRifleLecterRubber: WeaponRifleFamas
 #WeaponTaser: WeaponDominatorNT #hsssss
 
 # 2024-03-11
-WeaponLauncherRocket: WeaponLauncherRL5
+#WeaponLauncherRocket: WeaponLauncherRL5
 
 
 # 2024-03-7
@@ -396,10 +396,10 @@ ImprovisedExplosiveEmpty: FireBombEmpty
 ImprovisedExplosiveFuel: FireBombFuel
 
 #2024-03-15
-ClothingBackpackDuffelSyndicateFilledShotgun: ClothingBackpackDuffelSyndicateFilledZauer
-ClothingBackpackDuffelSyndicateFilledSMG: ClothingBackpackDuffelSyndicateFilledMP7
-ClothingBackpackDuffelSyndicateFilledLMG: ClothingBackpackDuffelSyndicateFilledRPD
-ClothingBackpackDuffelSyndicateFilledGrenadeLauncher: ClothingBackpackDuffelSyndicateFilledGL79
+#ClothingBackpackDuffelSyndicateFilledShotgun: ClothingBackpackDuffelSyndicateFilledZauer
+#ClothingBackpackDuffelSyndicateFilledSMG: ClothingBackpackDuffelSyndicateFilledMP7
+#ClothingBackpackDuffelSyndicateFilledLMG: ClothingBackpackDuffelSyndicateFilledRPD
+#ClothingBackpackDuffelSyndicateFilledGrenadeLauncher: ClothingBackpackDuffelSyndicateFilledGL79
 
 # 2024-03-21
 RPED: null
