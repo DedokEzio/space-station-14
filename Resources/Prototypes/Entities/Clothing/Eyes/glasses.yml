@@ -228,3 +228,25 @@
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesSunglassesMed
+  name: medical HUDSunglasses
+  description: Sunglasses with a medical HUD.
+  components:
+  - type: Sprite
+    sprite: /Uploaded/sunglasseshudmed.rsi
+  - type: Clothing
+    sprite: /Uploaded/sunglasseshudmed.rsi
+  - type: Construction
+    graph: HudMedSec
+    node: medsecHud
+  - type: ShowSecurityIcons
+  - type: ClothingGrant
+    component:
+    - type: BkmShowHealthBars
+      damageContainers:
+        - Biological
+        - HalfSpirit
+  - type: FlashImmunity
