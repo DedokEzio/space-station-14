@@ -417,7 +417,7 @@
     - 0,0,7,4
   - type: StorageFill
     contents:
-      - id: BoxSurvivalSecurity
+      - id: BoxSurvivalEngineering
       - id: Flash
       - id: MagazinePistolSubMachineGun
       - id: MagazinePistolSubMachineGunRubber
