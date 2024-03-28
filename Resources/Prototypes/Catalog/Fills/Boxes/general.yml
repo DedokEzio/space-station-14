@@ -475,3 +475,14 @@
     layers:
       - state: box
       - state: darts
+
+- type: entity
+  name: tracking implants box
+  parent: BoxCardboard
+  id: BoxTrackers
+  description: This box is filled with tracking implants.
+  components:
+    - type: StorageFill
+      contents:
+        - id: TrackingImplanter
+          amount: 4
