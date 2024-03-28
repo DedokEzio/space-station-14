@@ -1088,7 +1088,7 @@
         tags:
         - Write
   - type: PdaBorderColor
-    borderColor: "#7C5D00"
+    borderColor: "#1F1F1F"
   - type: Icon
     state: pda-blueshield
 
