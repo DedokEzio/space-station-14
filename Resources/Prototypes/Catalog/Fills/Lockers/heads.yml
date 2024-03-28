@@ -124,6 +124,8 @@
   components:
   - type: StorageFill
     contents:
+      - id: BoxTrackers
+        amount: 2
       - id: ClothingNeckCloakNanotrasen
       - id: ClothingUniformJumpsuitNanotrasen
       - id: WeaponDisabler
@@ -154,6 +156,8 @@
   components:
   - type: StorageFill
     contents:
+      - id: BoxTrackers
+        amount: 2
       - id: ClothingNeckCloakNanotrasen
       - id: ClothingUniformJumpsuitNanotrasen
       - id: WeaponDisabler
