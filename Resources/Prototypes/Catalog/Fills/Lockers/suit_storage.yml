@@ -299,6 +299,3 @@
         - id: ClothingShoesBootsMag
   - type: AccessReader
     access: [["BlueShield"]]
-
-
-
