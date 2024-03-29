@@ -46,3 +46,15 @@
     state: icon
   - type: Item
     sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+
+- type: entity
+  name: black briefcase
+  parent: BriefcaseBrown
+  id: Briefcaseblack
+  description: A handy briefcase.
+  components:
+  - type: Sprite
+    sprite: Objects/Storage/Briefcases/briefcase_black.rsi
+    state: icon
+  - type: Item
+    sprite: Objects/Storage/Briefcases/briefcase_black.rsi
