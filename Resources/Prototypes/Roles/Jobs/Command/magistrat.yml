@@ -5,7 +5,7 @@
   playTimeTracker: JobMagistrat
   requireAdminNotify: true
   joinNotifyCrew: true
-  whitelistRequired: true
+  whitelistRequired: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Command
