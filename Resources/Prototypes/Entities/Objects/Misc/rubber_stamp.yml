@@ -280,7 +280,7 @@
   suffix: DO NOT MAP
   components:
   - type: Stamp
-    stampedName: stamp-component-stamped-name-blueshield
+    stampedName: blueshield
     stampedColor: "#4f8091"
     stampState: "paper_stamp-hop"
   - type: Sprite
