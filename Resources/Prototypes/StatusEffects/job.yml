@@ -387,4 +387,4 @@
   id: JobIconMagistrat
   icon:
     sprite: /Textures/Backmen/Interface/Misc/job_icons.rsi
-    state: magistrat
+    state: Magistrat
