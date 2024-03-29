@@ -282,7 +282,7 @@
   - type: Stamp
     stampedName: stamp-component-stamped-name-blueshield
     stampedColor: "#4f8091"
-    stampState: "paper_stamp-blueshield"
+    stampState: "paper_stamp-hop"
   - type: Sprite
     sprite: Objects/Misc/stamps.rsi
     state: stamp-bs
