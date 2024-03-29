@@ -336,6 +336,20 @@
       - state: blueshield
       - state: jobicon
 
+- type: entity
+  id: SpawnPointMagistrat
+  parent: SpawnPointJobBase
+  name: Magistrat
+  components:
+  - type: SpawnPoint
+    job_id: Magistrat
+  - type: Sprite
+    sprite: Backmen/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: magistrat
+      - state: jobicon
+
 # Engineering
 
 - type: entity

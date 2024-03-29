@@ -262,6 +262,9 @@
     },
     {
       "name": "idblueshield"
+    },
+    {
+      "name": "idmagistrat"
     }
   ]
 }

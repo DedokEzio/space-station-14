@@ -14,7 +14,7 @@
   name: brown briefcase
   parent: BriefcaseSyndie
   suffix: SniperBundle
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Item
     size: Ginormous
@@ -66,3 +66,16 @@
       - id: ClothingHandsGlovesCombat
       - id: ClothingMaskNeckGaiter
       - id: ToyFigurineThief
+
+- type: entity
+  id: BriefcasemagistratFilled
+  parent: Briefcaseblack
+  suffix: magistrat filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: Paper
+        - id: Paper
+        - id: Paper
+        - id: RubberStampDenied
+        - id: RubberStampApproved
