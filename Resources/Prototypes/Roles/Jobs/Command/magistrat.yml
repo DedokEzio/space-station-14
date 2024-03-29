@@ -14,7 +14,7 @@
       role: JobIAA
       time: 90000 #25 hrs
   startingGear: MagistratGear
-  icon: "Magistrat"
+  icon: "JobIconMagistrat"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   setPreference: true
