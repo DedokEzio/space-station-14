@@ -477,3 +477,17 @@
     stateDoorClosed: bs_door
   - type: AccessReader
     access: [["BlueShield"]]
+
+# Magistrat
+- type: entity
+  id: LockerMagistrat
+  name: magistrate locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["Lawyer"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: hop
+    stateDoorOpen: hop_open
+    stateDoorClosed: magistrat_door
