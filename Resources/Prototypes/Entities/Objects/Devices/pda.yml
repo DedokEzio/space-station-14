@@ -1104,7 +1104,7 @@
     id: MagistratIDCard
     state: pda-lawyer
     penSlot:
-      startingItem: LuxuryPen
+      startingItem: PenCentcom
       priority: -1
       whitelist:
         tags:
