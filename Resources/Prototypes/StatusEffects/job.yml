@@ -381,3 +381,10 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: BlueShield
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconMagistrat
+  icon:
+    sprite: /Textures/Backmen/Interface/Misc/job_icons.rsi
+    state: magistrat
