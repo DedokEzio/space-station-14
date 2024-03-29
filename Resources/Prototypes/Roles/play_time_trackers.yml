@@ -121,7 +121,7 @@
 - type: playTimeTracker
   id: JobSecurityOfficer
 
-# dedok seniors
+# dedok seniors start
 
 - type: playTimeTracker
   id: JobSeniorEngineer
@@ -135,7 +135,7 @@
 - type: playTimeTracker
   id: JobSeniorResearcher
 
-# dedok seniors
+# dedok seniors end
 
 - type: playTimeTracker
   id: JobServiceWorker
@@ -160,3 +160,6 @@
 
 - type: playTimeTracker
   id: JobBlueshield
+
+- type: playTimeTracker
+  id: JobMagistrat
