@@ -60,6 +60,14 @@
   - ShellShotgunBeanbag
   - GrenadeTearGas
   - GrenadeNonletal
+  - CartridgePistolRubber
+  - CartridgeMagnumRubber
+  - CartridgeLightRifleRubber
+  - CartridgeRifleRubber
+  - MagazineBoxPistolRubber
+  - MagazineBoxMagnumRubber
+  - MagazineBoxLightRifleRubber
+  - MagazineBoxRifleRubber
 
 - type: technology
   id: UraniumMunitions
