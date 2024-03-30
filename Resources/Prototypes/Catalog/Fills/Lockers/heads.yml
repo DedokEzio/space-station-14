@@ -124,6 +124,8 @@
   components:
   - type: StorageFill
     contents:
+      - id: BookBusido
+      - id: ClothingBeltKatanaSheathFilled
       - id: BoxTrackers
         amount: 2
       - id: ClothingNeckCloakNanotrasen
@@ -156,6 +158,8 @@
   components:
   - type: StorageFill
     contents:
+      - id: BookBusido
+      - id: ClothingBeltKatanaSheathFilled
       - id: BoxTrackers
         amount: 2
       - id: ClothingNeckCloakNanotrasen
