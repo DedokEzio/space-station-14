@@ -34,7 +34,6 @@
     contents:
       - id: FlashlightSeclite
       - id: WeaponDisabler
-        prob: 0.3
       - id: ClothingHeadHatWarden
       - id: ClothingHeadHatBeretWarden
       - id: ClothingHeadHatCapWardenAlt # Corvax-SecFashion
@@ -65,30 +64,24 @@
     contents:
       - id: Eftpos # backmen
       - id: FlashlightSeclite
-        prob: 0.8
       - id: WeaponDisabler
       - id: ClothingUniformJumpsuitSecGrey
-        prob: 0.3
       - id: ClothingHeadHelmetBasic
       - id: ClothingOuterArmorBasic
       - id: ClothingBeltSecurityFilled
       - id: Flash
-        prob: 0.5
       - id: ClothingEyesGlassesSunglasses
       - id: ClothingHeadsetSecurity
       - id: ClothingHandsGlovesColorBlack
       - id: ClothingShoesBootsJack
       - id: WeaponMeleeNeedle
-        prob: 0.1
       - id: ClothingOuterCoatSecurityOvercoat # Corvax-SecFashion
-        prob: 0.2
       - id: ClothingEyesHudSecurity
       - id: AntiPsychicKnife # backmen
         amount: 3
       - id: ClothingHeadCage # backmen
         amount: 2
       - id: HoloprojectorSecurity
-        prob: 0.6
 
 # backmen brigmedic's locker reworked
 - type: entity
@@ -100,7 +93,7 @@
     contents:
       - id: WeaponDisabler
       - id: TrackingImplanter
-        amount: 2
+        amount: 3
       - id: ClothingOuterHardsuitBrigmedic
       - id: BoxSterileMask
       - id: ClothingHeadHatBeretBrigmedic
@@ -108,18 +101,13 @@
       - id: ClothingUniformJumpsuitBrigmedic
       - id: ClothingUniformJumpskirtBrigmedic
       - id: ClothingUniformJumpskirtOfLife
-        prob: 0.1
       - id: MedkitFilled
       - id: MedkitCombatFilled
       - id: MedkitAdvancedFilled
       - id: MedkitOxygenFilled
-        prob: 0.4
       - id: MedkitBruteFilled
-        prob: 0.4
       - id: MedkitToxinFilled
-        prob: 0.4
       - id: MedkitBurnFilled
-        prob: 0.4
       - id: AntiPsychicKnife # backmen
       - id: ClothingHeadCage # backmen
       - id: ClothingHeadsetAltBrigmedic # backmen
@@ -132,7 +120,6 @@
   - type: StorageFill
     contents:
       - id: ClothingEyesHudSecurity
-        prob: 0.3
       - id: ClothingHeadHatFedoraBrown
       - id: ClothingNeckTieDet
       - id: ClothingOuterVestDetective
@@ -167,7 +154,7 @@
       - id: Screwdriver
         prob: 0.9
       - id: Multitool
-        prob: 0.5
+        prob: 0.9
 
 - type: entity
   parent: GunSafe
