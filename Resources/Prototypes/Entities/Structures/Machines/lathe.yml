@@ -180,6 +180,14 @@
        - MagazineBoxLightRifle
        - GrenadeBlast
     emagDynamicRecipes:
+      - CartridgePistolRubber
+      - CartridgeMagnumRubber
+      - CartridgeRifleRubber
+      - CartridgeLightRifleRubber
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifleRubber
       - ShellShotgunBeanbag
       - GrenadeTearGas
       - GrenadeNonletal
@@ -692,6 +700,14 @@
       - WeaponLaserCarbinePractice
       - WeaponDisablerPractice
     dynamicRecipes:
+      - MagazineBoxLightRifleRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxPistolRubber
+      - MagazineBoxRifleRubber
+      - CartridgeLightRifleRubber
+      - CartridgeMagnumRubber
+      - CartridgePistolRubber
+      - CartridgeRifleRubber
       - CartridgeLightRifleIncendiary
       - CartridgeMagnumIncendiary
       - CartridgePistolIncendiary
