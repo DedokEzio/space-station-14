@@ -248,5 +248,9 @@
     sprite: Clothing/Shoes/Boots/blueshield.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/blueshield.rsi
+  - type: ContainerFill
+    containers:
+      item:
+      - CombatKnife
 
 # blueshield end
