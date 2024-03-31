@@ -1,0 +1,135 @@
+
+# Fun
+
+- type: latheRecipe
+  id: SadTromboneImplanter
+  icon:
+      sprite: Objects/Specific/Medical/implanter.rsi
+      state: implanter0
+  result: SadTromboneImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Silver: 50
+
+- type: latheRecipe
+  id: LightImplanter
+  icon:
+      sprite: Objects/Specific/Medical/implanter.rsi
+      state: implanter0
+  result: LightImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Silver: 50
+
+- type: latheRecipe
+  id: BikeHornImplanter
+  icon:
+      sprite: Objects/Specific/Medical/implanter.rsi
+      state: implanter0
+  result: BikeHornImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Silver: 50
+
+# Sec
+
+- type: latheRecipe
+  id: TrackingImplanter
+  icon:
+      sprite: Objects/Specific/Medical/implanter.rsi
+      state: implanter0
+  result: TrackingImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Silver: 100
+    Plasma: 50
+    
+- type: latheRecipe
+  id: MindShieldImplanter
+  icon:
+      sprite: Objects/Specific/Medical/implanter.rsi
+      state: implanter0
+  result: MindShieldImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Silver: 100
+    Plasma: 50
+
+# Sup
+
+- type: latheRecipe
+  id: ProtokineticImplanter
+  icon:
+      sprite: Objects/Specific/Medical/implanter.rsi
+      state: implanter0
+  result: ProtokineticImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Silver: 100
+    Plasma: 150
+
+# Antag
+
+- type: latheRecipe
+  id: DnaScramblerImplanter
+  icon:
+      sprite: Objects/Specific/Medical/syndi_implanter.rsi
+      state: implanter0
+  result: DnaScramblerImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Plasma: 100
+    Uranium: 150
+
+- type: latheRecipe
+  id: ScramImplanter
+  icon:
+      sprite: Objects/Specific/Medical/syndi_implanter.rsi
+      state: implanter0
+  result: ScramImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Plasma: 100
+    Uranium: 150
+
+- type: latheRecipe
+  id: FreedomImplanter
+  icon:
+      sprite: Objects/Specific/Medical/syndi_implanter.rsi
+      state: implanter0
+  result: FreedomImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Plasma: 100
+    Uranium: 150
+
+- type: latheRecipe
+  id: SmokeImplanter
+  icon:
+      sprite: Objects/Specific/Medical/syndi_implanter.rsi
+      state: implanter0
+  result: SmokeImplanter
+  completetime: 5
+  materials:
+    Plastic: 100
+    Glass: 150
+    Plasma: 100
+    Uranium: 150
