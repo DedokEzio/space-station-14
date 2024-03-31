@@ -363,7 +363,7 @@
     sound: !type:SoundPathSpecifier
       path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
     icon:
-      sprite: Objects\Weapons\Guns\Projectiles\magic.rsi/magic.rsi
+      sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
       state: chronobolt
     event: !type:ProjectileSpellEvent
       prototype: BulletKinetic
