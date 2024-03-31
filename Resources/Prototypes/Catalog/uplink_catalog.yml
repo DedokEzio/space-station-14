@@ -1170,6 +1170,21 @@
 # Wearables
 
 - type: listing
+  id: UplinkEnergyDomeSyndie
+  name: uplink-energy-dome-name
+  description: uplink-energy-dome-desc
+  productEntity: EnergyDomeGeneratorPersonalSyndie
+  cost: 
+    Telecrystal: 10
+  categories:
+  - UplinkWearables
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+
+- type: listing
   id: UplinkJetpack
   name: uplink-black-jetpack-name
   description: uplink-black-jetpack-desc
