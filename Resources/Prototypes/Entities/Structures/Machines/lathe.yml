@@ -339,6 +339,7 @@
       - SapphireRing
       - GoldenRing
       - DeviceQuantumSpinInverter
+      - EnergyDomeDirectionalTurtle
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ExplosivePayload
