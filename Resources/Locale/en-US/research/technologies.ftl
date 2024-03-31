@@ -57,6 +57,7 @@ research-technology-laundry-tech = Laundry Tech
 research-technology-basic-hydroponics = Basic Hydroponics
 research-technology-critter-mechs = Critter Mechs
 research-technology-food-service = Food Service
+research-technology-implanter-fabrication = Implanter fabrication
 research-technology-advanced-entertainment = Advanced Entertainment
 research-technology-audio-visual-communication = A/V Communication
 research-technology-faux-astro-tiles = Faux Astro-Tiles
