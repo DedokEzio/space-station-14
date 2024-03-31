@@ -231,8 +231,23 @@
           components:
             - TraitorRole
             - NukeOperative
+- type: entity
+  id: ProtokineticImplanter
+  name: protokinetic implanter
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: ProtokineticImplant
 
 #Traitor implanters
+
+- type: entity
+  id: SmokeImplanter
+  name: smoke cloud implanter
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+    - type: Implanter
+      implant: SmokeImplant
 
 - type: entity
   id: StorageImplanter
