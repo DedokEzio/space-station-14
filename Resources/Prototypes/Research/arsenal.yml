@@ -12,6 +12,7 @@
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
+  - ProtokineticImplanter
   # These are roundstart but not replenishable for salvage
 
 - type: technology
@@ -104,6 +105,7 @@
   - TelescopicShield
   - HoloprojectorSecurity
   - WeaponDisablerSMG
+  - MindShieldImplanter    
 
 # Tier 2
 
