@@ -4,6 +4,8 @@ research-discipline-arsenal = Arsenal
 research-discipline-experimental = Experimental
 research-discipline-civilian-services = Civilian Services
 
+# industrial
+
 research-technology-fulton = Fultons
 research-technology-salvage-equipment = Salvage Equipment
 research-technology-advanced-powercells = Advanced Powercells
@@ -21,6 +23,8 @@ research-technology-bluespace-storage = Bluespace Storage
 research-technology-portable-fission = Portable Fission
 research-technology-space-scanning = Space Scanning
 
+# arsenal
+
 research-technology-salvage-weapons = Salvage Weapons
 research-technology-draconic-munitions = Draconic Munitions
 research-technology-uranium-munitions = Uranium Munitions
@@ -32,9 +36,12 @@ research-technology-concentrated-laser-weaponry = Concentrated Laser Weaponry
 research-technology-wave-particle-harnessing = Wave Particle Harnessing
 research-technology-advanced-riot-control = Advanced Riot Control
 research-technology-portable-microfusion-weaponry = Portable Microfusion Weaponry
+research-technology-energy_barriers = Energy Barriers
 research-technology-experimental-battery-ammo = Experimental Battery Ammo
 research-technology-basic-shuttle-armament = Shuttle basic armament
 research-technology-advanced-shuttle-weapon = Advanced shuttle weapons
+
+# experimental
 
 research-technology-basic-robotics = Basic Robotics
 research-technology-basic-anomalous-research = Basic Anomalous Research
@@ -51,6 +58,8 @@ research-technology-advanced-anomaly-research = Advanced Anomaly Research
 research-technology-rped = Rapid Part Exchange
 research-technology-super-parts = Super Parts
 research-technology-deterrence = Deterrence Technologies
+
+# civilian service
 
 research-technology-janitorial-equipment = Janitorial Equipment
 research-technology-laundry-tech = Laundry Tech
