@@ -25,14 +25,6 @@
     sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
 
 - type: entity
-  parent: BriefcaseBrown
-  id: BriefcaseSyndie
-  suffix: Syndicate, Empty
-  components:
-  - type: Item
-    size: Huge
-
-- type: entity
   name: brown briefcase
   parent: BriefcaseSyndieBase
   id: BriefcaseSyndie
