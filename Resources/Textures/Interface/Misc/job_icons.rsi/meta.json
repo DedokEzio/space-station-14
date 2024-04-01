@@ -188,6 +188,12 @@
         },
         {
             "name": "InitialInfected"
+        },
+        {
+            "name": "BlueShield"
+        },
+        {
+            "name": "Magistrat"
         }
     ]
 }

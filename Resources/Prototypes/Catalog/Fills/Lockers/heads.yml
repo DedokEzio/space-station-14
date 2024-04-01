@@ -115,6 +115,84 @@
       - id: JetpackCaptainFilled
       - id: MedalCase
 
+# blueshield start
+
+- type: entity
+  id: LockerBlueShieldFilled
+  suffix: Filled
+  parent: LockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: BookBusido
+      - id: ClothingBeltKatanaSheathFilled
+      - id: BoxTrackers
+        amount: 2
+      - id: ClothingNeckCloakNanotrasen
+      - id: ClothingUniformJumpsuitNanotrasen
+      - id: WeaponDisabler
+      - id: ClothingUniformJumpskirtBlueShield
+      - id: ClothingUniformJumpsuitBlueShield
+      - id: ClothingEyesGlassesSunglasses
+      - id: Briefcaseblack
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingShoesBlueShieldShoes
+      - id: ClothingOuterBlueShieldVest
+      - id: ClothingHeadBeretBlueShield
+      - id: MedkitFilled
+      - id: MedkitAdvancedFilled
+      - id: ClothingBeltSecurityFilled
+      - id: FlashlightSeclite
+      - id: ClothingEyesGlassesSecurity
+      - id: WeaponMultiphaseEnergyGun
+      - id: PinpointerNuclear
+      - id: PinpointerUniversal
+      - id: HandheldCrewMonitor
+      - id: FlippoEngravedLighter
+      - id: Hypospray
+
+- type: entity
+  id: LockerBlueShieldFilledHardsuit
+  suffix: Filled, Hardsuit
+  parent: LockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: BookBusido
+      - id: ClothingBeltKatanaSheathFilled
+      - id: BoxTrackers
+        amount: 2
+      - id: ClothingNeckCloakNanotrasen
+      - id: ClothingUniformJumpsuitNanotrasen
+      - id: WeaponDisabler
+      - id: ClothingUniformJumpskirtBlueShield
+      - id: ClothingUniformJumpsuitBlueShield
+      - id: ClothingEyesGlassesSunglasses
+      - id: Briefcaseblack
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingShoesBlueShieldShoes
+      - id: ClothingOuterBlueShieldVest
+      - id: ClothingHeadBeretBlueShield
+      - id: MedkitFilled
+      - id: MedkitAdvancedFilled
+      - id: ClothingBeltSecurityFilled
+      - id: FlashlightSeclite
+      - id: ClothingEyesGlassesSecurity
+      - id: WeaponMultiphaseEnergyGun
+      - id: PinpointerNuclear
+      - id: PinpointerUniversal
+      - id: HandheldCrewMonitor
+      - id: FlippoEngravedLighter
+      - id: Hypospray
+      - id: ClothingOuterHardsuitBlueshield
+      - id: ClothingShoesBootsMag
+      - id: JetpackBlueFilled
+      - id: ClothingMaskGasBlueSwat
+      - id: NitrogenTankFilled
+      - id: OxygenTankFilled
+
+# blueshield end
+
 - type: entity
   id: LockerHeadOfPersonnelFilled
   suffix: Filled

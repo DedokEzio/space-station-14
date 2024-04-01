@@ -157,3 +157,23 @@
   license: "CC-BY-SA-3.0"
   copyright: "/vgstation-coders/vgstation13"
   source: "https://github.com/vgstation-coders/vgstation13/blob/Bleeding-Edge/sound/machines/denied.ogg"
+
+- files: ["energyshield_up.ogg"]
+  license: "CC0-1.0"
+  copyright: "unfa on freesound.org"
+  source: "https://freesound.org/people/unfa/sounds/584173/"
+
+- files: ["energyshield_down.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "SilverIllusionist on freesound.org"
+  source: "https://freesound.org/people/SilverIllusionist/sounds/673556/"
+
+- files: ["energyshield_ambient.ogg"]
+  license: "CC0-1.0"
+  copyright: "julianmateo_ on freesound.org"
+  source: "https://freesound.org/people/julianmateo_/sounds/524165/"
+
+- files: ["energyshield_parry.ogg"]
+  license: "CC-BY-4.0"
+  copyright: "Robinhood76 on freesound.org"
+  source: "https://freesound.org/people/Robinhood76/sounds/107613/"

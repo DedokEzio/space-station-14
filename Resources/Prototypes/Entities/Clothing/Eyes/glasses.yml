@@ -151,7 +151,6 @@
     protectionTime: 5
   - type: Tag
     tags:
-    - Sunglasses
     - HamsterWearable
     - WhitelistChameleon
 
@@ -235,4 +234,31 @@
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesSunglassesMed
+  name: medical HUDSunglasses
+  description: Sunglasses with a medical HUD.
+  components:
+  - type: Sprite
+    sprite: Backmen/Clothing/Eyes/Glasses/sunglasseshudmed.rsi
+  - type: Clothing
+    sprite: Backmen/Clothing/Eyes/Glasses/sunglasseshudmed.rsi
+  - type: ClothingGrant
+    component:
+    - type: ShowHealthBars
+      damageContainers:
+        - Biological
+        - HalfSpirit
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+  - type: Tag
+    tags:
+    - HudMedical
   - type: FlashImmunity
