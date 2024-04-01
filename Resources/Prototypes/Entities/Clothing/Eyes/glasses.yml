@@ -178,9 +178,6 @@
   - type: ShowSecurityIcons
   - type: IdentityBlocker
     coverage: EYES
- - type: Construction
-    graph: GlassesSecHUD
-    node: glassesSec
 
 - type: entity
   parent: ClothingEyesBase
