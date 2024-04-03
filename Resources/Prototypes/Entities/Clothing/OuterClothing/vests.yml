@@ -95,10 +95,10 @@
     modifiers:
       coefficients:
         Blunt: 0.4
-        Slash: 0.5
-        Piercing: 0.9
+        Slash: 0.6
+        Piercing: 0.7
         Heat: 0.4
   - type: ExplosionResistance
-    resistance: 0.5
+    resistance: 0.4
 
 # blueshield end
