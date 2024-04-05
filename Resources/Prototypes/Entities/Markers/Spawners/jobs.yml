@@ -239,7 +239,7 @@
   name: lawyer
   components:
   - type: SpawnPoint
-    job_id: IAA # Corvax-IAA: Lawyer replaced with IAA
+    job_id: Lawyer # Corvax-IAA: Lawyer replaced with IAA # now no
   - type: Sprite
     layers:
       - state: green
@@ -349,6 +349,18 @@
       - state: green
       - state: magistrat
       - state: jobicon
+
+- type: entity
+  id: SpawnPointIAA
+  parent: SpawnPointJobBase
+  name: IAA
+  components:
+  - type: SpawnPoint
+    job_id: IAA
+  - type: Sprite
+    layers:
+      - state: green
+      - state: lawyer
 
 # Engineering
 
