@@ -236,10 +236,10 @@
 - type: entity
   id: SpawnPointLawyer
   parent: SpawnPointJobBase
-  name: lawyer
+  name: lawyer (IAA)
   components:
   - type: SpawnPoint
-    job_id: Lawyer # Corvax-IAA: Lawyer replaced with IAA # now no
+    job_id: IAA # Corvax-IAA: Lawyer replaced with IAA # now no # now again cuz need been replaced but ima lazy
   - type: Sprite
     layers:
       - state: green
@@ -353,10 +353,10 @@
 - type: entity
   id: SpawnPointIAA
   parent: SpawnPointJobBase
-  name: IAA
+  name: IAA (Lawyer)
   components:
   - type: SpawnPoint
-    job_id: IAA
+    job_id: Lawyer
   - type: Sprite
     layers:
       - state: green
