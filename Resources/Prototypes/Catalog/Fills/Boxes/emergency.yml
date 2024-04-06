@@ -105,8 +105,6 @@
       - id: SpaceMedipen # dedok spacepens
       - id: Flare
       - id: FoodTinClownSoupcan # backmen
-      - id: FoodTinMRE
-      - id: FoodSnackNutribrick
       - id: DrinkWaterBottleFull
   - type: Tag
     tags:
@@ -127,6 +125,7 @@
       - id: EmergencyMedipen
       - id: Flare
       - id: FoodSnackNutribrick
+      - id: DrinkWaterBottleFull
   - type: Sprite
     layers:
       - state: internals
