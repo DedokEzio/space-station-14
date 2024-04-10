@@ -421,6 +421,7 @@
   nutrientConsumption: 0.40
   idealLight: 8
   idealHeat: 298
+  juicy: true
   splatPrototype: PuddleSplatter
   chemicals:
     Nutriment:
@@ -455,6 +456,7 @@
   nutrientConsumption: 0.70
   idealLight: 8
   idealHeat: 298
+  juicy: true
   splatPrototype: PuddleSplatter
   chemicals:
     Nutriment:
@@ -489,6 +491,7 @@
   nutrientConsumption: 0.70
   idealLight: 8
   idealHeat: 298
+  juicy: true
   splatPrototype: PuddleSplatter
   chemicals:
     Blood:

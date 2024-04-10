@@ -539,6 +539,7 @@
         conditions:
           - !type:OrganType
             type: Human
+        reagent: Protein
         type: Local
         visualType: MediumCaution
         messages: [ "generic-reagent-effect-sick" ]
