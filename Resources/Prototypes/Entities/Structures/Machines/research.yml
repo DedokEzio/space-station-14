@@ -21,6 +21,7 @@
     - CivilianServices
   - type: ApcPowerReceiver
     powerLoad: 200
+    priority: Low
   - type: ExtensionCableReceiver
   - type: WiresPanel
   - type: WiresVisuals

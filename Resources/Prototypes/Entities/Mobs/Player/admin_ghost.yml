@@ -71,6 +71,8 @@
     followEntity: true
   - type: CargoOrderConsole
   - type: CrewMonitoringConsole
+    snap: false
+    precision: 3
   - type: GeneralStationRecordConsole
   - type: DeviceNetwork
     deviceNetId: Wireless

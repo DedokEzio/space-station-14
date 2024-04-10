@@ -7,6 +7,7 @@
   components:
   - type: ApcPowerReceiver
     powerLoad: 350
+    priority: Low
   - type: ExtensionCableReceiver
   - type: PointLight
     radius: 1.8
@@ -69,8 +70,7 @@
   - type: PointLight
     color: "#e3a136"
   - type: SpaceVillainArcade
-    rewardMinAmount: 0
-    rewardMaxAmount: 0
+    rewardAmount: 0
     possibleRewards:
     - ToyMouse
     - ToyAi
@@ -146,8 +146,8 @@
     board: SpaceVillainArcadeComputerCircuitboard
   - type: Advertise
     pack: SpaceVillainAds
-    minimumWait: 60 # Arcades are noisy
-    maximumWait: 240
+    minWait: 60 # Arcades are noisy
+    maxWait: 240
   - type: SpeakOnUIClosed
     pack: SpaceVillainGoodbyes
 
@@ -190,7 +190,7 @@
     board: BlockGameArcadeComputerCircuitboard
   - type: Advertise
     pack: BlockGameAds
-    minimumWait: 60 # Arcades are noisy
-    maximumWait: 240
+    minWait: 60 # Arcades are noisy
+    maxWait: 240
   - type: SpeakOnUIClosed
     pack: BlockGameGoodbyes

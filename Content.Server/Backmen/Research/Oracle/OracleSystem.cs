@@ -74,7 +74,7 @@ public sealed class OracleSystem : EntitySystem
         "BluespaceCrystal",
         "InsulativeHeadcage",
         "CrystalNormality",
-        "BodyBagFolded",
+        "BodyBag_Folded",
         "BodyBag",
         "LockboxDecloner",
         "MopBucket",
