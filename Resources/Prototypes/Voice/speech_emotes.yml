@@ -93,7 +93,7 @@
 - type: emote
   id: Honk
   category: Vocal
-  chatMessages: [издаёт хонк.] # Corvax-Localization
+  chatMessages: [honks]
   chatTriggers:
     - honk
     - honk.
@@ -107,11 +107,6 @@
     - honking
     - honking.
     - honking!
-    # Corvax-Localization-Start
-    - хонк
-    - хонк.
-    - хонк!
-    # Corvax-Localization-End
 
 - type: emote
   id: Sigh
@@ -371,7 +366,7 @@
 - type: emote
   id: Buzz
   category: Vocal
-  chatMessages: [жужжит!] # Corvax-Localization
+  chatMessages: [buzz!]
   chatTriggers:
     - buzzing
     - buzzing!
@@ -429,7 +424,7 @@
 - type: emote
   id: Beep
   category: Vocal
-  chatMessages: [делает бип.] # Corvax-Localization
+  chatMessages: [beeps.]
   chatTriggers:
     - beep
     - beep!
@@ -443,16 +438,11 @@
     - beeping
     - beeping.
     - beeping!
-    # Corvax-Localization-Start
-    - бип
-    - бип.
-    - бип!
-    # Corvax-Localization-End
 
 - type: emote
   id: Chime
   category: Vocal
-  chatMessages: [издаёт трель.] # Corvax-Localization
+  chatMessages: [chimes.]
   chatTriggers:
     - chime
     - chime.
@@ -466,16 +456,11 @@
     - chiming
     - chiming,
     - chiming!
-    # Corvax-Localization-Start
-    - дзынь
-    - дзынь.
-    - дзынь!
-    # Corvax-Localization-End
 
 - type: emote
   id: Buzz-Two
   category: Vocal
-  chatMessages: [издаёт бип-буп.] # Corvax-Localization
+  chatMessages: [buzzesTwice.]
   chatTriggers:
     - buzztwice
     - buzztwice.
@@ -507,31 +492,11 @@
     - buzzed twice
     - buzzed twice.
     - buzzed twice!
-    # Corvax-Localization-Start
-    - бипбуп
-    - бипбуп.
-    - бипбуп!
-    - бип буп
-    - бип буп.
-    - бип буп!
-    - бип-буп
-    - бип-буп.
-    - бип-буп!
-    - бипбип
-    - бипбип.
-    - бипбип!
-    - бип бип
-    - бип бип.
-    - бип бип!
-    - бип-бип
-    - бип-бип.
-    - бип-бип!
-    # Corvax-Localization-End
 
 - type: emote
   id: Ping
   category: Vocal
-  chatMessages: [издаёт пинг.] # Corvax-Localization
+  chatMessages: [pings.]
   chatTriggers:
     - ping
     - ping.
@@ -545,8 +510,3 @@
     - pinging
     - pinging.
     - pinging!
-    # Corvax-Localization-Start
-    - пинг
-    - пинг.
-    - пинг!
-    # Corvax-Localization-End

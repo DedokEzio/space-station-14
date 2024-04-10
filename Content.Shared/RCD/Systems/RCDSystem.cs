@@ -98,6 +98,16 @@ public class RCDSystem : EntitySystem
         component.ProtoId = args.ProtoId;
         UpdateCachedPrototype(uid, component);
         Dirty(uid, component);
+
+        if (args.Session.AttachedEntity != null)
+        {
+            // Popup message
+            var msg = (component.CachedPrototype.Prototype != null) ?
+                Loc.GetString("rcd-component-change-build-mode", ("name", Loc.GetString(component.CachedPrototype.SetName))) :
+                Loc.GetString("rcd-component-change-mode", ("mode", Loc.GetString(component.CachedPrototype.SetName)));
+
+            _popup.PopupClient(msg, uid, args.Session.AttachedEntity.Value);
+        }
     }
 
     private void OnExamine(EntityUid uid, RCDComponent component, ExaminedEvent args)
@@ -108,18 +118,9 @@ public class RCDSystem : EntitySystem
         // Update cached prototype if required
         UpdateCachedPrototype(uid, component);
 
-        var msg = Loc.GetString("rcd-component-examine-mode-details", ("mode", Loc.GetString(component.CachedPrototype.SetName)));
-
-        if (component.CachedPrototype.Mode == RcdMode.ConstructTile || component.CachedPrototype.Mode == RcdMode.ConstructObject)
-        {
-            var name = Loc.GetString(component.CachedPrototype.SetName);
-
-            if (component.CachedPrototype.Prototype != null &&
-                _protoManager.TryIndex(component.CachedPrototype.Prototype, out var proto))
-                name = proto.Name;
-
-            msg = Loc.GetString("rcd-component-examine-build-details", ("name", name));
-        }
+        var msg = (component.CachedPrototype.Prototype != null) ?
+            Loc.GetString("rcd-component-examine-build-details", ("name", Loc.GetString(component.CachedPrototype.SetName))) :
+            Loc.GetString("rcd-component-examine-mode-details", ("mode", Loc.GetString(component.CachedPrototype.SetName)));
 
         args.PushMarkup(msg);
     }
@@ -213,7 +214,7 @@ public class RCDSystem : EntitySystem
 
         // Try to start the do after
         var effect = Spawn(effectPrototype, mapGridData.Value.Location);
-        var ev = new RCDDoAfterEvent(GetNetCoordinates(mapGridData.Value.Location), component.ConstructionDirection, component.ProtoId, cost, EntityManager.GetNetEntity(effect));
+        var ev = new RCDDoAfterEvent(GetNetCoordinates(mapGridData.Value.Location), component.ProtoId, cost, EntityManager.GetNetEntity(effect));
 
         var doAfterArgs = new DoAfterArgs(EntityManager, user, delay, ev, uid, target: args.Target, used: uid)
         {
@@ -270,7 +271,7 @@ public class RCDSystem : EntitySystem
             return;
 
         // Finalize the operation
-        FinalizeRCDOperation(uid, component, mapGridData.Value, args.Direction, args.Target, args.User);
+        FinalizeRCDOperation(uid, component, mapGridData.Value, args.Target, args.User);
 
         // Play audio and consume charges
         _audio.PlayPredicted(component.SuccessSound, uid, args.User);
@@ -426,7 +427,7 @@ public class RCDSystem : EntitySystem
                 foreach (var fixture in fixtures.Fixtures.Values)
                 {
                     // Continue if no collision is possible
-                    if (!fixture.Hard || fixture.CollisionLayer <= 0 || (fixture.CollisionLayer & (int) component.CachedPrototype.CollisionMask) == 0)
+                    if (fixture.CollisionLayer <= 0 || (fixture.CollisionLayer & (int) component.CachedPrototype.CollisionMask) == 0)
                         continue;
 
                     // Continue if our custom collision bounds are not intersected
@@ -501,7 +502,7 @@ public class RCDSystem : EntitySystem
 
     #region Entity construction/deconstruction
 
-    private void FinalizeRCDOperation(EntityUid uid, RCDComponent component, MapGridData mapGridData, Direction direction, EntityUid? target, EntityUid user)
+    private void FinalizeRCDOperation(EntityUid uid, RCDComponent component, MapGridData mapGridData, EntityUid? target, EntityUid user)
     {
         if (!_net.IsServer)
             return;
@@ -528,7 +529,7 @@ public class RCDSystem : EntitySystem
                         Transform(ent).LocalRotation = Transform(uid).LocalRotation;
                         break;
                     case RcdRotation.User:
-                        Transform(ent).LocalRotation = direction.ToAngle();
+                        Transform(ent).LocalRotation = component.ConstructionDirection.ToAngle();
                         break;
                 }
 
@@ -625,9 +626,6 @@ public sealed partial class RCDDoAfterEvent : DoAfterEvent
     public NetCoordinates Location { get; private set; } = default!;
 
     [DataField]
-    public Direction Direction { get; private set; } = default!;
-
-    [DataField]
     public ProtoId<RCDPrototype> StartingProtoId { get; private set; } = default!;
 
     [DataField]
@@ -638,10 +636,9 @@ public sealed partial class RCDDoAfterEvent : DoAfterEvent
 
     private RCDDoAfterEvent() { }
 
-    public RCDDoAfterEvent(NetCoordinates location, Direction direction, ProtoId<RCDPrototype> startingProtoId, int cost, NetEntity? effect = null)
+    public RCDDoAfterEvent(NetCoordinates location, ProtoId<RCDPrototype> startingProtoId, int cost, NetEntity? effect = null)
     {
         Location = location;
-        Direction = direction;
         StartingProtoId = startingProtoId;
         Cost = cost;
         Effect = effect;
