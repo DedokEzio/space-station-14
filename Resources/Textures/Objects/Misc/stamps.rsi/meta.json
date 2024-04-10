@@ -59,7 +59,13 @@
             "name": "stamp-trader"
         },
         {
+            "name": "stamp-bs"
+        },
+        {
             "name": "stamp-warden"
+        },
+        {
+            "name": "stamp-magistrat"
         }
     ]
 }

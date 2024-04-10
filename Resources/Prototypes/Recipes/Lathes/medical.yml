@@ -226,3 +226,13 @@
     Steel: 600
     Plastic: 300
 
+- type: latheRecipe # dedok handheld crew monitor
+  id: HandheldCrewMonitor
+  result: HandheldCrewMonitorEmpty
+  category: Tools
+  completetime: 2
+  materials:
+    Glass: 1200
+    Steel: 1000
+    Plastic: 1400
+

@@ -50,6 +50,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Atmospherics",
         "Bar",
         "Brig",
+        "BlueShield",
         "Detective",
         "Captain",
         "Cargo",
@@ -68,6 +69,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Kitchen",
         "Lawyer",
         "Maintenance",
+       // "Magistrate", maybe further
         "Medical",
         "Quartermaster",
         "Research",

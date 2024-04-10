@@ -282,3 +282,20 @@
         - id: OxygenTankFilled
         - id: ClothingOuterHardsuitWizard
         - id: ClothingMaskBreath
+
+#Blueshield
+- type: entity
+  id: SuitStorageBlueshield
+  parent: SuitStorageBase
+  suffix: Blueshield
+  components:
+  - type: StorageFill
+    contents:
+        - id: NitrogenTankFilled
+        - id: OxygenTankFilled
+        - id: ClothingOuterHardsuitBlueshield
+        - id: ClothingMaskGasBlueSwat
+        - id: JetpackBlueFilled
+        - id: ClothingShoesBootsMag
+  - type: AccessReader
+    access: [["BlueShield"]]

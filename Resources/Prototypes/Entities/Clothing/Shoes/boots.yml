@@ -235,3 +235,22 @@
     sprite: Clothing/Shoes/Boots/cowboybootsfancy.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/cowboybootsfancy.rsi
+
+# blueshield start
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesBlueShieldShoes
+  name: blue shield boots
+  description: Comfortable, dont slows and let you faster be a live shield for heads.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/blueshield.rsi
+  - type: ContainerFill
+    containers:
+      item:
+      - CombatKnife
+
+# blueshield end
