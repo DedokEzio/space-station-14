@@ -201,6 +201,10 @@
     - id: WeaponDisabler
 #    - id: Flash
     - id: ClothingNeckCloakNanotrasenRepresentive
+    - id: ClothingEyesGlassesSunglasses
+    - id: ClothingNeckCloakNanotrasen
+    - id: ClothingUniformJumpsuitNanotrasen
+    - id: NTR_Cane
 
 - type: entity 
   id: LockerMagistratFilled
