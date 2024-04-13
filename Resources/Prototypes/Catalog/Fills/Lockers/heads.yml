@@ -205,6 +205,7 @@
     - id: ClothingNeckCloakNanotrasen
     - id: ClothingUniformJumpsuitNanotrasen
     - id: NTR_Cane
+    - id: RubberStampNTR
 
 - type: entity 
   id: LockerMagistratFilled
@@ -216,6 +217,7 @@
   #  - id: BoxEncryptionKeyJuridical
     - id: WeaponDisabler
     - id: Flash
+    - id: RubberStampMagistrat
  #   - id: ClothingHeadsetMagistrat
 
 - type: entity
