@@ -58,6 +58,7 @@
 - type: startingGear
   id: NanotrasenRepresentiveGear
   equipment:
+    head: ClothingHeadHatCapNtr
     jumpsuit: ClothingUniformJumpsuitNTRepresentive
     back: ClothingBackpackHOPFilled
     shoes: ClothingShoesBootsLaceup
