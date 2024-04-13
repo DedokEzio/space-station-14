@@ -71,6 +71,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Maintenance",
        // "Magistrate", maybe further
         "Medical",
+        "NanotrasenRepresentive",
         "Quartermaster",
         "Research",
         "ResearchDirector",
