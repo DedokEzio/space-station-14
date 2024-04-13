@@ -23,6 +23,7 @@
       - Atmospherics
       - Bar
       - Brig
+      - BlueShield
       - Detective
       - Captain
       - Cargo
@@ -41,6 +42,7 @@
       - Lawyer
       - Maintenance
       - Medical
+      - NanotrasenRepresentive
       - Quartermaster
       - Research
       - ResearchDirector
