@@ -16,7 +16,7 @@
     - !type:OverallPlaytimeRequirement
       time: 180000 #50 hrs
   startingGear: BlueshieldGear
-  icon: "BlueShield"
+  icon: "JobIconBlueShield"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   setPreference: true
