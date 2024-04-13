@@ -378,7 +378,7 @@
 
 - type: statusIcon
   parent: JobIcon
-  id: BlueShield
+  id: JobIconBlueShield
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: BlueShield
