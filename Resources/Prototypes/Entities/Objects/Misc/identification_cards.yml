@@ -37,6 +37,18 @@
     - state: default
     - state: idpassenger
   - type: PresetIdCard
+
+- type: entity
+  parent: IDCardStandard
+  id: NanotrasenRepresentiveIDCard
+  name: NTR ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idntr
+  - type: PresetIdCard
+    job: NanotrasenRepresentive
     job: Passenger
 
 - type: entity
