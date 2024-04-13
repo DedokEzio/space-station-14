@@ -44,7 +44,7 @@
   id: MagistratGear
   equipment:
     jumpsuit: MagistratUniformSuit
-    belt: WeaponDisabler
+    belt: BoxFolderClipboard
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSecurity
@@ -55,7 +55,6 @@
     head: ClothingHeadHatPwig
     neck: ClothingNeckLawyerbadge
     pocket1: Flash
-    pocket2: RubberStampMagistrat
   inhand:
     - BriefcasemagistratFilled
   innerClothingSkirt: MagistratUniformSuit
