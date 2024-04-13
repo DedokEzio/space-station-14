@@ -401,5 +401,5 @@
   parent: JobIcon
   id: JobIconNanotrasenRepresentive
   icon:
-    sprite: Interface/Misc/job_icons.rsi
+    sprite: /Textures/Interface/Misc/job_icons.rsi
     state: NanotrasenRepresentive
