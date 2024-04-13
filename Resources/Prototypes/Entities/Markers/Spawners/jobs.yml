@@ -362,6 +362,17 @@
       - state: green
       - state: lawyer
 
+- type: entity
+  id: SpawnPointNanotrasenRepresentive
+  parent: SpawnPointJobBase
+  name: nanotrasen representative
+  components:
+  - type: SpawnPoint
+    job_id: NanotrasenRepresentive
+  - type: Sprite
+    layers:
+      - state: green
+
 # Engineering
 
 - type: entity
