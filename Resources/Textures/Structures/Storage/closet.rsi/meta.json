@@ -560,6 +560,15 @@
       "name": "IAA_door"
     },
     {
+      "name": "mag"
+    },
+    {
+      "name": "mag_door"
+    },
+    {
+      "name": "mag_open"
+    },
+    {
       "name": "bs"
     },
     {
