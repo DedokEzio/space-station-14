@@ -21,6 +21,8 @@
   - Captain
   - HeadOfPersonnel
   - Cryogenics
+  - NanotrasenRepresentive
+  - BlueShield
 
 - type: accessLevel
   id: EmergencyShuttleRepealAll
