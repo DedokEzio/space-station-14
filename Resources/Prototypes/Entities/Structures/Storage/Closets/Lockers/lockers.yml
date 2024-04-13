@@ -486,8 +486,8 @@
   components:
   - type: Appearance
   - type: AccessReader
-    access: [["Lawyer"]]
+    access: [["Command"]]
   - type: EntityStorageVisuals
-    stateBaseClosed: hop
-    stateDoorOpen: hop_open
-    stateDoorClosed: magistrat_door
+    stateBaseClosed: mag
+    stateDoorOpen: mag_open
+    stateDoorClosed: mag_door
