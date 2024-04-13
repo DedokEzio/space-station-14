@@ -299,3 +299,16 @@
     stampState: "paper_stamp-lawyer"
   - type: Sprite
     state: stamp-magistrat
+
+- type: entity
+  name: nanotrasen representative rubber stamp
+  parent: RubberStampBase
+  id: RubberStampNTR
+  suffix: DO NOT MAP
+  components:
+  - type: Stamp
+    stampedName: Nanotrasen Representative
+    stampedColor: "#233D57"
+    stampState: "paper_stamp-lawyer"
+  - type: Sprite
+    state: stamp-ntr
