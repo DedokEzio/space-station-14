@@ -62,7 +62,7 @@
     back: ClothingBackpackHOPFilled
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSecurity
-    gloves: ClothingHandsGlovesWhite
+    gloves: ClothingHandsGlovesColorWhite
     outerClothing: ClothingOuterCoatDetectiveDark
     id: NanotrasenRepresentivePDA
     ears: ClothingHeadsetAltCommand
