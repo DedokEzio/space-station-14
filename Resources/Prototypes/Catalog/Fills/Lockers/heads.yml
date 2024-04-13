@@ -191,6 +191,29 @@
 
 # blueshield end
 
+- type: entity 
+  id: LockerRepresentiveFilled 
+  suffix: Filled, filler
+  parent: LockerRepresentative
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponDisabler
+#    - id: Flash
+    - id: ClothingNeckCloakNanotrasenRepresentive
+
+- type: entity 
+  id: LockerMagistratFilled
+  suffix: Filled, filler
+  parent: LockerMagistrat
+  components:
+  - type: StorageFill
+    contents:
+  #  - id: BoxEncryptionKeyJuridical
+    - id: WeaponDisabler
+    - id: Flash
+ #   - id: ClothingHeadsetMagistrat
+
 - type: entity
   id: LockerHeadOfPersonnelFilled
   suffix: Filled
@@ -210,7 +233,6 @@
       - id: IDComputerCircuitboard
       - id: WeaponDisabler
       - id: CigarGoldCase
-        prob: 0.25
         # Fuck the HoP they don't deserve fucking cigars.
         # Yes they do fuck you.
       - id: DoorRemoteService
@@ -219,7 +241,6 @@
       - id: BoxEncryptionKeyPassenger
       - id: BoxEncryptionKeyService
       - id: ClothingBackpackIan
-        prob: 0.5
       - id: ClothingOuterCoatHOP # Corvax-Resprite
       - id: AccessConfigurator
       - id: AntiPsychicKnife  # backmen
