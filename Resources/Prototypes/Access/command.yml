@@ -28,3 +28,7 @@
 - type: accessLevel
   id: Cryogenics
   name: id-card-access-level-cryogenics
+
+- type: accessLevel
+  id: NanotrasenRepresentive
+  name: NTR
