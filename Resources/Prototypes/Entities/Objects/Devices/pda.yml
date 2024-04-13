@@ -1114,3 +1114,15 @@
     borderColor: "#6f6192"
   - type: Icon
     state: pda-lawyer
+
+- type: entity
+  parent: BasePDA
+  id: NanotrasenRepresentivePDA
+  name: NanoTrasen Representative PDA
+  description: Smells like a burecreancy.
+  components:
+  - type: Pda
+    id: NanotrasenRepresentiveIDCard
+    state: pda-ntr
+  - type: Icon
+    state: pda-ntr

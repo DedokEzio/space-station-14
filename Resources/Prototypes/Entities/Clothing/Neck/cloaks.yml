@@ -272,3 +272,12 @@
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/pan.rsi
 
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakNanotrasenRepresentive
+  name: nanotrasen representative cloack
+  description: A majestic dark cloak symbolizing NanoTrasen.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/ntr.rsi
+

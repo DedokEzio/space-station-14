@@ -910,3 +910,15 @@
         - state: idmagistrat
     - type: PresetIdCard
       job: Magistrat
+
+- type: entity
+  parent: IDCardStandard
+  id: NanotrasenRepresentiveIDCard
+  name: ID карта представителя Nanotrasen
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idntr
+  - type: PresetIdCard
+    job: NanotrasenRepresentive
