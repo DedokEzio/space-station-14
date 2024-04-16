@@ -55,8 +55,8 @@
     head: ClothingHeadHatPwig
     neck: ClothingNeckLawyerbadge
     pocket1: Flash
-  inhand:
-    - BriefcasemagistratFilled
-  innerClothingSkirt: MagistratUniformSuit
-  satchel: ClothingBackpackSatchelFilled
-  duffelbag: ClothingBackpackDuffelFilled
+#  inhand:
+#    - BriefcasemagistratFilled
+#  innerClothingSkirt: MagistratUniformSuit
+#  satchel: ClothingBackpackSatchelFilled
+#  duffelbag: ClothingBackpackDuffelFilled
