@@ -63,6 +63,6 @@
     ears: ClothingHeadsetAltCentCom
     mask: ClothingMaskGasSecurity
     pocket1: RubberStampBlueshield
-  innerClothingSkirt: ClothingUniformJumpskirtBlueShield
-  satchel: ClothingBackpackBlueshieldFilled # blueshield didnt need duffels and satchels
-  duffelbag: ClothingBackpackBlueshieldFilled
+ # innerClothingSkirt: ClothingUniformJumpskirtBlueShield
+ # satchel: ClothingBackpackBlueshieldFilled # blueshield didnt need duffels and satchels
+ # duffelbag: ClothingBackpackBlueshieldFilled
