@@ -974,7 +974,7 @@
     Steel: 100
     Glass: 900
 
-- type: latheRecipe
+- type: latheRecipe #implathe
   id: ImpLatheCircuitboard
   result: ImpLatheCircuitboard
   category: Circuitry
