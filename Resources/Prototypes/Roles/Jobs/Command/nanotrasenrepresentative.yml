@@ -1,0 +1,74 @@
+- type: job
+  id: NanotrasenRepresentive
+  name: NanoTrasen Representative
+  description: Introduce Nanotrasen. Send situation reports to the station and inform the command about orders from the Central Command.
+  playTimeTracker: JobNanotrasenRepresentive
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  whitelistRequired: false
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 9000 #50 hrs
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 54000 #50 hrs
+    - !type:OverallPlaytimeRequirement
+      time: 36000 #50 hrs
+  startingGear: NanotrasenRepresentiveGear
+  icon: "JobIconNanotrasenRepresentive"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  setPreference: true
+  access:
+  - Maintenance
+  - Command
+  - Brig
+  - Security
+  - Lawyer
+  - Engineering
+  - Medical
+  - Cargo
+  - Research
+  - Service
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - External
+  - Janitor
+  - Theatre
+  - Bar
+  - CentralCommand
+  - NanotrasenRepresentive
+  minBankBalance: 1000
+  maxBankBalance: 1500
+  wageDepartment: Command
+  wage: 150
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: PsionicBonusChance
+        flatBonus: 0.025
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: NanotrasenRepresentiveGear
+  equipment:
+    head: ClothingHeadHatCapNtr
+    jumpsuit: ClothingUniformJumpsuitNTRepresentive
+    back: ClothingBackpackHOPFilled
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesColorWhite
+    outerClothing: ClothingOuterCoatDetectiveDark
+    id: NanotrasenRepresentivePDA
+    ears: ClothingHeadsetAltCommand
+    pocket1: FlippoEngravedLighter
+    pocket2: BoxFolderClipboard
+  #innerClothingSkirt: ClothingUniformJumpsuitNTRepresentive
+ # satchel: ClothingBackpackSatchelHOPFilled
+ # duffelbag: ClothingBackpackDuffelHOPFilled

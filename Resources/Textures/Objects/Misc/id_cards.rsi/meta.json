@@ -262,6 +262,15 @@
     {
       "name": "blue-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "idntr"
+    },
+    {
+      "name": "idblueshield"
+    },
+    {
+      "name": "idmagistrat"
     }
   ]
 }

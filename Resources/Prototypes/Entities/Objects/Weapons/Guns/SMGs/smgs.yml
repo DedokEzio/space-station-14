@@ -60,7 +60,7 @@
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunAtreides
   description: Pla-ket-ket-ket-ket! Uses .35 auto ammo.
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -84,7 +84,7 @@
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunC20r
   description: A firearm that is often used by the infamous nuclear operatives. Uses .35 auto ammo.
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -116,7 +116,7 @@
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunDrozd
   description: An excellent fully automatic Heavy SMG.
-  noSpawn: true
+  noSpawn: false
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -164,7 +164,7 @@
   id: WeaponSubMachineGunVector
   suffix: Deprecated use Drozd
   description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/vector.rsi
@@ -211,7 +211,7 @@
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunWt550
   description: An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo.
-  noSpawn: true
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -271,7 +271,7 @@
   name: Drozd
   parent: WeaponSubMachineGunDrozd
   id: WeaponSubMachineGunDrozdRubber
-  noSpawn: true
+  noSpawn: false
   suffix: Non-Lethal
   components:
     - type: ItemSlots
@@ -298,7 +298,7 @@
   parent: WeaponSubMachineGunVector
   id: WeaponSubMachineGunVectorRubber
   description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
-  noSpawn: true
+  noSpawn: false
   suffix: Non-Lethal
   components:
   - type: ItemSlots

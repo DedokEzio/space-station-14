@@ -1081,3 +1081,34 @@
     sprite: Clothing/Head/Hats/beret_medic.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_medic.rsi
+
+# blueshield start
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadBeretBlueShield
+  name: beret blue shield
+  description: In his homeland, you would be considered a petty hooligan, but here you are the law.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_blue_shield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_blue_shield.rsi
+
+# blueshield end
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCapNtr
+  name: nanotrasen representative cap
+  description: Chic, stylish cap for a Nanotrasen representative.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/capntr.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/capntr.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HamsterWearable

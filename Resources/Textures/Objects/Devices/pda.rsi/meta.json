@@ -227,8 +227,14 @@
       "name": "pda-seniorofficer"
     },
     {
+      "name": "pda-ntr"
+    },
+    {
       "name": "equipped-IDCARD",
       "directions": 4
+    },
+    {
+      "name": "pda-blueshield"
     }
   ]
 }

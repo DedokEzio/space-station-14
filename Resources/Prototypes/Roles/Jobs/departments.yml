@@ -41,12 +41,15 @@
   description: department-Command-description
   color: "#334E6D"
   roles:
+  - Magistrat
+  - Blueshield
   - Captain
   - IAA # Corvax-IAA
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel
   - HeadOfSecurity
+  - NanotrasenRepresentive
   - ResearchDirector
   - Quartermaster
   accountNumber: 1317 #backmen: currency
@@ -60,6 +63,7 @@
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
+  - SeniorEngineer # dedok seniors
   - StationEngineer
   - TechnicalAssistant
   accountNumber: 1318 #backmen: currency
@@ -75,6 +79,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  - SeniorPhysician # dedok seniors
   accountNumber: 1319 #backmen: currency
 
 - type: department
@@ -90,6 +95,7 @@
   - Detective
   - Warden
   - Brigmedic #backmen
+  - SeniorOfficer # dedok seniors
   accountNumber: 1320  #backmen: currency
 
 - type: department
@@ -98,7 +104,8 @@
   color: "#D381C9"
   roles:
   - ResearchDirector
-  - Roboticist         #backmen: currency
+  - SeniorResearcher   # dedok seniors
+  - Roboticist         #backmen
   - Scientist
   - ResearchAssistant
   accountNumber: 1321  #backmen: currency

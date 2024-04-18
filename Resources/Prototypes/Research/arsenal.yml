@@ -12,6 +12,7 @@
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
+  - ProtokineticImplanter
   # These are roundstart but not replenishable for salvage
 
 - type: technology
@@ -60,6 +61,14 @@
   - ShellShotgunBeanbag
   - GrenadeTearGas
   - GrenadeNonletal
+  - CartridgePistolRubber
+  - CartridgeMagnumRubber
+  - CartridgeLightRifleRubber
+  - CartridgeRifleRubber
+  - MagazineBoxPistolRubber
+  - MagazineBoxMagnumRubber
+  - MagazineBoxLightRifleRubber
+  - MagazineBoxRifleRubber
 
 - type: technology
   id: UraniumMunitions
@@ -95,6 +104,7 @@
   - TelescopicShield
   - HoloprojectorSecurity
   - WeaponDisablerSMG
+  - MindShieldImplanter    
 
 # Tier 2
 
@@ -139,6 +149,18 @@
   cost: 10000
   recipeUnlocks:
   - WeaponXrayCannon
+
+- type: technology
+  id: EnergyBarriers
+  name: research-technology-energy_barriers
+  icon: 
+    sprite: Objects/Tools/EnergyDome/reinhardt.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 6000
+  recipeUnlocks:
+  - EnergyDomeDirectionalTurtle
 
 - type: technology
   id: BasicShuttleArmament

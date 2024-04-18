@@ -463,3 +463,31 @@
     stateBaseClosed: hop
     stateDoorOpen: hop_open
     stateDoorClosed: representative_door
+
+# Blueshield
+- type: entity
+  id: LockerBlueShield
+  parent: LockerBaseSecure
+  name: blue shield's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: bs
+    stateDoorOpen: bs_open
+    stateDoorClosed: bs_door
+  - type: AccessReader
+    access: [["BlueShield"]]
+
+# Magistrat
+- type: entity
+  id: LockerMagistrat
+  name: magistrate locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["Command"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: mag
+    stateDoorOpen: mag_open
+    stateDoorClosed: mag_door

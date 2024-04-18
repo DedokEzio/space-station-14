@@ -1,0 +1,62 @@
+- type: job
+  id: Magistrat
+  name: Magistrat
+  description: Judje a crew, look under a space law, control legal department
+  playTimeTracker: JobMagistrat
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  whitelistRequired: false
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 180000 #50 hrs
+    - !type:RoleTimeRequirement
+      role: JobIAA
+      time: 90000 #25 hrs
+  startingGear: MagistratGear
+  icon: "JobIconMagistrat"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  setPreference: true
+  access:
+  - Service
+  - Lawyer
+  - Brig
+  - Security
+  - Command
+  - CentralCommand
+  minBankBalance: 800
+  maxBankBalance: 1000
+  wageDepartment: CentCom
+  wage: 80
+  special:
+  - !type:AddComponentSpecial
+    components:
+      - type: PsionicBonusChance
+        flatBonus: 0.025
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: MagistratGear
+  equipment:
+    jumpsuit: MagistratUniformSuit
+    belt: BoxFolderClipboard
+    back: ClothingBackpackFilled
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesColorWhite
+    outerClothing: ClothingMagistrateroba
+    id: MagistratPDA
+    ears: ClothingHeadsetAltCentCom
+    head: ClothingHeadHatPwig
+    neck: ClothingNeckLawyerbadge
+    pocket1: Flash
+#  inhand:
+#    - BriefcasemagistratFilled
+#  innerClothingSkirt: MagistratUniformSuit
+#  satchel: ClothingBackpackSatchelFilled
+#  duffelbag: ClothingBackpackDuffelFilled

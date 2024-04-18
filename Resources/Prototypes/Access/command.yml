@@ -10,6 +10,10 @@
   id: HeadOfPersonnel
   name: id-card-access-level-head-of-personnel
 
+- type: accessLevel
+  id: BlueShield
+  name: Blue Shield
+
 - type: accessGroup
   id: Command
   tags:
@@ -17,6 +21,8 @@
   - Captain
   - HeadOfPersonnel
   - Cryogenics
+  - NanotrasenRepresentive
+  - BlueShield
 
 - type: accessLevel
   id: EmergencyShuttleRepealAll
@@ -24,3 +30,7 @@
 - type: accessLevel
   id: Cryogenics
   name: id-card-access-level-cryogenics
+
+- type: accessLevel
+  id: NanotrasenRepresentive
+  name: NTR
