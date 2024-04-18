@@ -1358,20 +1358,7 @@
       Steel: 5
       CableHV: 2
 
-- type: entity
-  parent: BaseMachineCircuitboard
-  id: ReagentGrinderIndustrialMachineCircuitboard
-  name: industrial reagent grinder machine board
-  components:
-  - type: MachineBoard
-    prototype: ReagentGrinderIndustrial
-    requirements:
-      MatterBin: 1
-      Manipulator: 3
-    materialRequirements:
-      Glass: 1
-
-- type: entity
+- type: entity #implathe
   id: ImpLatheCircuitboard
   parent: BaseMachineCircuitboard
   name: imp-lathe machine board
@@ -1389,3 +1376,16 @@
           Amount: 5
           DefaultPrototype: Syringe
           ExamineName: Syringe
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: ReagentGrinderIndustrialMachineCircuitboard
+  name: industrial reagent grinder machine board
+  components:
+  - type: MachineBoard
+    prototype: ReagentGrinderIndustrial
+    requirements:
+      MatterBin: 1
+      Manipulator: 3
+    materialRequirements:
+      Glass: 1
