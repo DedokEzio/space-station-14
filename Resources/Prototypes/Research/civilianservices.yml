@@ -72,6 +72,7 @@
     - DawInstrumentMachineCircuitboard
     - MassMediaCircuitboard
     - ShipyardCircuitboard
+    - JukeboxCircuitBoard
 
 - type: technology
   id: JewelryCase
