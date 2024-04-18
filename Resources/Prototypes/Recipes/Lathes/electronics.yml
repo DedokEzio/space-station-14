@@ -957,15 +957,6 @@
      Glass: 900
      Gold: 100
 
-- type: latheRecipe #implathe
-  id: ImpLatheCircuitboard
-  result: ImpLatheCircuitboard
-  category: Circuitry
-  completetime: 4
-  materials:
-     Steel: 100
-     Glass: 1000
-
 - type: latheRecipe
   id: ReagentGrinderIndustrialMachineCircuitboard
   result: ReagentGrinderIndustrialMachineCircuitboard
