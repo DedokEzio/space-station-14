@@ -159,19 +159,10 @@
   - type: ShowSecurityIcons
   - type: ClothingGrant
     component:
-    - type: ShowHealthBars
+    - type: BkmShowHealthBars
       damageContainers:
         - Biological
         - HalfSpirit
-  - type: ShowHealthBars
-    damageContainers:
-    - Biological
-  - type: ShowHealthIcons
-    damageContainers:
-    - Biological
-  - type: Tag
-    tags:
-    - HudMedical
 
 - type: entity
   parent: ClothingEyesBase
