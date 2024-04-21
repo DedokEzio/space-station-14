@@ -1,0 +1,43 @@
+- type: entity
+  name: Blueshield laser revolver
+  parent: BaseWeaponBatterySmall
+  id: WeaponEnergyGunBS
+  description: A powerful and reliable laser revolver for the protection of agency leaders. It's so cool that even the most hardened inhabitants stop and appreciate it.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/laser_revolver.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/laser_revolver.rsi
+  - type: Gun
+    projectileSpeed: 75
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: Item
+    size: SmallNormal
+  - type: ProjectileBatteryAmmoProvider
+    proto: X01Attack
+    fireCost: 100
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: X01Attack
+      fireCost: 100
+    - proto: BulletDisabler
+      fireCost: 75
+    - proto: BulletTaser
+      fireCost: 125
+  - type: Battery
+    maxCharge: 1250
+    startingCharge: 1250
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 10000
