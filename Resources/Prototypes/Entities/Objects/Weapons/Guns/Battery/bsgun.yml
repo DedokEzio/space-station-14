@@ -16,8 +16,6 @@
     sprite: Objects/Weapons/Guns/Battery/laser_revolver.rsi
   - type: Gun
     projectileSpeed: 75
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: Item
     size: SmallNormal
   - type: ProjectileBatteryAmmoProvider
@@ -29,15 +27,25 @@
       fireCost: 100
     - proto: BulletDisabler
       fireCost: 75
-    - proto: BulletTaser
-      fireCost: 125
+    - proto: BulletTaserBSGun
+      fireCost: 150
   - type: Battery
-    maxCharge: 1250
-    startingCharge: 1250
+    maxCharge: 1200
+    startingCharge: 1200
   - type: MagazineVisuals
     magState: mag
     steps: 5
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    price: 10000
+    price: 5000
+
+- type: entity
+  name: taser bolt
+  id: BulletTaserBSGun
+  parent: BulletTaser
+  noSpawn: true
+  components:
+  - type: StunOnCollide
+    stunAmount: 1
+    knockdownAmount: 1
