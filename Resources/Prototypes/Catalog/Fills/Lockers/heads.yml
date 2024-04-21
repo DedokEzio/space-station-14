@@ -144,12 +144,12 @@
       - id: ClothingBeltSecurityFilled
       - id: FlashlightSeclite
       - id: ClothingEyesGlassesSecurity
-      - id: WeaponMultiphaseEnergyGun
       - id: PinpointerNuclear
       - id: PinpointerUniversal
       - id: HandheldCrewMonitor
       - id: FlippoEngravedLighter
       - id: Hypospray
+      - id: WeaponEnergyGunBS
 
 - type: entity
   id: LockerBlueShieldFilledHardsuit
@@ -178,7 +178,6 @@
       - id: ClothingBeltSecurityFilled
       - id: FlashlightSeclite
       - id: ClothingEyesGlassesSecurity
-      - id: WeaponMultiphaseEnergyGun
       - id: PinpointerNuclear
       - id: PinpointerUniversal
       - id: HandheldCrewMonitor
@@ -188,6 +187,7 @@
       - id: ClothingShoesBootsMag
       - id: JetpackBlueFilled
       - id: ClothingMaskGasBlueSwat
+      - id: WeaponEnergyGunBS
 
 # blueshield end
 
