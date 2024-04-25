@@ -219,18 +219,6 @@
   - WeaponSprayNozzle
   - ClothingBackpackWaterTank
 
-- type: technology # dedok handheld crewmonitor
-  id: CrewMonitoring
-  name: research-technology-crew-monitoring
-  icon:
-    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
-    state: scanner
-  discipline: CivilianServices
-  tier: 2
-  cost: 10000
-  recipeUnlocks:
-  - HandheldCrewMonitor
-
 # Tier 3
 
 - type: technology
@@ -270,3 +258,15 @@
   - BluespaceBeaker
   - SyringeBluespace
   - BluespacePillCanister # backmen
+
+- type: technology # dedok handheld crewmonitor
+  id: CrewMonitoring
+  name: research-technology-crew-monitoring
+  icon:
+    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
+    state: scanner
+  discipline: CivilianServices
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - HandheldCrewMonitor
