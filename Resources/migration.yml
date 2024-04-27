@@ -187,27 +187,27 @@ GeneratorUraniumMachineCircuitboard: PortableGeneratorSuperPacmanMachineCircuitb
 FoodTinBeansOpen: FoodTinBeans
 FoodTinMREOpen: FoodTinMRE
 
-# 2023-11-05 # yeah i prefer standart guns
-#WeaponRifleAk: WeaponAKMSRifle
-#WeaponXrayCannon: WeaponEarthGovXRay
-#WeaponLaserCarbine: WeaponEarthGovLaserRifle
-#WeaponLaserCannon: WeaponEarthGovLaserSniper
-#WeaponRifleLecter: WeaponRifleAR18
-#WeaponSubMachineGunAtreides: WeaponSubMachineGunMP7
-#WeaponPistolViper: WeaponPistolHIB88M4
-#WeaponPistolMk58: WeaponPistolACP14
-#WeaponPistolMk58Nonlethal: WeaponPistolG22NonLethal
-#WeaponSubMachineGunDrozd: WeaponSubMachineGunVectorSpecial
-#WeaponSubMachineGunDrozdRubber: WeaponSubMachineGunMP5NonLethal
-#WeaponShotgunEnforcer: WeaponShotgun39
-#WeaponShotgunEnforcerRubber: WeaponShotgun39NonLethal
-#WeaponSubMachineGunWt550: WeaponSubMachineGunP90
-#MagazinePistolSubMachineGunTopMounted: MagazinePistolTopSubMachineGun
-#WeaponShotgunKammerer: WeaponShotguntrenchgun4034
-#WeaponSubMachineGunC20r: WeaponSubMachineGunMP7
-#3WeaponRevolverMateba: WeaponRevolverMatebaNew
-#WeaponSniperMosin: WeaponSniperMosinNew
-#WeaponShotgunBulldog: WeaponShotgunZauer
+# 2023-11-05
+WeaponRifleAk: WeaponAKMSRifle
+WeaponXrayCannon: WeaponEarthGovXRay
+WeaponLaserCarbine: WeaponEarthGovLaserRifle
+WeaponLaserCannon: WeaponEarthGovLaserSniper
+WeaponRifleLecter: WeaponRifleAR18
+WeaponSubMachineGunAtreides: WeaponSubMachineGunMP7
+WeaponPistolViper: WeaponPistolHIB88M4
+WeaponPistolMk58: WeaponPistolACP14
+WeaponPistolMk58Nonlethal: WeaponPistolG22NonLethal
+WeaponSubMachineGunDrozd: WeaponSubMachineGunVectorSpecial
+WeaponSubMachineGunDrozdRubber: WeaponSubMachineGunMP5NonLethal
+WeaponShotgunEnforcer: WeaponShotgun39
+WeaponShotgunEnforcerRubber: WeaponShotgun39NonLethal
+WeaponSubMachineGunWt550: WeaponSubMachineGunP90
+MagazinePistolSubMachineGunTopMounted: MagazinePistolTopSubMachineGun
+WeaponShotgunKammerer: WeaponShotguntrenchgun4034
+WeaponSubMachineGunC20r: WeaponSubMachineGunMP7
+3WeaponRevolverMateba: WeaponRevolverMatebaNew
+WeaponSniperMosin: WeaponSniperMosinNew
+WeaponShotgunBulldog: WeaponShotgunZauer
 
 # 2023-11-11 Backmen: AI
 ToyAi: SpawnPointStationAI # want to revert but still no spawner for ai, so this is only conclusion
@@ -369,8 +369,8 @@ CrateBaseWeldable: CrateGenericSteel
 
 
 # 2024-09-03 Backmen
-#WeaponRifleLecterRubber: WeaponRifleFamas
-#WeaponTaser: WeaponDominatorNT #hsssss
+WeaponRifleLecterRubber: WeaponRifleFamas
+WeaponTaser: WeaponDominatorNT
 
 # 2024-03-11
 #WeaponLauncherRocket: WeaponLauncherRL5
