@@ -106,7 +106,7 @@ VendingMachineSpaceUp: BackmenVendingMachineSpaceUp
 VendingMachineHappyHonk: BackmenVendingMachineHappyHonk
 # 2023-07-11 - Corvax
 # New cargo pet
-SpawnMobRaccoonMorticia: SpawnMobGorillaLargo
+#SpawnMobRaccoonMorticia: SpawnMobGorillaLargo
 
 # 2023-07-10
 Intercom: IntercomCommon
