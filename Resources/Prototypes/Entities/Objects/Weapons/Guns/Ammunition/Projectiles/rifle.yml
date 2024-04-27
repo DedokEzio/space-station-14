@@ -44,3 +44,13 @@
         Radiation: 7
         Piercing: 8
 
+- type: entity
+  id: BulletRifleRubber
+  name: bullet (0.20 rifle rubber)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
