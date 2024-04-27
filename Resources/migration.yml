@@ -184,25 +184,25 @@ GeneratorUraniumMachineCircuitboard: PortableGeneratorSuperPacmanMachineCircuitb
 FoodTinBeansOpen: FoodTinBeans
 FoodTinMREOpen: FoodTinMRE
 
-# 2023-11-05
-WeaponRifleAk: WeaponAKMSRifle
-WeaponXrayCannon: WeaponEarthGovXRay
-WeaponLaserCarbine: WeaponEarthGovLaserRifle
-WeaponLaserCannon: WeaponEarthGovLaserSniper
-WeaponRifleLecter: WeaponRifleAR18
-WeaponSubMachineGunAtreides: WeaponSubMachineGunMP7
-WeaponPistolViper: WeaponPistolHIB88M4
-WeaponPistolMk58: WeaponPistolACP14
-WeaponSubMachineGunDrozd: WeaponSubMachineGunVectorSpecial
-WeaponShotgunEnforcer: WeaponShotgun39
-WeaponShotgunEnforcerRubber: WeaponShotgun39NonLethal
-WeaponSubMachineGunWt550: WeaponSubMachineGunP90
-MagazinePistolSubMachineGunTopMounted: MagazinePistolTopSubMachineGun
-WeaponShotgunKammerer: WeaponShotguntrenchgun4034
-WeaponSubMachineGunC20r: WeaponSubMachineGunMP7
-3WeaponRevolverMateba: WeaponRevolverMatebaNew
-WeaponSniperMosin: WeaponSniperMosinNew
-WeaponShotgunBulldog: WeaponShotgunZauer
+# 2023-11-05 № no i prefer standart weapons
+#WeaponRifleAk: WeaponAKMSRifle
+#WeaponXrayCannon: WeaponEarthGovXRay
+#WeaponLaserCarbine: WeaponEarthGovLaserRifle
+#WeaponLaserCannon: WeaponEarthGovLaserSniper
+#WeaponRifleLecter: WeaponRifleAR18
+#WeaponSubMachineGunAtreides: WeaponSubMachineGunMP7
+#WeaponPistolViper: WeaponPistolHIB88M4
+#WeaponPistolMk58: WeaponPistolACP14
+#WeaponSubMachineGunDrozd: WeaponSubMachineGunVectorSpecial
+#WeaponShotgunEnforcer: WeaponShotgun39
+#WeaponShotgunEnforcerRubber: WeaponShotgun39NonLethal
+#WeaponSubMachineGunWt550: WeaponSubMachineGunP90
+#MagazinePistolSubMachineGunTopMounted: MagazinePistolTopSubMachineGun
+#WeaponShotgunKammerer: WeaponShotguntrenchgun4034
+#WeaponSubMachineGunC20r: WeaponSubMachineGunMP7
+#3WeaponRevolverMateba: WeaponRevolverMatebaNew
+#WeaponSniperMosin: WeaponSniperMosinNew
+#WeaponShotgunBulldog: WeaponShotgunZauer
 
 # 2023-11-11 Backmen: AI
 ToyAi: SpawnPointStationAI # want to revert but still no spawner for ai, so this is only conclusion
@@ -363,8 +363,8 @@ AmePartStealObjective: AmePartFlatpackStealObjective
 CrateBaseWeldable: CrateGenericSteel
 
 
-# 2024-09-03 Backmen
-WeaponTaser: WeaponDominatorNT
+# 2024-09-03 Backmen # no
+# WeaponTaser: WeaponDominatorNT
 
 # 2024-03-11
 #WeaponLauncherRocket: WeaponLauncherRL5
