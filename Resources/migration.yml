@@ -341,9 +341,9 @@ VehicleJanicartDestroyed: null
 YellowOxygenTank: OxygenTank
 YellowOxygenTankFilled: OxygenTankFilled # oh no, im to lazy to revert this, maybe next time
 
-# 2024-01-30 Backmen
-AirlockHatch: AirlockHatchBasik
-AirlockHatchMaintenance: AirlockHatchMaint
+# 2024-01-30 Backmen # prefer no
+#AirlockHatch: AirlockHatchBasik
+#AirlockHatchMaintenance: AirlockHatchMaint
 
 # 2024-02-18
 # WeaponTurretSyndicateBroken: WeaponTurretLaserNanoTrasenAI # i didnt think this is good idea, better just to map them, but i mind backmen didnt has a mappers
