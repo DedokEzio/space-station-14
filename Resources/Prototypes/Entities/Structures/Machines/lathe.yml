@@ -179,6 +179,14 @@
        - MagazineBoxLightRifle
        - GrenadeBlast
     emagDynamicRecipes:
+      - CartridgePistolRubber
+      - CartridgeMagnumRubber
+      - CartridgeRifleRubber
+      - CartridgeLightRifleRubber
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifleRubber
       - ShellShotgunBeanbag
       - GrenadeTearGas
       - GrenadeNonletal
@@ -262,6 +270,7 @@
       - AnomalyScanner
       - AnomalyLocator
       - AnomalyLocatorWide
+      - HandheldCrewMonitor # dedok handheldcrewmonitor
       - Scalpel
       - Retractor
       - Cautery
@@ -326,6 +335,7 @@
       - SapphireRing
       - GoldenRing
       - DeviceQuantumSpinInverter
+      - EnergyDomeDirectionalTurtle
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ExplosivePayload
@@ -400,6 +410,7 @@
       - HellfireFreezerMachineCircuitBoard
       - PortableScrubberMachineCircuitBoard
       - CloningPodMachineCircuitboard
+      - ImpLatheCircuitboard
       - MedicalScannerMachineCircuitboard
       - CryoPodMachineCircuitboard
       - VaccinatorMachineCircuitboard
@@ -688,6 +699,14 @@
       - WeaponLaserCarbinePractice
       - WeaponDisablerPractice
     dynamicRecipes:
+      - MagazineBoxLightRifleRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxPistolRubber
+      - MagazineBoxRifleRubber
+      - CartridgeLightRifleRubber
+      - CartridgeMagnumRubber
+      - CartridgePistolRubber
+      - CartridgeRifleRubber
       - CartridgeLightRifleIncendiary
       - CartridgeMagnumIncendiary
       - CartridgePistolIncendiary
@@ -852,6 +871,7 @@
       - ClothingEyesGlassesChemical
     dynamicRecipes:
       - ChemicalPayload
+      - HandheldCrewMonitor # dedok handheldcrewmonitor
       - CryostasisBeaker
       - BluespaceBeaker
 #      - BluespaceBeaker1
@@ -1169,3 +1189,43 @@
     staticRecipes:
     - MaterialSheetMeat
     - SheetPaper
+
+- type: entity
+  parent: BaseLathe
+  id: ImpLathe
+  name: imp-Lathe
+  description: Fabricator that allows you to convert rare resources into body enhancement implants.
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/implathe.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Lathe
+    producingSound: /Audio/Machines/circuitprinter.ogg
+    idleState: icon
+    runningState: building
+    staticRecipes:
+      - SadTromboneImplanter
+      - LightImplanter
+      - BikeHornImplanter
+    dynamicRecipes:
+      - TrackingImplanter           #sec
+      - ProtokineticImplanter       #sup
+      - MindShieldImplanter         #cmd 
+  - type: EmagLatheRecipes
+    emagStaticRecipes:
+      - DnaScramblerImplanter
+      - ScramImplanter
+      - FreedomImplanter
+      - SmokeImplanter
+  - type: Machine
+    board: ImpLatheCircuitboard

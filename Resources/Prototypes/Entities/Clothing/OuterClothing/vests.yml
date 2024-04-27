@@ -78,3 +78,27 @@
     sprite: Clothing/OuterClothing/Vests/vest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/vest.rsi
+
+# blueshield start
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterBlueShieldVest
+  name: blue shield vest
+  description: This bulletproof vest perfectly withstands a shot and a knife cut, but don't rely on it too much.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Vests/bsvests.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Vests/bsvests.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+
+# blueshield end

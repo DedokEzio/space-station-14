@@ -1300,3 +1300,29 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+
+# blueshield start
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueShield
+  name: blue shield jumpsuit
+  description: Like the jumpsuit, be a shield on the hearts of the heads, they hope for you!
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+
+# blueshield end
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitNTRepresentive
+  name: nanotrasen representative uniform
+  description: Black uniform with gold trim, black trousers and Nanotrasen logo - bureaucracy style.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ntr_suit.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ntr_suit.rsi

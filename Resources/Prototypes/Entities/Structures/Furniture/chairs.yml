@@ -399,3 +399,39 @@
             max: 4
   - type: StaticPrice
     price: 20
+
+- type: entity
+  name: leather sofa
+  id: LeatherSofaCorner
+  parent: Chair
+  components:
+  - type: Sprite
+    sprite: Structures/Furniture/chairs.rsi
+    state: leather_sofa_corner
+
+- type: entity
+  name: leather sofa
+  id: LeatherSofaLeft
+  parent: Chair
+  components:
+  - type: Sprite
+    sprite: Structures/Furniture/chairs.rsi
+    state: leather_sofa_left
+
+- type: entity
+  name: leather sofa
+  id: LeatherSofaMiddle
+  parent: Chair
+  components:
+  - type: Sprite
+    sprite: Structures/Furniture/chairs.rsi
+    state: leather_sofa_middle
+
+- type: entity
+  name: leather sofa
+  id: LeatherSofaRight
+  parent: Chair
+  components:
+  - type: Sprite
+    sprite: Structures/Furniture/chairs.rsi
+    state: leather_sofa_right

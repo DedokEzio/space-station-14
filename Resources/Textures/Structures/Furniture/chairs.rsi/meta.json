@@ -98,6 +98,22 @@
 	{
 		"name": "brass_chair",
 		"directions": 4
-	}
+	},
+    {
+        "name": "leather_sofa_corner",
+        "directions": 4
+    },
+    {
+        "name": "leather_sofa_left",
+        "directions": 4
+    },
+    {
+        "name": "leather_sofa_middle",
+        "directions": 4
+    },
+    {
+        "name": "leather_sofa_right",
+        "directions": 4
+    }
   ]
 }

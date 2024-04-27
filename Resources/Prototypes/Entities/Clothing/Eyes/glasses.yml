@@ -151,7 +151,6 @@
     protectionTime: 5
   - type: Tag
     tags:
-    - Sunglasses
     - HamsterWearable
     - WhitelistChameleon
 
@@ -235,3 +234,55 @@
   - type: Clothing
     sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesSunglassesMed
+  name: medical HUDSunglasses
+  description: Sunglasses with a medical HUD.
+  components:
+  - type: Sprite
+    sprite: Backmen/Clothing/Eyes/Glasses/sunglasseshudmed.rsi
+  - type: Clothing
+    sprite: Backmen/Clothing/Eyes/Glasses/sunglasseshudmed.rsi
+  - type: ClothingGrant
+    component:
+    - type: ShowHealthBars
+      damageContainers:
+        - Biological
+        - HalfSpirit
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+  - type: Tag
+    tags:
+    - HudMedical
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesTrayson
+  name: t-ray goggles #less confusion
+  description: Dark-tinted goggles using t-ray technology to see subfloor objects.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/trayson.rsi
+    layers:
+    - state: tray-off
+      map: ["base"]
+  - type: Item
+    sprite: Objects/Tools/t-ray.rsi
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.TrayScannerVisual.Visual:
+        base:
+          On: { state: tray-on }
+          Off: { state: tray-off }
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/trayson.rsi
+  - type: WearableTrayScanner
+    range: 8

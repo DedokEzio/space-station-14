@@ -187,6 +187,7 @@
     contents:
         - id: WeaponRevolverInspector
         - id: SpeedLoaderMagnum
+        - id: SpeedLoaderMagnumRubber
 
 - type: entity
   id: ClothingBeltChefFilled
@@ -197,3 +198,20 @@
     contents:
     - id: FoodShakerSalt
     - id: FoodShakerPepper
+
+# Blueshield
+- type: entity
+  id: ClothingBeltBlueshieldWebbinFilled
+  parent: ClothingBeltMilitaryWebbingMed
+  name: blueshield webbing
+  description: Used to keep medicaments by blueshield officers.
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: EpinephrineChemistryBottle
+        amount: 2
+      - id: EphedrineChemistryBottle
+        amount: 2
+      - id: OmnizineChemistryBottle
+      - id: MedkitCombatFilled

@@ -124,6 +124,22 @@
 - type: playTimeTracker
   id: JobSecurityOfficer
 
+# dedok seniors start
+
+- type: playTimeTracker
+  id: JobSeniorEngineer
+
+- type: playTimeTracker
+  id: JobSeniorOfficer
+
+- type: playTimeTracker
+  id: JobSeniorPhysician
+
+- type: playTimeTracker
+  id: JobSeniorResearcher
+
+# dedok seniors end
+
 - type: playTimeTracker
   id: JobServiceWorker
 
@@ -145,3 +161,11 @@
 - type: playTimeTracker
   id: JobZookeeper
 
+- type: playTimeTracker
+  id: JobBlueshield
+
+- type: playTimeTracker
+  id: JobMagistrat
+
+- type: playTimeTracker
+  id: JobNanotrasenRepresentive

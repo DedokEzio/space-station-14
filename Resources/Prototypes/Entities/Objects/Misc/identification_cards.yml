@@ -614,6 +614,7 @@
     - JobIconQuarterMaster
     - JobIconBotanist
     - JobIconBoxer
+    - JobIconBrigmedic # dedok seniors
     - JobIconAtmosphericTechnician
     - JobIconNanotrasen
     - JobIconPrisoner
@@ -653,6 +654,12 @@
     - JobIconTechnicalAssistant
     - JobIconServiceWorker
     - JobIconSecurityCadet
+    # dedok seniors start
+    - JobIconSeniorPhysician
+    - JobIconSeniorOfficer
+    - JobIconSeniorEngineer
+    - JobIconSeniorResearcher
+    # dedok seniors end
     - JobIconZookeeper
     - JobIconVisitor
   - type: ActivatableUI
@@ -833,6 +840,8 @@
     layers:
     - state: default
     - state: idseniorengineer
+  - type: PresetIdCard # dedok seniors
+    job: SeniorEngineer
 
 - type: entity
   parent: ResearchIDCard
@@ -843,6 +852,8 @@
     layers:
     - state: default
     - state: idseniorresearcher
+  - type: PresetIdCard # dedok seniors
+    job: SeniorResearcher
 
 - type: entity
   parent: MedicalIDCard
@@ -853,6 +864,8 @@
     layers:
     - state: default
     - state: idseniorphysician
+  - type: PresetIdCard # dedok seniors
+    job: SeniorPhysician 
 
 - type: entity
   parent: SecurityIDCard
@@ -863,3 +876,49 @@
     layers:
     - state: default
     - state: idseniorofficer
+  - type: PresetIdCard # dedok seniors
+    job: SeniorOfficer
+
+# blueshield start
+
+- type: entity
+  parent: IDCardStandard
+  id: BlueShieldIDCard
+  name: blueshield ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: silver
+        - state: idblueshield
+    - type: PresetIdCard
+      job: Blueshield
+    - type: Access
+      tags:
+        - CCSecurity
+        - CentralCommand
+
+# blueshield end
+
+- type: entity
+  parent: IDCardStandard
+  id: MagistratIDCard
+  name: magistrate ID Card
+  components:
+    - type: Sprite
+      layers:
+        - state: silver
+        - state: idmagistrat
+    - type: PresetIdCard
+      job: Magistrat
+
+- type: entity
+  parent: IDCardStandard
+  id: NanotrasenRepresentiveIDCard
+  name: ID карта представителя Nanotrasen
+  components:
+  - type: Sprite
+    layers:
+    - state: silver
+    - state: idntr
+  - type: PresetIdCard
+    job: NanotrasenRepresentive

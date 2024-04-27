@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: NTR_Cane
+  name: NanoTrasen Representative Cane
+  description: The beutiful cane for beutiful people, that can hurt so hard.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/ntr_cane.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: Objects/Weapons/Melee/ntr_cane.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: 45
+    damage:
+      types:
+        Blunt: 7
+  - type: StaminaDamageOnHit
+    damage: 50
+  - type: Clothing
+    slots:
+    - Belt

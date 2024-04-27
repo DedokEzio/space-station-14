@@ -433,3 +433,24 @@
     contents:
       - id: BoxSurvivalSecurity
       - id: Flash
+
+# Blueshield
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: ClothingBackpackBlueshieldFilled
+  name: Blueshield backpack
+  description: A spacious backpack with lots of pockets, worn by the Blueshields.
+  suffix: Filled
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/ertleader.rsi
+  - type: Storage
+    grid:
+    - 0,0,7,4
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalEngineering
+      - id: Flash
+      - id: MagazinePistolSubMachineGun
+      - id: MagazinePistolSubMachineGunRubber
+        amount: 2

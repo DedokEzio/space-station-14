@@ -1066,3 +1066,59 @@
       whitelist:
         components:
           - Cartridge
+
+# blueshield start
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: BlueShieldPDA
+  name: BlueShield PDA
+  description: The shield on this PDA means safety for the life of the heads, hmm, in my opinion there are not enough strips here.
+  components:
+  - type: Pda
+    id: BlueShieldIDCard
+    state: pda-blueshield
+    penSlot:
+      startingItem: Pen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#1F1F1F"
+  - type: Icon
+    state: pda-blueshield
+
+# blueshield end
+
+- type: entity
+  parent: BasePDA
+  id: MagistratPDA
+  name: Magistrate PDA
+  description: For judes who fully controls judjment on stations.
+  components:
+  - type: Pda
+    id: MagistratIDCard
+    state: pda-lawyer
+    penSlot:
+      startingItem: PenCentcom
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#6f6192"
+  - type: Icon
+    state: pda-lawyer
+
+- type: entity
+  parent: BasePDA
+  id: NanotrasenRepresentivePDA
+  name: NanoTrasen Representative PDA
+  description: Smells like a burecreancy.
+  components:
+  - type: Pda
+    id: NanotrasenRepresentiveIDCard
+    state: pda-ntr
+  - type: Icon
+    state: pda-ntr

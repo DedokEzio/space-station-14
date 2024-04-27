@@ -115,6 +115,111 @@
       - id: JetpackCaptainFilled
       - id: MedalCase
 
+# blueshield start
+
+- type: entity
+  id: LockerBlueShieldFilled
+  suffix: Filled
+  parent: LockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: BookBusido
+      - id: ClothingBeltKatanaSheathFilled
+      - id: BoxTrackers
+        amount: 2
+      - id: ClothingNeckCloakNanotrasen
+      - id: ClothingUniformJumpsuitNanotrasen
+      - id: WeaponDisabler
+      - id: ClothingUniformJumpskirtBlueShield
+      - id: ClothingUniformJumpsuitBlueShield
+      - id: ClothingEyesGlassesSunglasses
+      - id: Briefcaseblack
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingShoesBlueShieldShoes
+      - id: ClothingOuterBlueShieldVest
+      - id: ClothingHeadBeretBlueShield
+      - id: MedkitFilled
+      - id: MedkitAdvancedFilled
+      - id: ClothingBeltSecurityFilled
+      - id: FlashlightSeclite
+      - id: ClothingEyesGlassesSecurity
+      - id: PinpointerNuclear
+      - id: PinpointerUniversal
+      - id: HandheldCrewMonitor
+      - id: FlippoEngravedLighter
+      - id: Hypospray
+      - id: WeaponEnergyGunBS
+
+- type: entity
+  id: LockerBlueShieldFilledHardsuit
+  suffix: Filled, Hardsuit
+  parent: LockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: BookBusido
+      - id: ClothingBeltKatanaSheathFilled
+      - id: BoxTrackers
+        amount: 2
+      - id: ClothingNeckCloakNanotrasen
+      - id: ClothingUniformJumpsuitNanotrasen
+      - id: WeaponDisabler
+      - id: ClothingUniformJumpskirtBlueShield
+      - id: ClothingUniformJumpsuitBlueShield
+      - id: ClothingEyesGlassesSunglasses
+      - id: Briefcaseblack
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingShoesBlueShieldShoes
+      - id: ClothingOuterBlueShieldVest
+      - id: ClothingHeadBeretBlueShield
+      - id: MedkitFilled
+      - id: MedkitAdvancedFilled
+      - id: ClothingBeltSecurityFilled
+      - id: FlashlightSeclite
+      - id: ClothingEyesGlassesSecurity
+      - id: PinpointerNuclear
+      - id: PinpointerUniversal
+      - id: HandheldCrewMonitor
+      - id: FlippoEngravedLighter
+      - id: Hypospray
+      - id: ClothingOuterHardsuitBlueshield
+      - id: ClothingShoesBootsMag
+      - id: JetpackBlueFilled
+      - id: ClothingMaskGasBlueSwat
+      - id: WeaponEnergyGunBS
+
+# blueshield end
+
+- type: entity 
+  id: LockerRepresentiveFilled 
+  suffix: Filled, filler
+  parent: LockerRepresentative
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponDisabler
+#    - id: Flash
+    - id: ClothingNeckCloakNanotrasenRepresentive
+    - id: ClothingEyesGlassesSunglasses
+    - id: ClothingNeckCloakNanotrasen
+    - id: ClothingUniformJumpsuitNanotrasen
+    - id: NTR_Cane
+    - id: RubberStampNTR
+
+- type: entity 
+  id: LockerMagistratFilled
+  suffix: Filled, filler
+  parent: LockerMagistrat
+  components:
+  - type: StorageFill
+    contents:
+  #  - id: BoxEncryptionKeyJuridical
+    - id: WeaponDisabler
+    - id: Flash
+    - id: RubberStampMagistrat
+ #   - id: ClothingHeadsetMagistrat
+
 - type: entity
   id: LockerHeadOfPersonnelFilled
   suffix: Filled
@@ -134,7 +239,6 @@
       - id: IDComputerCircuitboard
       - id: WeaponDisabler
       - id: CigarGoldCase
-        prob: 0.25
         # Fuck the HoP they don't deserve fucking cigars.
         # Yes they do fuck you.
       - id: DoorRemoteService
@@ -143,7 +247,6 @@
       - id: BoxEncryptionKeyPassenger
       - id: BoxEncryptionKeyService
       - id: ClothingBackpackIan
-        prob: 0.5
       - id: ClothingOuterCoatHOP # Corvax-Resprite
       - id: AccessConfigurator
       - id: AntiPsychicKnife  # backmen

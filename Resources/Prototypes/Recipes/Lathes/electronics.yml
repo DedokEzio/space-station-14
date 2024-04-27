@@ -963,3 +963,12 @@
   materials:
     Steel: 100
     Glass: 900
+
+- type: latheRecipe #implathe
+  id: ImpLatheCircuitboard
+  result: ImpLatheCircuitboard
+  category: Circuitry
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 1000

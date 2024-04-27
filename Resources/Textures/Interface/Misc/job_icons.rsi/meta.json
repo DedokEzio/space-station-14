@@ -191,6 +191,15 @@
         },
         {
             "name": "InitialInfected"
+        },
+        {
+            "name": "BlueShield"
+        },
+        {
+            "name": "NanotrasenRepresentive"
+        },
+        {
+            "name": "Magistrat"
         }
     ]
 }

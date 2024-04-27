@@ -236,10 +236,10 @@
 - type: entity
   id: SpawnPointLawyer
   parent: SpawnPointJobBase
-  name: lawyer
+  name: lawyer (IAA)
   components:
   - type: SpawnPoint
-    job_id: IAA # Corvax-IAA: Lawyer replaced with IAA
+    job_id: IAA # Corvax-IAA: Lawyer replaced with IAA # now no # now again cuz need been replaced but ima lazy
   - type: Sprite
     layers:
       - state: green
@@ -322,6 +322,57 @@
       - state: green
       - state: hop
 
+- type: entity
+  id: SpawnPointBlueshield
+  parent: SpawnPointJobBase
+  name: Blueshield
+  components:
+  - type: SpawnPoint
+    job_id: Blueshield
+  - type: Sprite
+    sprite: Backmen/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: blueshield
+      - state: jobicon
+
+- type: entity
+  id: SpawnPointMagistrat
+  parent: SpawnPointJobBase
+  name: Magistrat
+  components:
+  - type: SpawnPoint
+    job_id: Magistrat
+  - type: Sprite
+    sprite: Backmen/Markers/jobs.rsi
+    layers:
+      - state: green
+      - state: magistrat
+      - state: jobicon
+
+- type: entity
+  id: SpawnPointIAA
+  parent: SpawnPointJobBase
+  name: IAA (Lawyer)
+  components:
+  - type: SpawnPoint
+    job_id: Lawyer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: lawyer
+
+- type: entity
+  id: SpawnPointNanotrasenRepresentive
+  parent: SpawnPointJobBase
+  name: nanotrasen representative
+  components:
+  - type: SpawnPoint
+    job_id: NanotrasenRepresentive
+  - type: Sprite
+    layers:
+      - state: green
+
 # Engineering
 
 - type: entity
@@ -335,6 +386,18 @@
     layers:
       - state: green
       - state: ce
+
+- type: entity # dedok seniors
+  id: SpawnPointSeniorEngineer
+  parent: SpawnPointJobBase
+  name: seniorengineer
+  components:
+  - type: SpawnPoint
+    job_id: SeniorEngineer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorengineer
 
 - type: entity
   id: SpawnPointStationEngineer
@@ -373,6 +436,18 @@
     layers:
       - state: green
       - state: cmo
+
+- type: entity # dedok seniors
+  id: SpawnPointSeniorPhysician
+  parent: SpawnPointJobBase
+  name: seniorphysician
+  components:
+  - type: SpawnPoint
+    job_id: SeniorPhysician
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorphysician
 
 - type: entity
   id: SpawnPointMedicalDoctor
@@ -424,6 +499,18 @@
       - state: green
       - state: rd
 
+- type: entity # dedok seniors
+  id: SpawnPointSeniorResearcher
+  parent: SpawnPointJobBase
+  name: seniorresearcher
+  components:
+  - type: SpawnPoint
+    job_id: SeniorResearcher
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorresearcher
+
 - type: entity
   id: SpawnPointScientist
   parent: SpawnPointJobBase
@@ -461,6 +548,18 @@
     layers:
       - state: green
       - state: warden
+
+- type: entity # dedok seniors
+  id: SpawnPointSeniorOfficer
+  parent: SpawnPointJobBase
+  name: seniorofficer
+  components:
+  - type: SpawnPoint
+    job_id: SeniorOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: seniorofficer
 
 - type: entity
   id: SpawnPointSecurityOfficer

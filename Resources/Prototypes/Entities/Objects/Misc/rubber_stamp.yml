@@ -272,3 +272,43 @@
     stampState: "paper_stamp-detective"
   - type: Sprite
     state: stamp-detective
+
+- type: entity
+  name: blueshield's rubber stamp
+  parent: RubberStampBase
+  id: RubberStampBlueshield
+  suffix: DO NOT MAP
+  components:
+  - type: Stamp
+    stampedName: blueshield
+    stampedColor: "#4f8091"
+    stampState: "paper_stamp-hop"
+  - type: Sprite
+    sprite: Objects/Misc/stamps.rsi
+    state: stamp-bs
+
+- type: entity
+  name: magistrate rubber stamp
+  parent: RubberStampBase
+  id: RubberStampMagistrat
+  suffix: DO NOT MAP
+  components:
+  - type: Stamp
+    stampedName: Magistrat
+    stampedColor: "#233D57"
+    stampState: "paper_stamp-lawyer"
+  - type: Sprite
+    state: stamp-magistrat
+
+- type: entity
+  name: nanotrasen representative rubber stamp
+  parent: RubberStampBase
+  id: RubberStampNTR
+  suffix: DO NOT MAP
+  components:
+  - type: Stamp
+    stampedName: Nanotrasen Representative
+    stampedColor: "#233D57"
+    stampState: "paper_stamp-lawyer"
+  - type: Sprite
+    state: stamp-ntr

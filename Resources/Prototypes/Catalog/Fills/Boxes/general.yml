@@ -6,12 +6,10 @@
   components:
   - type: Item
     size: Large
-    shape:
-    - 0,0,2,2
   - type: Storage
     maxItemSize: Small
     grid:
-    - 0,0,2,2
+    - 0,0,2,3
   - type: Sprite
     state: box
   - type: Tag
@@ -475,3 +473,14 @@
     layers:
       - state: box
       - state: darts
+
+- type: entity
+  name: tracking implants box
+  parent: BoxCardboard
+  id: BoxTrackers
+  description: This box is filled with tracking implants.
+  components:
+    - type: StorageFill
+      contents:
+        - id: TrackingImplanter
+          amount: 4
