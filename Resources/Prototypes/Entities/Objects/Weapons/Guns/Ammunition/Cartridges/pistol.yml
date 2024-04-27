@@ -72,15 +72,16 @@
         color: "#65fe08"
 
 - type: entity
-  id: MagazinePistolRubber
-  name: pistol magazine (.35 auto rubber)
-  parent: BaseMagazinePistol
+  id: CartridgePistolRubber
+  name: cartridge (.35 auto rubber)
+  parent: BaseCartridgePistol
   components:
-  - type: BallisticAmmoProvider
-    proto: CartridgePistolRubber
+  - type: CartridgeAmmo
+    proto: BulletPistolRubber
   - type: Sprite
     layers:
-    - state: rubber
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#43c4f7"
