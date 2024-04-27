@@ -55,3 +55,16 @@
       types:
         Radiation: 15
         Piercing: 20
+
+- type: entity
+  id: BulletMagnumRubber
+  name: bullet (.45 magnum rubber)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+  - type: StaminaDamageOnCollide
+    damage: 35 # 3 hits to stun cuz revolver
