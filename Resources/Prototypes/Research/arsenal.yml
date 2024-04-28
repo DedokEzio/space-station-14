@@ -63,6 +63,10 @@
   - ShellTranquilizer
   - BoxBeanbag
   - WeaponDisabler
+  - MagazineBoxPistolRubber
+  - MagazineBoxMagnumRubber
+  - MagazineBoxLightRifleRubber
+  - MagazineBoxRifleRubber
 
 - type: technology
   id: UraniumMunitions
