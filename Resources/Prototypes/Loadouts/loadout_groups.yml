@@ -6,17 +6,17 @@
   maxLimit: 3
   loadouts:
   - PlushieLizard
-  - ClothingNeckLGBTPin
-  - ClothingNeckAromanticPin
-  - ClothingNeckAsexualPin
-  - ClothingNeckBisexualPin
-  - ClothingNeckIntersexPin
-  - ClothingNeckLesbianPin
-  - ClothingNeckNonBinaryPin
-  - ClothingNeckPansexualPin
-  - ClothingNeckTransPin
-  - ClothingNeckAutismPin
-  - ClothingNeckGoldAutismPin
+ # - ClothingNeckLGBTPin
+ # - ClothingNeckAromanticPin
+ # - ClothingNeckAsexualPin
+ # - ClothingNeckBisexualPin
+ # - ClothingNeckIntersexPin
+ # - ClothingNeckLesbianPin
+ # - ClothingNeckNonBinaryPin
+ # - ClothingNeckPansexualPin
+ # - ClothingNeckTransPin
+ # - ClothingNeckAutismPin
+ # - ClothingNeckGoldAutismPin
   - ClothingNeckDonkPin #BackmenPins-start
   - ClothingNeckDeForestPin
   - ClothingNeckNakamuraPin
