@@ -415,6 +415,17 @@ ClothingHeadHatHairflower: FoodPoppy
 
 # 2024-03-21
 RPED: null
+PartTerminator: null
+HeadTerminator: null
+TorsoTerminator: null
+LeftArmTerminator: null
+RightArmTerminator: null
+LeftHandTerminator: null
+RightHandTerminator: null
+LeftLegTerminator: null
+RightLegTerminator: null
+RightFootTerminator: null
+LeftFootTerminator: null
 
 # 2024-03-30
 TraversalDistorterMachineCircuitboard: null
@@ -480,3 +491,4 @@ BodyBag_Folded: BodyBagFolded
 GlassBoxLaserBroken: GlassBoxBroken
 ReinforcementRadioSyndicateMonkey: ReinforcementRadioSyndicateAncestor
 ReinforcementRadioSyndicateMonkeyNukeops: ReinforcementRadioSyndicateAncestorNukeops
+
