@@ -187,6 +187,10 @@
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
     emagDynamicRecipes:
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifleRubber
       - BoxBeanbag
       - BoxShotgunIncendiary
       - BoxShotgunUranium
@@ -684,6 +688,10 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifleRubber
       - BoxLethalshot
       - BoxShotgunFlare
       - BoxShotgunPractice
