@@ -428,7 +428,7 @@
   - type: EyeProtection
 
 - type: entity
-  parent: ClothingHeadHelmetModsuitCEBase
+  parent: ClothingHeadHelmetModsuitBase
   id: ClothingHeadHelmetModsuitRND2Sealed
   noSpawn: true
   name: advanced RND modsuit helmet
@@ -455,7 +455,7 @@
   - type: EyeProtection
 
 - type: entity
-  parent: ClothingHeadHelmetModsuitCEBase
+  parent: ClothingHeadHelmetModsuitBase
   id: ClothingHeadHelmetModsuitEngineer2Sealed
   noSpawn: true
   name: advanced engineer modsuit helmet
@@ -481,7 +481,7 @@
   - type: EyeProtection
 
 - type: entity
-  parent: ClothingHeadHelmetModsuitCEBase
+  parent: ClothingHeadHelmetModsuitBase
   id: ClothingHeadHelmetModsuitMedical2Sealed
   noSpawn: true
   name: advanced medical modsuit helmet
@@ -506,7 +506,7 @@
   - type: EyeProtection
 
 #- type: entity
-#  parent: ClothingHeadHelmetModsuitCEBase
+#  parent: ClothingHeadHelmetModsuitBase
 #  id: ClothingHeadHelmetModsuitSSTOperativeCMDSealed
 #  noSpawn: true
 #  name: syndicate strike team commander modsuit helmet
@@ -530,7 +530,7 @@
 #  - type: EyeProtection
 
 #- type: entity
-#  parent: ClothingHeadHelmetModsuitCEBase
+#  parent: ClothingHeadHelmetModsuitBase
 #  id: ClothingHeadHelmetModsuitSSTOperativeSupportSealed
 #  noSpawn: true
 #  name: syndicate strike team support modsuit helmet
@@ -554,7 +554,7 @@
 #  - type: EyeProtection
 
 - type: entity
-  parent: ClothingHeadHelmetModsuitCEBase
+  parent: ClothingHeadHelmetModsuitBase
   id: ClothingHeadHelmetModsuitIndustrialSealed
   noSpawn: true
   name: nakamura engineer modsuit helmet
@@ -580,7 +580,7 @@
   - type: EyeProtection
 
 - type: entity
-  parent: ClothingHeadHelmetModsuitCEBase
+  parent: ClothingHeadHelmetModsuitBase
   id: ClothingHeadHelmetModsuitPMCSealed
   noSpawn: true
   name: PMC modsuit helmet
