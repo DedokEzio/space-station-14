@@ -271,8 +271,8 @@
   - type: Clothing
     sprite: Modsuits/Clothing/OuterClothing/magnate.rsi
   - type: PressureProtection
-     highPressureMultiplier: 0.1
-     lowPressureMultiplier: 1000
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
   - type: ExplosionResistance
     damageCoefficient: 0.4
   - type: Armor
