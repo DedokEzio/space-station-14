@@ -427,7 +427,7 @@
   - type: FlashImmunity
   - type: EyeProtection
 
-  - type: entity
+- type: entity
   parent: ClothingHeadHelmetModsuitCEBase
   id: ClothingHeadHelmetModsuitRND2Sealed
   noSpawn: true
