@@ -634,3 +634,304 @@
   #  weightlessAcceleration: 1.5
   #  weightlessFriction: 0.3
   #  weightlessModifier: 1.5
+
+- type: entity
+  parent: ClothingOuterChestplateModsuitSealedBase
+  id: ClothingOuterChestplateModsuitRND2Sealed
+  name: advanced RND modsuit
+  description: A advanced modsuit made for scientists of stations.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/OuterClothing/rnd2.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/OuterClothing/rnd2.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.8
+        Caustic: 0.5
+        Heat: 0.5
+        Radiation: 0.3
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitRND2Sealed
+    requiredSlot: outerClothing
+    slot: head
+
+- type: entity
+  parent: ClothingOuterChestplateModsuitSealedBase
+  id: ClothingOuterChestplateModsuitEngineer2Sealed
+  name: advanced engineering modsuit
+  description: A advanced modsuit made for engineers of stations.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/OuterClothing/engineer2.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/OuterClothing/engineer2.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.0004
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Shock: 0.8
+        Caustic: 0.7
+        Radiation: 0.35
+        Heat: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitEngineer2Sealed
+    requiredSlot: outerClothing
+    slot: head
+  - type: Insulated
+  - type: TemperatureProtection
+    coefficient: 0.00001
+
+- type: entity
+  parent: ClothingOuterChestplateModsuitSealedBase
+  id: ClothingOuterChestplateModsuitMedical2Sealed
+  name: advance medical modsuit
+  description: A advanced modsuit made for medics of stations.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/OuterClothing/medical2.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/OuterClothing/medical2.rsi
+  - type: TemperatureProtection
+    coefficient: 0.0001
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.7
+        Heat: 0.9
+        Cold: 0.9
+        Shock: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitMedical2Sealed
+    requiredSlot: outerClothing
+    slot: head
+
+#- type: entity
+#  parent: ClothingOuterChestplateModsuitSealedBase
+#  id: ClothingOuterChestplateModsuitSSTOperativeCMDSealed
+#  name: syndicate strike team operative commander modsuit
+#  description: A advanced modsuit made for SST operatives commanders.
+#  components:
+#  - type: Sprite
+#    sprite: Modsuits/Clothing/OuterClothing/sstcmd.rsi
+#  - type: Clothing
+#    sprite: Modsuits/Clothing/OuterClothing/sstcmd.rsi
+#  - type: PressureProtection
+#    highPressureMultiplier: 0.00000000001
+#    lowPressureMultiplier: 1000
+#  - type: ExplosionResistance
+#    damageCoefficient: 0.05
+#  - type: Armor
+#    modifiers:
+#      coefficients:
+#        Blunt: 0.1
+#       Slash: 0.1
+#        Piercing: 0.1
+#        Caustic: 0
+#        Cold: 0
+#        Shock: 0
+#        Heat: 0.1
+#        Radiation: 0
+#  - type: ClothingSpeedModifier
+#    walkModifier: 0.9
+#    sprintModifier: 0.9
+#  - type: ToggleableClothing
+#    clothingPrototype: ClothingHeadHelmetModsuitSSTOperativeCMDSealed
+#    requiredSlot: outerClothing
+#    slot: head
+#  #- type: GasTank # for jetpack
+#  #  outputPressure: 21.3
+#  #  air:
+#  #    # 31 minutes
+#  #    volume: 5
+#  #    moles:
+#  #      - 2.051379050 # oxygen
+#  #    temperature: 293.15
+#  #- type: ActivatableUI
+#  #  key: enum.SharedGasTankUiKey.Key
+#  #- type: UserInterface
+#  #  interfaces:
+#  #    enum.SharedGasTankUiKey.Key:
+#  #      type: GasTankBoundUserInterface
+#  #- type: Jetpack
+#  #  moleUsage: 0.00085
+#  #- type: CanMoveInAir
+#  #- type: InputMover
+#  #  toParent: true
+#  #- type: MovementSpeedModifier
+#  #  weightlessAcceleration: 1.8
+#  #  weightlessFriction: 0.3
+#  #  weightlessModifier: 1.8
+
+#- type: entity
+#  parent: ClothingOuterChestplateModsuitSealedBase
+#  id: ClothingOuterChestplateModsuitSSTOperativeSupportSealed
+#  name: syndicate strike team support modsuit
+#  description: A advanced modsuit made for SST supports.
+#  components:
+#  - type: Sprite
+#    sprite: Modsuits/Clothing/OuterClothing/sstsupport.rsi
+#  - type: Clothing
+#    sprite: Modsuits/Clothing/OuterClothing/sstsupport.rsi
+#  - type: PressureProtection
+#    highPressureMultiplier: 0.00000000001
+#    lowPressureMultiplier: 1000
+#  - type: ExplosionResistance
+#    damageCoefficient: 0.1
+#  - type: Armor
+#    modifiers:
+#      coefficients:
+#        Blunt: 0.3
+#        Slash: 0.3
+#        Piercing: 0.3
+#        Caustic: 0.3
+#        Cold: 0.3
+#        Shock: 0.3
+#        Heat: 0.1
+#        Radiation: 0
+#  - type: ClothingSpeedModifier
+#    walkModifier: 1.1
+#    sprintModifier: 1.1 #support
+#  - type: ToggleableClothing
+#    clothingPrototype: ClothingHeadHelmetModsuitSSTOperativeSupportSealed
+#    requiredSlot: outerClothing
+#    slot: head
+#  #- type: GasTank # for jetpack
+#  #  outputPressure: 21.3
+#  #  air:
+#  #    # 31 minutes
+#  #    volume: 5
+#  #    moles:
+#  #      - 2.051379050 # oxygen
+#  #    temperature: 293.15
+#  #- type: ActivatableUI
+#  #  key: enum.SharedGasTankUiKey.Key
+#  #- type: UserInterface
+#  #  interfaces:
+#  #    enum.SharedGasTankUiKey.Key:
+#  #      type: GasTankBoundUserInterface
+#  #- type: Jetpack
+# #  moleUsage: 0.00085
+#  #- type: CanMoveInAir
+#  #- type: InputMover
+#  #  toParent: true
+#  #- type: MovementSpeedModifier
+#  #  weightlessAcceleration: 1.8
+#  #  weightlessFriction: 0.3
+#  #  weightlessModifier: 1.8
+
+- type: entity
+  parent: ClothingOuterChestplateModsuitSealedBase
+  id: ClothingOuterChestplateModsuitIndustrialSealed
+  name: nakamura engineer modsuit
+  description: A industrial modsuit made for nakamura engineers.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/OuterClothing/nakamuraengineer.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/OuterClothing/nakamuraengineer.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.000075
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.8
+        Shock: 0.2
+        Caustic: 0.2
+        Radiation: 0.15
+        Heat: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitIndustrialSealed
+    requiredSlot: outerClothing
+    slot: head
+  - type: Insulated
+  - type: TemperatureProtection
+    coefficient: 0.00000001
+
+- type: entity
+  parent: ClothingOuterChestplateModsuitSealedBase
+  id: ClothingOuterChestplateModsuitPMCSealed
+  name: PMC modsuit
+  description: A advanced modsuit made for PMC.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/OuterClothing/pmc.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/OuterClothing/pmc.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.0000025
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.35
+        Slash: 0.35
+        Piercing: 0.35
+        Caustic: 0.3
+        Shock: 0.3
+        Cold: 0.4
+        Heat: 0.4
+        Radiation: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetModsuitPMCSealed
+    requiredSlot: outerClothing
+    slot: head
+  #- type: GasTank # for jetpack
+  #  outputPressure: 21.3
+  #  air:
+  #    # 31 minutes
+  #    volume: 5
+  #    moles:
+  #      - 2.051379050 # oxygen
+  #    temperature: 293.15
+  #- type: ActivatableUI
+  #  key: enum.SharedGasTankUiKey.Key
+  #- type: UserInterface
+  #  interfaces:
+  #    enum.SharedGasTankUiKey.Key:
+  #      type: GasTankBoundUserInterface
+  #- type: Jetpack
+  #  moleUsage: 0.00085
+  #- type: CanMoveInAir
+  #- type: InputMover
+  #  toParent: true
+  #- type: MovementSpeedModifier
+  #  weightlessAcceleration: 1.8
+  #  weightlessFriction: 0.3
+  #  weightlessModifier: 1.8

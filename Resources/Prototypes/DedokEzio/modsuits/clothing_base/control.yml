@@ -22,7 +22,7 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,7,4
+    - 0,0,7,5
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -72,6 +72,12 @@
     sprite: Modsuits/Clothing/Back/advanced.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitCESealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,5
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -97,6 +103,8 @@
     sprite: Modsuits/Clothing/Back/engineer.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitEngineerSealed
+    requiredSlot: back
+    slot: outerClothing
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -122,6 +130,12 @@
     sprite: Modsuits/Clothing/Back/atmospheric.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitAtmosphericsSealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,7,6
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -174,6 +188,8 @@
     sprite: Modsuits/Clothing/Back/medical.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitMedicalSealed
+    requiredSlot: back
+    slot: outerClothing
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -199,6 +215,12 @@
     sprite: Modsuits/Clothing/Back/cmo.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitCMOSealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,5
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -224,6 +246,8 @@
     sprite: Modsuits/Clothing/Back/civillian.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitCivillianSealed
+    requiredSlot: back
+    slot: outerClothing
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -249,6 +273,12 @@
     sprite: Modsuits/Clothing/Back/magnate.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitMagnateSealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,6
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -260,7 +290,7 @@
  #   graph: ModsuitMagnate
  #   node: modsuitmagnates
   - type: StaticPrice
-    price: 25000 # magnate = роскошный
+    price: 25000
 
 - type: entity
   parent: ClothingControlModsuitBase
@@ -274,6 +304,12 @@
     sprite: Modsuits/Clothing/Back/security.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitSecuritySealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,7,6
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -299,6 +335,12 @@
     sprite: Modsuits/Clothing/Back/hos.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitHOSSealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,5
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -324,6 +366,8 @@
     sprite: Modsuits/Clothing/Back/salvage.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitSalvageSealed
+    requiredSlot: back
+    slot: outerClothing
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -349,6 +393,12 @@
     sprite: Modsuits/Clothing/Back/miner.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitMinerSealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,4
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -371,6 +421,12 @@
     sprite: Modsuits/Clothing/Back/nukeops.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitOperativeSealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,5
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -395,6 +451,10 @@
     clothingPrototype: ClothingOuterChestplateModsuitHonkOperativeSealed
     requiredSlot: back
     slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,5
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -417,6 +477,12 @@
     sprite: Imperial/Modsuits/Clothing/Back/nukeopscmd.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitOperativeCMDSealed
+    slot: outerClothing
+    requiredSlot: back
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,6
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -441,6 +507,10 @@
     clothingPrototype: ClothingOuterHardsuitCentcomCarporate
     requiredSlot: back
     slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,6
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -463,6 +533,12 @@
     sprite: Modsuits/Clothing/Back/apocryphal.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitApocryphalSealed
+    slot: outerClothing
+    requiredSlot: back
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,9,6
   - type: PointLight
     color: "#a0f1e8"
     enabled: false
@@ -472,3 +548,196 @@
     autoRot: true
   - type: StaticPrice
     price: 35000
+
+    - type: entity
+  parent: ClothingControlModsuitBase
+  id: ClothingControlModsuitRND2Sealed
+  name: advanced RND modsuit controler
+  description: An advanced RND modsuit controler.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Back/rnd2.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Back/rnd2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterChestplateModsuitRND2Sealed
+    requiredSlot: back
+    slot: outerClothing
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,4
+  - type: PointLight
+    color: "#a0f1e8"
+    enabled: false
+    mask: /Textures/Effects/LightMasks/cone.png
+    radius: 12
+    softness: 20
+    autoRot: true
+#  - type: Construction
+#    graph: ModsuitRND
+#    node: modsuitrnd
+  - type: StaticPrice
+    price: 4000
+
+- type: entity
+  parent: ClothingControlModsuitBase
+  id: ClothingControlModsuitEngineer2Sealed
+  name: advanced engineer modsuit controler
+  description: An advanced engineer modsuit controler.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Back/engineer2.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Back/engineer2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterChestplateModsuitEngineer2Sealed
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,4
+  - type: PointLight
+    color: "#a0f1e8"
+    enabled: false
+    mask: /Textures/Effects/LightMasks/cone.png
+    radius: 18
+    softness: 20
+    autoRot: true
+#  - type: Construction
+#    graph: ModsuitEngineer
+#    node: modsuitengineer
+  - type: StaticPrice
+    price: 4000
+
+- type: entity
+  parent: ClothingControlModsuitBase
+  id: ClothingControlModsuitMedical2Sealed
+  name: advanced medical modsuit controler
+  description: An advanced medical modsuit controler.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Back/medical2.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Back/medical2.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterChestplateModsuitMedical2Sealed
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,4
+  - type: PointLight
+    color: "#a0f1e8"
+    enabled: false
+    mask: /Textures/Effects/LightMasks/cone.png
+    radius: 25
+    softness: 20
+    autoRot: true
+ # - type: Construction
+ #   graph: ModsuitMedical
+ #   node: modsuitmedical
+  - type: StaticPrice
+    price: 4000
+
+#- type: entity
+#  parent: ClothingControlModsuitBase
+#  id: ClothingControlModsuitSSTOperativeCMDSealed
+#  name: syndicate strike team commander modsuit controler
+#  description: An advanced SST CMD modsuit controler.
+#  components:
+#  - type: Sprite
+#    sprite: Modsuits/Clothing/Back/sstcmd.rsi
+#  - type: Clothing
+#    sprite: Modsuits/Clothing/Back/sstcmd.rsi
+#  - type: ToggleableClothing
+#    clothingPrototype: ClothingOuterChestplateModsuitSSTOperativeCMDSealed
+#  - type: Storage
+#    maxItemSize: Huge
+#    grid:
+#    - 0,0,8,5
+#  - type: PointLight
+#    color: "#a0f1e8"
+#    enabled: false
+#    mask: /Textures/Effects/LightMasks/cone.png
+#    radius: 300
+#    softness: 20
+#    autoRot: true
+#  - type: StaticPrice
+#    price: 450000
+
+#- type: entity
+#  parent: ClothingControlModsuitBase
+#  id: ClothingControlModsuitSSTOperativeSupportSealed
+#  name: syndicate strike team support modsuit controler
+#  description: An advanced SST support modsuit controler.
+#  components:
+#  - type: Sprite
+#    sprite: Modsuits/Clothing/Back/sstsupport.rsi
+#  - type: Clothing
+#    sprite: Modsuits/Clothing/Back/sstsupport.rsi
+#  - type: ToggleableClothing
+#    clothingPrototype: ClothingOuterChestplateModsuitSSTOperativeSupportSealed
+#  - type: Storage
+#    maxItemSize: Huge
+#    grid:
+#    - 0,0,8,5
+#  - type: PointLight
+#    color: "#a0f1e8"
+#    enabled: false
+#    mask: /Textures/Effects/LightMasks/cone.png
+#    radius: 300
+#    softness: 20
+#    autoRot: true
+#  - type: StaticPrice
+#    price: 150000
+
+- type: entity
+  parent: ClothingControlModsuitBase
+  id: ClothingControlModsuitIndustrialSealed
+  name: nakamura engineers modsuit controler
+  description: An industrial nakamura engineer modsuit controler.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Back/nakamuraengineer.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Back/nakamuraengineer.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterChestplateModsuitIndustrialSealed
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,4
+  - type: PointLight
+    color: "#a0f1e8"
+    enabled: false
+    mask: /Textures/Effects/LightMasks/cone.png
+    radius: 35
+    softness: 20
+    autoRot: true
+  - type: StaticPrice
+    price: 6000
+
+- type: entity
+  parent: ClothingControlModsuitBase
+  id: ClothingControlModsuitPMCSealed
+  name: PMC modsuit controler
+  description: An advanced PMC modsuit controler.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Back/pmc.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Back/pmc.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingOuterChestplateModsuitPMCSealed
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,4
+  - type: PointLight
+    color: "#a0f1e8"
+    enabled: false
+    mask: /Textures/Effects/LightMasks/cone.png
+    radius: 35
+    softness: 20
+    autoRot: true
+  - type: StaticPrice
+    price: 25000
