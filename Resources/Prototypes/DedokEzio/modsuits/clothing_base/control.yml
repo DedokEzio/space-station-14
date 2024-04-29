@@ -549,7 +549,7 @@
   - type: StaticPrice
     price: 35000
 
-    - type: entity
+- type: entity
   parent: ClothingControlModsuitBase
   id: ClothingControlModsuitRND2Sealed
   name: advanced RND modsuit controler
