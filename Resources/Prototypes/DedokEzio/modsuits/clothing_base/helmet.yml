@@ -1,0 +1,428 @@
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetModsuitBase
+  noSpawn: true
+  abstract: true # test
+  name: basic modsuit helmet
+  description: Special modsuit helmet made for mass production modsuits.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/advanced.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/advanced.rsi
+    equipSound: Audio/Modsuits/ballin.ogg
+    unequipSound: Audio/Modsuits/ballout.ogg
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.85
+        Piercing: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitCESealed
+  noSpawn: true
+  name: CE modsuit helmet
+  description: Special modsuit helmet made for CE modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/advanced.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/advanced.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Heat: 0.85
+        Piercing: 0.9
+  - type: PressureProtection
+    highPressureMultiplier: 0.005
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitEngineerSealed
+  noSpawn: true
+  name: engineering modsuit helmet
+  description: Special modsuit helmet made for engineering modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/engineer.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/engineer.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.9
+        Shock: 0.9
+        Heat: 0.8
+        Radiation: 0.25
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitRNDSealed
+  noSpawn: true
+  name: RND modsuit helmet
+  description: Special modsuit helmet made for scientist modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/rnd.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/rnd.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.95
+        Piercing: 0.95
+        Shock: 0.3
+        Caustic: 0.2
+        Radiation: 0.4
+        Heat: 0.8
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitAtmosphericsSealed
+  noSpawn: true
+  name: atmospheric modsuit helmet
+  description: Special modsuit helmet made for atmospheric technican modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/atmospheric.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/atmospheric.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.9
+        Radiation: 0.25
+        Heat: 0.5
+        Piercing: 0.85
+  - type: PressureProtection
+    highPressureMultiplier: 0.001
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitMedicalSealed
+  noSpawn: true
+  name: medical modsuit helmet
+  description: Special modsuit helmet made for meical doctor modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/medical.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/medical.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Radiation: 0.9
+        Heat: 0.85
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitCMOSealed
+  noSpawn: true
+  name: CMO modsuit helmet
+  description: Special modsuit helmet made for CMO modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/cmo.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/cmo.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Heat: 0.7
+        Piercing: 0.9
+        Radiation: 0.2
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitCivillianSealed
+  noSpawn: true
+  name: civilian modsuit helmet
+  description: Special modsuit helmet made for civilian modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/civillian.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/civillian.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.95
+        Radiation: 0.85
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitMagnateSealed
+  noSpawn: true
+  name: captain modsuit helmet
+  description: Special modsuit helmet made for captain modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/magnate.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/magnate.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Radiation: 0.35
+        Heat: 0.65
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitSecuritySealed
+  noSpawn: true
+  name: security modsuit helmet
+  description: Special modsuit helmet made for security modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/security.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Radiation: 0.7
+        Heat: 0.8
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitHOSSealed
+  noSpawn: true
+  name: HOS modsuit helmet
+  description: Special modsuit helmet made for HOS modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/hos.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/hos.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.75
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.85
+        Radiation: 0.7
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitSalvageSealed
+  noSpawn: true
+  name: salvage modsuit helmet
+  description: Special modsuit helmet made for salvage specialist modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/salvage.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/salvage.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.9
+        Radiation: 0.65
+        Heat: 0.8
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitMinerSealed
+  noSpawn: true
+  name: miner modsuit helmet
+  description: Special modsuit helmet made for miner modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/miner.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/miner.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Heat: 0.8
+        Piercing: 0.9
+        Radiation: 0.25
+        Slash: 0.85
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitOperativeSealed
+  noSpawn: true
+  name: operative modsuit helmet
+  description: Special modsuit helmet made for nuclear operative modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/nukeops.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/nukeops.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.85
+        Heat: 0.75
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: EyeProtection
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitOperativeCMDSealed
+  noSpawn: true
+  name: operative commander modsuit helmet
+  description: Special modsuit helmet made for nuclear operatives commander modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/nukeopscmd.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/nukeopscmd.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Caustic: 0.65
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: EyeProtection
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitOperativeSealed
+  id: ClothingHeadHelmetModsuitCCSealed
+  noSpawn: true
+  name: central command modsuit helmet
+  description: Expensive helmet for corporate modsuit.
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/corporate.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/corporate.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Caustic: 0.9
+        Heat: 0.85
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitOperativeSealed
+  id: ClothingHeadHelmetModsuitHonkOperativeSealed
+  noSpawn: true
+  name: CLOWOPERATIVE modsuit helmet
+  description: WTF, THIS IS LOOCKS NORMAL?! I DONT BELIAVE MY EYES!!!
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/nukeopsclown.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/nukeopsclown.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetModsuitBase
+  id: ClothingHeadHelmetModsuitApocryphalSealed
+  noSpawn: true
+  name: dethquadrone modsuit helmet
+  description: KILL EM!
+  components:
+  - type: Sprite
+    sprite: Modsuits/Clothing/Head/apocryphal.rsi
+  - type: Clothing
+    sprite: Modsuits/Clothing/Head/apocryphal.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Shock: 0.5
+        Caustic: 0.95
+        Radiation: 0.8
+        Heat: 0.8
+        Piercing: 0.8
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: FlashImmunity
+  - type: EyeProtection
