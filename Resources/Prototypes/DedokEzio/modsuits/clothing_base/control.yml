@@ -472,9 +472,9 @@
   description: A Gourlex Maroderous modsuit controler made for operative commanders.
   components:
   - type: Sprite
-    sprite: Imperial/Modsuits/Clothing/Back/nukeopscmd.rsi
+    sprite: Modsuits/Clothing/Back/nukeopscmd.rsi
   - type: Clothing
-    sprite: Imperial/Modsuits/Clothing/Back/nukeopscmd.rsi
+    sprite: Modsuits/Clothing/Back/nukeopscmd.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingOuterChestplateModsuitOperativeCMDSealed
     slot: outerClothing
