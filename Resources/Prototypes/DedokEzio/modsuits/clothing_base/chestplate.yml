@@ -2,7 +2,7 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterChestplateModsuitSealedBase
   name: basic modsuit
-  abstract: false # test
+  abstract: true # test
   noSpawn: true
   description: Standart modsuit made for mass production.
   components:
