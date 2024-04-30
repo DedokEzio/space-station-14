@@ -10,8 +10,10 @@
     sprite: Modsuits/Clothing/Head/advanced.rsi
   - type: Clothing
     sprite: Modsuits/Clothing/Head/advanced.rsi
-    equipSound: Audio/Modsuits/ballin.ogg
-    unequipSound: Audio/Modsuits/ballout.ogg
+    equipSound: 
+     path: /Audio/Modsuits/ballin.ogg
+    unequipSound: 
+     path: /Audio/Modsuits/ballout.ogg
   - type: Armor
     modifiers:
       coefficients:
