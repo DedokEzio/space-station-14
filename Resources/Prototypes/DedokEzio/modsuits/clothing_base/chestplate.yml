@@ -10,8 +10,10 @@
     sprite: Modsuits/Clothing/OuterClothing/advanced.rsi
   - type: Clothing
     sprite: Modsuits/Clothing/OuterClothing/advanced.rsi
-    equipSound: Audio/Modsuits/ballin.ogg
-    unequipSound: Audio/Modsuits/ballout.ogg
+    equipSound: 
+     path: /Audio/Modsuits/ballin.ogg
+    unequipSound: 
+     path: /Audio/Modsuits/ballout.ogg
   - type: PressureProtection
     highPressureMultiplier: 0.002
     lowPressureMultiplier: 1000
