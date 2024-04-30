@@ -462,9 +462,9 @@
   description: Advanced modsuit helmet made for engineer modsuit.
   components:
   - type: Sprite
-    sprite: Imperial/Modsuits/Clothing/Head/engineer2.rsi
+    sprite: Modsuits/Clothing/Head/engineer2.rsi
   - type: Clothing
-    sprite: Imperial/Modsuits/Clothing/Head/engineer2.rsi
+    sprite: Modsuits/Clothing/Head/engineer2.rsi
   - type: Armor
     modifiers:
       coefficients:
