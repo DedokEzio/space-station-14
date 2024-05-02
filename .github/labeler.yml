@@ -13,7 +13,8 @@
   - any-glob-to-any-file: '**/*.xaml*'
 
 "Changes: Localization":
-- 'Resources/Locale/**/*.ftl'
+- changed-files:
+  - any-glob-to-any-file: '**/*.ftl'
 
 "No C#":
 - changed-files:
