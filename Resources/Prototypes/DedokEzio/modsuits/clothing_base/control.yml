@@ -9,9 +9,9 @@
   - type: Clothing
     sprite: Clothing/Back/Modsuits/advanced.rsi
     equipSound: 
-     path: /Audio/Modsuits/ballin.ogg
+     path: /Audio/Mecha/mechmove03.ogg
     unequipSound: 
-     path: /Audio/Modsuits/ballout.ogg
+     path: /Audio/Mecha/mechmove03.ogg
   - type: Armor
     modifiers:
       coefficients:
