@@ -68,6 +68,9 @@
             "name": "stamp-warden"
         },
         {
+            "name": "stamp-coroner"
+        },
+        {
             "name": "stamp-magistrat"
         }
     ]
