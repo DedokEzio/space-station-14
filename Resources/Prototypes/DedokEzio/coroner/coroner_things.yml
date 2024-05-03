@@ -47,7 +47,7 @@
     stampedColor: "#777777"
     stampState: "paper_stamp-coroner"
   - type: Sprite
-    sprite: Objects/Misc/stamp.rsi
+    sprite: Objects/Misc/stamps.rsi
     state: stamp-coroner
 
 - type: entity
