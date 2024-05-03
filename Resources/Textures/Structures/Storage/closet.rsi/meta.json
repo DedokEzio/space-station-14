@@ -569,6 +569,15 @@
       "name": "mag_open"
     },
     {
+      "name": "coroner"
+    },
+    {
+      "name": "coroner_door"
+    },
+    {
+      "name": "coroner_open"
+    },
+    {
       "name": "bs"
     },
     {
