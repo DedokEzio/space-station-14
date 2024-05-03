@@ -33,7 +33,7 @@
     pocket1: Paper
     shoes: ClothingShoesColorWhite
     mask: ClothingMaskSterile
-    head: ClothingHeadHatSurgcapRed
+    head: ClothingHeadHatSurgcapPurple
     id: CoronerPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
