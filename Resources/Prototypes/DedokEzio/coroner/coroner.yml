@@ -42,7 +42,7 @@
   #satchel: ClothingBackpackSatchelMedicalFilled
   #duffelbag: ClothingBackpackDuffelMedicalFilled
 
- - type: entity
+- type: entity
   id: SpawnPointCoroner
   parent: SpawnPointJobBase
   name: coroner
@@ -57,7 +57,7 @@
 - type: playTimeTracker
   id: JobCoroner
 
-  - type: statusIcon
+- type: statusIcon
   parent: JobIcon
   id: JobIconCoroner
   icon:
