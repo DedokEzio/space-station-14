@@ -1,0 +1,73 @@
+- type: entity
+  parent: BaseMedicalPDA
+  id: CoronerPDA
+  name: coroner PDA
+  description: Smells like ammoniam.
+  components:
+    - type: Pda
+      id: CoronerIDCard
+      state: pda-coroner
+    - type: Icon
+      state: pda-coroner
+    - type: HealthAnalyzer
+      scanDelay: 6
+
+- type: entity
+  id: LockerCoroner
+  parent: LockerBaseSecure    
+  name: coroner locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: coroner
+    stateDoorOpen: coroner_open
+    stateDoorClosed: coroner_door
+  - type: AccessReader
+    access: [ [ "Medical" ] ]
+
+- type: entity
+  parent: IDCardStandard
+  id: CoronerIDCard
+  name: medical coroner ID card
+  components:
+    - type: PresetIdCard
+      job: Coroner
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idcoroner
+
+- type: entity
+  name: coroner rubber stamp
+  parent: RubberStampBase
+  id: RubberStampCoroner
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-coroner
+    stampedColor: "#777777"
+    stampState: "paper_stamp-coroner"
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: stamp-coroner
+
+- type: entity
+  id: LockerCoronerFilled
+  suffix: Filled
+  parent: LockerCoroner
+  components:
+  - type: StorageFill
+    contents:
+      - id: Scalpel
+      - id: HandLabeler
+      - id: ClothingHandsGlovesNitrile
+      - id: BoxFolderBlue
+      - id: Dropper
+      - id: BoxSyringe
+      - id: BoxBodyBag
+      - id: Paper
+        amount: 10
+      - id: MedkitOxygenFilled
+      - id: MedkitBruteFilled
+      - id: MedkitToxinFilled
+      - id: MedkitBurnFilled
+      - id: RubberStampCoroner
