@@ -344,6 +344,10 @@
       - EnergyDomeDirectionalTurtle
   - type: EmagLatheRecipes
     emagDynamicRecipes:
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxLightRifleRubber
+      - MagazineBoxRifleRubber
       - ExplosivePayload
       - WeaponLaserCarbine
       - WeaponLaserPistol
@@ -688,10 +692,6 @@
     idleState: icon
     runningState: icon
     staticRecipes:
-      - MagazineBoxPistolRubber
-      - MagazineBoxMagnumRubber
-      - MagazineBoxRifleRubber
-      - MagazineBoxLightRifleRubber
       - BoxLethalshot
       - BoxShotgunFlare
       - BoxShotgunPractice
@@ -732,6 +732,10 @@
       - WeaponLaserCarbinePractice
       - Zipties
     dynamicRecipes:
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifleRubber
       - BoxBeanbag
       - BoxShotgunIncendiary
       - BoxShotgunUranium
