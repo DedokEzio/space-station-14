@@ -200,6 +200,9 @@
       "name": "warden"
     },
     {
+      "name": "coroner"
+    },
+    {
       "name": "zookeeper"
     }
   ]
