@@ -80,6 +80,7 @@
   - Psychologist
   - Paramedic
   - SeniorPhysician # dedok seniors
+  - Coroner
   accountNumber: 1319 #backmen: currency
 
 - type: department
