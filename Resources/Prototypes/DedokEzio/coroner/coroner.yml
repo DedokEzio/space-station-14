@@ -37,6 +37,7 @@
     id: CoronerPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
+    outerClothing: ClothingOuterApronBar
   #innerclothingskirt: ClothingUniformJumpskirtCoroner
   #satchel: ClothingBackpackSatchelMedicalFilled
   #duffelbag: ClothingBackpackDuffelMedicalFilled
