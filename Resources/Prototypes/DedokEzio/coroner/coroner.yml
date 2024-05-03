@@ -1,0 +1,64 @@
+- type: job
+  id: Coroner
+  name: Coroner
+  description: Performs autopsies on corpses, returns ID cards of non-cloned employees to the head of personal, and keeps the morgue clean.
+  playTimeTracker: JobCoroner
+  joinNotifyCrew: true
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 14400
+  startingGear: CoronerGear
+  icon: "JobIconCoroner"
+  supervisors: job-supervisors-cmo
+  canBeAntag: true
+  setPreference: true
+  access:
+  - Medical
+  - Maintenance
+  extendedAccess:
+  - Chemistry
+  #start-backmen: currency
+  minBankBalance: 150
+  maxBankBalance: 250
+  wageDepartment: Medical
+  wage: 50
+  #end-backmen: currency
+
+- type: startingGear
+  id: CoronerGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCoroner
+    back: ClothingBackpackMedicalFilled
+    pocket1: Paper
+    shoes: ClothingShoesColorWhite
+    mask: ClothingMaskSterile
+    head: ClothingHeadHatSurgcapRed
+    id: CoronerPDA
+    ears: ClothingHeadsetMedical
+    belt: ClothingBeltMedicalFilled
+  #innerclothingskirt: ClothingUniformJumpskirtCoroner
+  #satchel: ClothingBackpackSatchelMedicalFilled
+  #duffelbag: ClothingBackpackDuffelMedicalFilled
+
+ - type: entity
+  id: SpawnPointCoroner
+  parent: SpawnPointJobBase
+  name: coroner
+  components:
+  - type: SpawnPoint
+    job_id: Coroner
+  - type: Sprite
+    layers:
+      - state: green
+      - state: coroner
+ 
+- type: playTimeTracker
+  id: JobCoroner
+
+  - type: statusIcon
+  parent: JobIcon
+  id: JobIconCoroner
+  icon:
+    sprite: Interface/Misc/job_icons.rsi
+    state: Coroner
