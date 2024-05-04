@@ -51,7 +51,7 @@
     gloves: ClothingHandsGlovesColorWhite
     outerClothing: ClothingUniformMagistrate
     id: MagistratPDA
-    ears: ClothingHeadsetJudge
+    ears: ClothingHeadsetMagistrate
     head: ClothingHeadJudge
     neck: ClothingNeckLawyerbadge
     pocket1: Flash
