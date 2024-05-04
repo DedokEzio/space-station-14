@@ -907,7 +907,7 @@
     - type: Sprite
       layers:
         - state: silver
-        - state: idmagistrat
+        - state: idjudge
     - type: PresetIdCard
       job: Magistrat
 
