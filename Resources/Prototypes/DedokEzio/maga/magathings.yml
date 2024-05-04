@@ -1,0 +1,74 @@
+- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetMagistrate
+  name: magistrate headset
+  description: This is used by justice.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyCommon
+      - EncryptionKeyCommand
+      - EncryptionKeyCentCom
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/judge.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/judge.rsi
+
+ - type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadJudge
+  name: Judge Hat
+  description: Old-fashioned hat... this is hat, right?
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/magr_hair.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/magr_hair.rsi
+
+ - type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingUniformMagistrate
+  name: Magistrate mantle
+  description: Smells like justice
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Misc/magistrat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Misc/magistrat.rsi
+
+ - type: entity
+  name: judge hammer
+  parent: BaseItem
+  id: MagistratHammer  
+  description: It has a symbolic of NT
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/judge_hammer.rsi
+    state: icon
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/molotochic.ogg
+    wideAnimationRotation: 135
+    damage:
+      types:
+        Blunt: 3
+  - type: StaminaDamageOnHit
+    damage: 15
+  - type: Item
+    size: Small
+  - type: Clothing
+    sprite: Objects/Weapons/Melee/judge_hammer.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: StaticPrice
+    price: 100
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconJudge
+  icon:
+    sprite: Interface/Misc/job_icons.rsi 
+    state: Judge
