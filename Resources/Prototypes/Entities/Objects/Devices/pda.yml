@@ -1098,7 +1098,7 @@
   components:
   - type: Pda
     id: MagistratIDCard
-    state: pda-lawyer
+    state: pda-judge
     penSlot:
       startingItem: PenCentcom
       priority: -1
@@ -1106,9 +1106,9 @@
         tags:
         - Write
   - type: PdaBorderColor
-    borderColor: "#6f6192"
+    borderColor: "#40496d"
   - type: Icon
-    state: pda-lawyer
+    state: pda-judge
 
 - type: entity
   parent: BasePDA

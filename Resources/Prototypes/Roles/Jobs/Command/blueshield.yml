@@ -34,7 +34,7 @@
   - CCSecurity
   minBankBalance: 300
   maxBankBalance: 500
-  wageDepartment: CentCom
+  wageDepartment: Command
   wage: 80
   special:
   - !type:AddComponentSpecial
