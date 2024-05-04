@@ -14,7 +14,7 @@
       role: JobIAA
       time: 90000 #25 hrs
   startingGear: MagistratGear
-  icon: "JobIconMagistrat"
+  icon: "JobIconJudge"
   supervisors: job-supervisors-centcom
   canBeAntag: false
   setPreference: true
@@ -27,7 +27,7 @@
   - CentralCommand
   minBankBalance: 800
   maxBankBalance: 1000
-  wageDepartment: CentCom
+  wageDepartment: Command
   wage: 80
   special:
   - !type:AddComponentSpecial
@@ -49,14 +49,14 @@
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesColorWhite
-    outerClothing: ClothingMagistrateroba
+    outerClothing: ClothingUniformMagistrate
     id: MagistratPDA
-    ears: ClothingHeadsetAltCentCom
-    head: ClothingHeadHatPwig
+    ears: ClothingHeadsetJudge
+    head: ClothingHeadJudge
     neck: ClothingNeckLawyerbadge
     pocket1: Flash
-#  inhand:
-#    - BriefcasemagistratFilled
+  inhand:
+    - BriefcasemagistratFilled
 #  innerClothingSkirt: MagistratUniformSuit
 #  satchel: ClothingBackpackSatchelFilled
 #  duffelbag: ClothingBackpackDuffelFilled
