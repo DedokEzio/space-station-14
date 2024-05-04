@@ -238,6 +238,9 @@
     },
     {
       "name": "pda-blueshield"
+    },
+    {
+      "name": "pda-judge"
     }
   ]
 }
