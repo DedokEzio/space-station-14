@@ -407,7 +407,7 @@
   components:
   - type: Sprite
     sprite: Structures/Furniture/chairs.rsi
-    state: leather_sofa_corner
+    state: sofacorner
 
 - type: entity
   name: leather sofa
@@ -416,7 +416,7 @@
   components:
   - type: Sprite
     sprite: Structures/Furniture/chairs.rsi
-    state: leather_sofa_left
+    state: sofaleft
 
 - type: entity
   name: leather sofa
@@ -425,7 +425,7 @@
   components:
   - type: Sprite
     sprite: Structures/Furniture/chairs.rsi
-    state: leather_sofa_middle
+    state: sofamiddle
 
 - type: entity
   name: leather sofa
@@ -434,4 +434,4 @@
   components:
   - type: Sprite
     sprite: Structures/Furniture/chairs.rsi
-    state: leather_sofa_right
+    state: sofaright
