@@ -16,7 +16,7 @@
   - type: Clothing
     sprite: Clothing/Ears/Headsets/judge.rsi
 
- - type: entity
+- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadJudge
   name: Judge Hat
@@ -27,7 +27,7 @@
   - type: Clothing
     sprite: Clothing/Head/Hats/magr_hair.rsi
 
- - type: entity
+- type: entity
   parent: ClothingOuterStorageBase
   id: ClothingUniformMagistrate
   name: Magistrate mantle
@@ -38,7 +38,7 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/magistrat.rsi
 
- - type: entity
+- type: entity
   name: judge hammer
   parent: BaseItem
   id: MagistratHammer  
