@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingEyesGlassesSunglasses
   id: ClothingEyesGlassesCommand
-  name: Command glasses
+  name: skill-hud sunglasses
   description: Upgraded sunglasses often worn by Command Personnel. Seem to exude authority.
   components:
   - type: Sprite
