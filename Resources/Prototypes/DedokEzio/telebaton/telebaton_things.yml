@@ -13,12 +13,12 @@
   - type: MeleeWeapon
     damage:
       types:
-        Blunt: 3
+        Blunt: 5
     angle: 45
     animation: WeaponArcSlash
   - type: Telebaton
   - type: StaminaDamageOnHit
-    damage: 27
+    damage: 25
     sound: /Audio/Weapons/Telebaton/bonk-sound-effect.ogg
   - type: UseDelay
     delay: 1.0
