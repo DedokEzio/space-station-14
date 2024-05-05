@@ -12,9 +12,9 @@ namespace Content.Server.Imperial.Telebaton
     public float onThrowStunChance { get; set; } = 0.7f;
 
     [DataField("stunSound")]
-    public SoundSpecifier stunsound { get; set; } = new SoundPathSpecifier("/Audio/Imperial/Batonening/bonk-sound-effect.ogg");
+    public SoundSpecifier stunsound { get; set; } = new SoundPathSpecifier("/Audio/Weapons/Telebaton/bonk-sound-effect.ogg");
 
     [DataField("extendSound")]
-    public SoundSpecifier extendsound { get; set; } = new SoundPathSpecifier("/Audio/Imperial/Batonening/batonextend.ogg");
+    public SoundSpecifier extendsound { get; set; } = new SoundPathSpecifier("/Audio/Weapons/Telebaton/batonextend.ogg");
   }
 }
