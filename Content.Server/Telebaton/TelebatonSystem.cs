@@ -13,7 +13,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
 
-namespace Content.Server.Imperial.Telebaton
+namespace Content.Server.Telebaton
 {
     public sealed partial class TelebatonSystem : EntitySystem
     {
@@ -75,8 +75,8 @@ namespace Content.Server.Imperial.Telebaton
         private void OnExamined(EntityUid uid, TelebatonComponent component, ExaminedEvent args)
         {
             var msg = component.Activated
-                ? Loc.GetString("melee-telebaton-examined-extended")
-                : Loc.GetString("melee-telebaton-examined-retracted");
+                ? Loc.GetString("Оно в [color=#da3d30]разложенном[/color] состоянии.")
+                : Loc.GetString("Оно в [color=#99e550]сложенном[/color] состоянии");
             args.PushMarkup(msg);
         }
 
