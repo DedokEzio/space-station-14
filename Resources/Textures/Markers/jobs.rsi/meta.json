@@ -203,6 +203,9 @@
       "name": "coroner"
     },
     {
+      "name": "nanorep"
+    },
+    {
       "name": "zookeeper"
     }
   ]
