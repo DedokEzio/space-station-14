@@ -2,7 +2,7 @@ using Content.Server.Stunnable.Systems;
 using Content.Shared.Timing;
 using Robust.Shared.Audio;
 
-namespace Content.Server.Imperial.Telebaton
+namespace Content.Server.Telebaton
 {
   [RegisterComponent, Access(typeof(TelebatonSystem))]
   public sealed partial class TelebatonComponent : Component 
