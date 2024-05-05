@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingEyesGlassesSunglasses
+  id: ClothingEyesGlassesCommand
+  name: skill-hud sunglasses
+  description: Upgraded sunglasses often worn by Command Personnel. Seem to exude authority.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
+  - type: ShowJobIcons
+  - type: ShowMindShieldIcons
+
+- type: latheRecipe
+  id: GlassesCommand
+  result: ClothingEyesGlassesCommand
+  completetime: 3
+  materials:
+    Steel: 200
+    Glass: 300
