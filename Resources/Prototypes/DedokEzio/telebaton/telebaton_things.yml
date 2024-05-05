@@ -39,7 +39,7 @@
     activatedSize: Normal
 
 - type: latheRecipe
-  id: TelescopicBatonRecipe
+  id: TelescopicBaton
   result: Telebaton
   completetime: 8
   materials:
