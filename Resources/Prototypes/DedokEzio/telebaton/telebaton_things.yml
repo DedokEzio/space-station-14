@@ -2,7 +2,7 @@
   name: telescopic baton
   parent: BaseItem
   id: Telebaton
-  desctiption: A compact and elegant tool for subjugating your staff when they feel like not taking orders.
+  description: A compact and elegant tool for subjugating your staff when they feel like not taking orders.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/telescopic.rsi
@@ -19,7 +19,7 @@
   - type: Telebaton
   - type: StaminaDamageOnHit
     damage: 27
-    sound: /Audio/Telebaton/bonk-sound-effect.ogg
+    sound: /Audio/Weapons/Telebaton/bonk-sound-effect.ogg
   - type: UseDelay
     delay: 1.0
   - type: Item
