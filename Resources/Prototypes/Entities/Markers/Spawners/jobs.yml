@@ -334,7 +334,6 @@
     layers:
       - state: green
       - state: blueshield
-      - state: jobicon
 
 - type: entity
   id: SpawnPointMagistrat
@@ -348,7 +347,6 @@
     layers:
       - state: green
       - state: magistrat
-      - state: jobicon
 
 - type: entity
   id: SpawnPointIAA
@@ -372,6 +370,7 @@
   - type: Sprite
     layers:
       - state: green
+      - state: nanorep
 
 # Engineering
 
