@@ -49,7 +49,7 @@
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesColorWhite
-    outerClothing: ClothingUniformMagistrate
+    outerClothing: ClothingMagistrateroba
     id: MagistratPDA
     ears: ClothingHeadsetMagistrate
     head: ClothingHeadJudge
