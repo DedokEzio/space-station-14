@@ -53,6 +53,7 @@
       - id: Flash
       - id: ForensicPad
       - id: ForensicScanner
+      - id: Telebaton
 
 # Backmen Brigmedic Satchel
 
@@ -65,6 +66,7 @@
     contents:
       - id: BoxSurvivalSecurity
       - id: Flash
+      - id: Telebaton
 
 - type: entity
   noSpawn: true
@@ -95,7 +97,7 @@
       - id: BoxSurvival
       - id: Flash
       #- name: StationCharter
-      #- name: TelescopicBaton
+      - id: Telebaton
 
 - type: entity
   noSpawn: true
@@ -106,7 +108,7 @@
     contents:
       - id: BoxSurvivalEngineering
       - id: Flash
-      #- id: TelescopicBaton
+      - id: Telebaton
 
 - type: entity
   noSpawn: true
@@ -117,7 +119,7 @@
     contents:
       - id: BoxSurvival
       - id: Flash
-      #- id: TelescopicBaton
+      - id: Telebaton
 
 - type: entity
   noSpawn: true
@@ -128,7 +130,7 @@
     contents:
       - id: BoxSurvival
       - id: Flash
-      #- id: TelescopicBaton
+      - id: Telebaton
 
 - type: entity
   noSpawn: true
@@ -150,7 +152,7 @@
     contents:
       - id: BoxSurvival
       - id: Flash
-      #- id: TelescopicBaton
+      - id: Telebaton
 
 - type: entity
   noSpawn: true
@@ -262,6 +264,7 @@
       - id: Lighter
       - id: CigPackBlack
       - id: HandLabeler
+      - id: Telebaton
 
 - type: entity
   noSpawn: true
