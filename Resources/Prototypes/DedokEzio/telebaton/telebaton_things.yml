@@ -1,0 +1,46 @@
+- type: entity
+  name: telescopic baton
+  parent: BaseItem
+  id: Telebaton
+  description: A compact and elegant tool for subjugating your staff when they feel like not taking orders.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/telescopic.rsi
+    netsync: false
+    layers:
+    - state: telebaton_retracted
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 5
+    angle: 45
+    animation: WeaponArcSlash
+  - type: Telebaton
+  - type: StaminaDamageOnHit
+    damage: 25
+    sound: /Audio/Weapons/Telebaton/bonk-sound-effect.ogg
+  - type: UseDelay
+    delay: 1.0
+  - type: Item
+    heldPrefix: off
+    size: Tiny
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: telebaton_extended}
+          False: {state: telebaton_retracted}
+  - type: StaticPrice
+    price: 1350
+  - type: ItemToggle
+  - type: ItemToggleSize
+    activatedSize: Normal
+
+- type: latheRecipe
+  id: TelescopicBaton
+  result: Telebaton
+  completetime: 8
+  materials:
+    Steel: 1000
