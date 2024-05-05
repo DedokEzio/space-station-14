@@ -62,7 +62,7 @@
     jumpsuit: ClothingUniformJumpsuitNTRepresentive
     back: ClothingBackpackHOPFilled
     shoes: ClothingShoesBootsLaceup
-    eyes: ClothingEyesGlassesSecurity
+    eyes: ClothingEyesGlassesCommand
     gloves: ClothingHandsGlovesColorWhite
     outerClothing: ClothingOuterCoatDetectiveDark
     id: NanotrasenRepresentivePDA
