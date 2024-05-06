@@ -6,24 +6,21 @@
   suffix: "Empty"
   components:
   - type: Sprite
-    sprite: DarkStation/Objects/Tools/groundpepper.rsi
-    state: groundpepper
+    sprite: Objects/Misc/pepperspray.rsi
+    state: icon
   - type: Tag
     tags:
     - Spray
   - type: Item
-    sprite: Objects/Misc/groundpepper.rsi
+    sprite: Objects/Misc/pepperspray.rsi
 
 - type: entity
   name: Pepper Spray
   id: PepperSprayFilled
-  parent: SprayBottle
+  parent: PepperSprayEmpty
   description: Take care of your peace with a pepper guardian angel in your pocket.
   suffix: "Filled"
   components:
-  - type: Sprite
-    sprite: DarkStation/Objects/Tools/groundpepper.rsi
-    state: groundpepper
   - type: SolutionContainerManager
     solutions:
       spray:
@@ -31,8 +28,3 @@
         reagents:
         - ReagentId: GroundPepper
           Quantity: 30
-  - type: Tag
-    tags:
-    - Spray
-  - type: Item
-    sprite: Objects/Misc/groundpepper.rsi
