@@ -12,8 +12,8 @@
 - type: cargoProduct
   id: CratePepperSpray
   icon:
-    sprite: Objects/Misc/groundpepper.rsi
-    state: groundpepper
+    sprite: Objects/Misc/pepperspray.rsi
+    state: icon
   product: CratePepperSprayFilled
   cost: 2000
   category: Security
