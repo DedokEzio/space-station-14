@@ -54,8 +54,10 @@
       - WhitelistChameleon
   - type: ContainerContainer
     containers:
-      storagebase: !type:Container
-        ents: []
+        storagebase: !type:Container
+         ents: []
+        toggleable-clothing: !type:ContainerSlot
+         ent: null
 
 - type: entity
   parent: ClothingControlModsuitBase
