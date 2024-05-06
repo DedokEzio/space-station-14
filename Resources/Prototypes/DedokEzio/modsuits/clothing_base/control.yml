@@ -52,6 +52,10 @@
   - type: Tag
     tags:
       - WhitelistChameleon
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingControlModsuitBase
