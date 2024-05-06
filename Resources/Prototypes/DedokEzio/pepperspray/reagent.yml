@@ -1,8 +1,8 @@
 - type: reagent
   id: GroundPepper
-  name: reagent-name-groundpepper
-  desc: reagent-desc-spicy
-  physicalDesc: reagent-physical-desc-spicy
+  name: ground pepper
+  desc: spicy
+  physicalDesc: spicy
   flavor: spicy
   color: "#FF2400"
   reactiveEffects:
