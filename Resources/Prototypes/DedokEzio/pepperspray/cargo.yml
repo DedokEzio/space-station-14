@@ -1,0 +1,19 @@
+- type: entity
+  id: CratePepperSprayFilled
+  parent: CratePlastic
+  name: Pepper spray crate
+  description: Contains 5 pepper sprays. A civil application is permitted.
+  components:
+  - type: StorageFill
+    contents:
+      - id: PepperSprayFilled
+        amount: 5
+
+- type: cargoProduct
+  id: CratePepperSpray
+  icon:
+    sprite: Objects/Misc/groundpepper.rsi
+    state: groundpepper
+  product: CratePepperSprayFilled
+  cost: 2000
+  category: Security
