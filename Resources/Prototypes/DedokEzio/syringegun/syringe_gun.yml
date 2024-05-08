@@ -1,0 +1,61 @@
+- type: entity
+  parent: BaseStorageItem
+  id: WeaponSyringeGunMedical
+  name: Syringe gun
+  description: Special Syringe gun for medical workers.
+  components:
+   - type: Storage
+     maxItemSize: Small
+     grid:
+     - 0,0,7,3
+     whitelist:
+      tags:
+      - Syringe
+   - type: Sprite
+     sprite: Objects/Weapons/Guns/Specific/syringegun.rsi
+     state: icon
+   - type: Clothing
+     quickEquip: false
+     slots:
+     - Back
+     - suitStorage
+   - type: Item
+     size: Large
+   - type: Gun
+     fireRate: 2
+     selectedMode: SemiAuto
+     availableModes:
+     - SemiAuto
+     soundGunshot:
+       path: /Audio/Effects/thunk.ogg
+     clumsyProof: true
+   - type: Appearance
+   - type: ContainerContainer
+     containers:
+       storagebase: !type:Container
+         ents: []
+   - type: ContainerAmmoProvider
+     container: storagebase
+
+- type: technology
+  id: SyringeGuns
+  name: research-technology-syringe-gun
+  icon:
+    sprite: Objects/Weapons/Guns/Specific/syringegun.rsi
+    state: icon
+  discipline: CivilianServices
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - SyringeGunMedical
+
+- type: latheRecipe
+  id: SyringeGunMedical
+  result: WeaponSyringeGunMedical
+  category: Tools
+  completetime: 8
+  materials:
+    Steel: 750
+    Glass: 150
+    Plastic: 300
+    Silver: 100

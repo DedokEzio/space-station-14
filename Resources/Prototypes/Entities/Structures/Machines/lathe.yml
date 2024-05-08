@@ -368,6 +368,7 @@
       - FauxTileAstroIce
       - FauxTileAstroSnow
       - OreBagOfHolding
+      - SyringeGunMedical
       - Ring
       - SapphireRing
       - GoldenRing
@@ -935,6 +936,7 @@
       - Hemostat
       - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - SyringeGunMedical
       - ChemicalPayload
       - HandheldCrewMonitor # dedok handheldcrewmonitor
       - CryostasisBeaker
