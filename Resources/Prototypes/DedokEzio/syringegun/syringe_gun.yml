@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseStorageItem
-  id: WeaponSyringeGun
+  id: WeaponSyringeGunMedical
   name: Syringe gun
   description: Special Syringe gun for medical workers.
   components:
@@ -35,3 +35,27 @@
        storagebase: !type:Container
          ents: []
    - type: ContainerAmmoProvider
+     container: storagebase
+
+- type: technology
+  id: SyringeGuns
+  name: Syringe guns
+  icon:
+    sprite: Objects/Weapons/Guns/Specific/syringegun.rsi
+    state: icon
+  discipline: CivilianServices
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - SyringeGunMedical
+
+- type: latheRecipe
+  id: SyringeGunMedical
+  result: WeaponSyringeGunMedical
+  category: Tools
+  completetime: 8
+  materials:
+    Steel: 750
+    Glass: 150
+    Plastic: 300
+    Silver: 100
