@@ -5,10 +5,10 @@
   description: Special Syringe gun for medical workers.
   components:
    - type: Storage
-    maxItemSize: Small
-    grid:
-    - 0,0,7,3
-    whitelist:
+     maxItemSize: Small
+     grid:
+     - 0,0,7,3
+     whitelist:
       tags:
       - Syringe
   - type: Sprite
