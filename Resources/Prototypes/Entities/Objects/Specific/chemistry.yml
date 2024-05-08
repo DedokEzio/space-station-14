@@ -362,7 +362,7 @@
     tags:
     - Syringe
   - type: SolutionInjectOnProjectileHit
-    transferAmount: 10
+    transferAmount: 15
     solution: injector
   - type: InjectableSolution
     solution: injector
@@ -372,7 +372,7 @@
     transferAmount: 5
   - type: MeleeWeapon
     wideAnimationRotation: -115
-    attackRate: 3.5
+    attackRate: 0.5
     damage:
       types:
         Piercing: 5
@@ -381,6 +381,9 @@
     damage:
       types:
         Piercing: 7
+  - type: SolutionInjectOnEmbed
+    transferAmount: 15
+    solution: injector
 
 - type: entity
   parent: BaseSyringe
