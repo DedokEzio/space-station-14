@@ -39,7 +39,7 @@
 
 - type: technology
   id: SyringeGuns
-  name: Syringe guns
+  name: research-technology-syringe-gun
   icon:
     sprite: Objects/Weapons/Guns/Specific/syringegun.rsi
     state: icon
