@@ -361,12 +361,8 @@
   - type: Tag
     tags:
     - Syringe
-  - type: SolutionInjectOnProjectileHit
-    transferAmount: 15
-    solution: injector
   - type: InjectableSolution
     solution: injector
-  - type: ChemicalAmmo
   - type: MeleeChemicalInjector
     solution: injector
     transferAmount: 5
