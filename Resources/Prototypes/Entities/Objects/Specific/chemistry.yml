@@ -361,6 +361,12 @@
   - type: Tag
     tags:
     - Syringe
+  - type: SolutionInjectOnProjectileHit
+    transferAmount: 10
+    solution: injector
+  - type: InjectableSolution
+    solution: injector
+  - type: ChemicalAmmo
 
 - type: entity
   parent: BaseSyringe
@@ -442,7 +448,6 @@
     tags:
     - Syringe
     - Trash
-
 
 - type: entity
   name: pill
