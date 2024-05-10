@@ -23,7 +23,6 @@
         amount: 3
       - id: ClothingHeadCage # backmen
         amount: 2
-      - id: SecurityHandheldCrewMonitor
 
 - type: entity
   id: LockerWardenFilled
@@ -53,7 +52,6 @@
         amount: 3
       - id: ClothingHeadCage # backmen
         amount: 2
-      - id: SecurityHandheldCrewMonitor
 
 - type: entity
   id: LockerSecurityFilled
