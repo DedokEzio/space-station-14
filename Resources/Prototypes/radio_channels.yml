@@ -98,7 +98,7 @@
 
 - type: radioChannel
   id: Juridical
-  name: chat-radio-juridical
+  name: juridical
   keycode: 'ю'
   frequency: 1348
   color: "#987654"
