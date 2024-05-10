@@ -167,7 +167,7 @@
   id: SpyCrewMonitor
   name: spy monitor
   description: A spy device capable of connecting to crew monitoring servers.
-  parent: HandheldCrewMonitor
+  parent: BaseHandheldCrewMonitor
   components:
   - type: Sprite
     sprite: Objects/Tools/spy_device.rsi
@@ -193,7 +193,7 @@
   id: SyndiCrewMonitor
   name: syndicate crew monitor
   description: The syndicated version of crew monitor, intercepts information from the server.
-  parent: HandheldCrewMonitor
+  parent: BaseHandheldCrewMonitor
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/syndihandheldcrewmonitor.rsi
