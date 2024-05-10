@@ -1,0 +1,43 @@
+- type: entity
+  id: CompactDefibrillator
+  parent: BaseDefibrillator
+  name: Advanced Compact defibrillator
+  description: An advanced compact defibrillator that 
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/compactdefib.rsi
+    layers:
+    - state: icon
+    - state: screen
+      map: [ "enum.ToggleVisuals.Layer" ]
+      visible: false
+      shader: unshaded
+    - state: ready
+      map: [ "enum.PowerDeviceVisualLayers.Powered" ]
+      shader: unshaded
+  - type: Item
+    size: Normal
+  - type: Defibrillator
+    zapHeal:
+      types:
+        Asphyxiation: -75
+
+#- type: entity
+#  name: compact defib power cell
+#  description: A small cell that self recharges. Used in advanced defibs.
+#  id: PowerCellCompactDefib
+#  parent: BasePowerCell
+#  components:
+#    - type: Sprite
+#      layers:
+#      - map: [ "enum.PowerCellVisualLayers.Base" ]
+#        state: antique
+#      - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+#        state: o2
+#        shader: unshaded
+#    - type: Battery
+#      maxCharge: 900
+#      startingCharge: 1000
+#    - type: BatterySelfRecharger
+#      autoRecharge: true
+#      autoRechargeRate: 5
