@@ -145,5 +145,4 @@
       - id: ClothingMaskSterile
       - id: HandheldGPSBasic
       - id: MedkitFilled
-        prob: 0.5
-      - id: ParamedicHandheldCrewMonitor
+        prob: 0.3
