@@ -121,6 +121,6 @@ public sealed class CrewMonitoringConsoleSystem : EntitySystem
             }
         }
 
-        _uiSystem.SetUiState(ui, new CrewMonitoringState(outputSensors));
+         _uiSystem.SetUiState(uid, CrewMonitoringUIKey.Key, new CrewMonitoringState(allSensors));
     }
 }
