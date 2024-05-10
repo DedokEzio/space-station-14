@@ -148,7 +148,7 @@
       - id: ClothingEyesGlassesSecurity
       - id: PinpointerNuclear
       - id: PinpointerUniversal
-      - id: HandheldCrewMonitor
+      - id: BSHandheldCrewMonitor
       - id: FlippoEngravedLighter
       - id: Hypospray
       - id: WeaponEnergyGunBS
@@ -182,7 +182,7 @@
       - id: ClothingEyesGlassesSecurity
       - id: PinpointerNuclear
       - id: PinpointerUniversal
-      - id: HandheldCrewMonitor
+      - id: BSHandheldCrewMonitor
       - id: FlippoEngravedLighter
       - id: Hypospray
       - id: ClothingOuterHardsuitBlueshield
@@ -325,7 +325,7 @@
       - id: ClothingHeadHatBeretCmo
       - id: ClothingOuterHardsuitMedical
       - id: Hypospray
-      - id: HandheldCrewMonitor
+      - id: CMOHandheldCrewMonitor
       - id: DoorRemoteMedical
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
@@ -352,7 +352,7 @@
       - id: ClothingBackpackDuffelSurgeryFilled
       - id: ClothingMaskSterile
       - id: Hypospray
-      - id: HandheldCrewMonitor
+      - id: CMOHandheldCrewMonitor
       - id: DoorRemoteMedical
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard

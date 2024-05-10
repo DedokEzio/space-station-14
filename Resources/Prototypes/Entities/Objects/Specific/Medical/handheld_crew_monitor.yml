@@ -1,11 +1,10 @@
 - type: entity
-  name: handheld crew monitor
+  name: base handheld crew monitor
   parent:
   - BaseItem
   - PowerCellSlotSmallItem
-  # CMO-only bud, don't add more.
-  # fuck you, now its not only cmo
-  id: HandheldCrewMonitor
+  abstract: true
+  id: BaseHandheldCrewMonitor
   description: A hand-held crew monitor displaying the status of suit sensors.
   components:
   - type: Sprite
@@ -22,6 +21,16 @@
       enum.CrewMonitoringUIKey.Key:
         type: CrewMonitoringBoundUserInterface
   - type: CrewMonitoringConsole
+    trackedDepartments:
+      - Command
+      - Security
+      - Civilian
+      - Cargo
+      - Engineering
+      - Medical
+      - Science
+      - Specific
+    # - Juridical
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: CrewMonitor
@@ -30,6 +39,13 @@
   - type: StationLimitedNetwork
   - type: StaticPrice
     price: 500
+
+- type: entity
+  id: HandheldCrewMonitor
+  name: standart handheld crew monitor
+  description: A hand-held crew monitor displaying the status of suit sensors. Maded for mass-production.
+  parent: BaseHandheldCrewMonitor
+  components:
   - type: Tag
     tags:
     - HighRiskItem
@@ -49,10 +65,109 @@
 # dedok handheldcrewmonitor start
 
 - type: entity
+  name: blueshield handheld crew monitor
+  parent: BaseHandheldCrewMonitor
+  id: BSHandheldCrewMonitor
+  components:
+  - type: Tag
+    tags:
+    - HighRiskItem
+  - type: StealTarget
+    stealGroup: HandheldCrewMonitor
+
+- type: entity
+  id: BSHandheldCrewMonitorEmpty
+  parent: BSHandheldCrewMonitor
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+
+- type: entity
+  name: cmo's handheld crew monitor
+  parent: BaseHandheldCrewMonitor
+  id: CMOHandheldCrewMonitor
+  components:
+  - type: Tag
+    tags:
+    - HighRiskItem
+  - type: StealTarget
+    stealGroup: HandheldCrewMonitor
+
+- type: entity
+  id: CMOHandheldCrewMonitorEmpty
+  parent: CMOHandheldCrewMonitor
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+
+- type: entity
+  name: paramedic handheld crew monitor
+  parent: BaseHandheldCrewMonitor
+  id: ParamedicHandheldCrewMonitor
+  description: A paramedic-specific hand-held crew monitor displaying the status of suit sensors. It only shows crew in a critical state or already dead.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
+    state: paramedic
+  - type: CrewMonitoringConsole
+    showConsciousListings: false
+    trackedDepartments:
+      - Command
+      - Security
+      - Civilian
+      - Cargo
+      - Engineering
+      - Medical
+      - Science
+      - Specific
+     #- Juridical
+
+- type: entity
+  id: ParamedicHandheldCrewMonitorEmpty
+  parent: ParamedicHandheldCrewMonitor
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+
+- type: entity
+  name: security handheld crew monitor
+  parent: BaseHandheldCrewMonitor
+  id: SecurityHandheldCrewMonitor
+  description: A security-specific hand-held crew monitor displaying the status of suit sensors.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
+    state: security
+  - type: CrewMonitoringConsole
+    trackedDepartments:
+      - Command
+      - Security
+     #- Juridical
+
+- type: entity
+  id: SecurityHandheldCrewMonitorEmpty
+  parent: SecurityHandheldCrewMonitor
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+
+- type: entity
   id: SpyCrewMonitor
   name: spy monitor
   description: A spy device capable of connecting to crew monitoring servers.
-  parent: HandheldCrewMonitor
+  parent: BaseHandheldCrewMonitor
   components:
   - type: Sprite
     sprite: Objects/Tools/spy_device.rsi
@@ -78,7 +193,7 @@
   id: SyndiCrewMonitor
   name: syndicate crew monitor
   description: The syndicated version of crew monitor, intercepts information from the server.
-  parent: HandheldCrewMonitor
+  parent: BaseHandheldCrewMonitor
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/syndihandheldcrewmonitor.rsi
