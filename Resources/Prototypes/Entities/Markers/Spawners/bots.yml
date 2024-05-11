@@ -26,3 +26,16 @@
     prototypes:
       - MobCleanBot
 
+- type: entity
+  name: supply bot spawner
+  id: SpawnMobSupplyBot
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Mobs/Silicon/Bots/supplybot.rsi
+        state: supplybot
+  - type: ConditionalSpawner
+    prototypes:
+      - MobSupplyBot
