@@ -196,6 +196,7 @@
   - type: ShowHealthIcons
     damageContainers:
     - Biological
+    - HalfSpirit
   - type: ShowSyndicateIcons
 
 - type: entity
