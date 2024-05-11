@@ -224,6 +224,40 @@
       - RiotShield
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
+    emagDynamicRecipes:
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxRifleRubber
+      - MagazineBoxLightRifleRubber
+      - BoxBeanbag
+      - BoxShotgunIncendiary
+      - BoxShotgunUranium
+      - GrenadeBlast
+      - GrenadeEMP
+      - GrenadeFlash
+      - MagazineBoxLightRifleIncendiary
+      - MagazineBoxLightRifleUranium
+      - MagazineBoxMagnumIncendiary
+      - MagazineBoxMagnumUranium
+      - MagazineBoxPistolIncendiary
+      - MagazineBoxPistolUranium
+      - MagazineBoxRifleIncendiary
+      - MagazineBoxRifleUranium
+      - MagazineGrenadeEmpty
+      - MagazineLightRifleIncendiary
+      - MagazineLightRifleUranium
+      - MagazinePistolIncendiary
+      - MagazinePistolUranium
+      - MagazineRifleIncendiary
+      - MagazineRifleUranium
+      - MagazineShotgunBeanbag
+      - MagazineShotgunIncendiary
+      - MagazineShotgunIncendiary
+      - PowerCageHigh
+      - PowerCageMedium
+      - PowerCageSmall
+      - SpeedLoaderMagnumIncendiary
+      - SpeedLoaderMagnumUranium
 
 - type: entity
   id: AutolatheHyperConvection
@@ -387,6 +421,11 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - TelescopicBaton
+      - MagazineBoxPistolRubber
+      - MagazineBoxMagnumRubber
+      - MagazineBoxLightRifleRubber
+      - MagazineBoxRifleRubber
 
 - type: entity
   id: ProtolatheHyperConvection
