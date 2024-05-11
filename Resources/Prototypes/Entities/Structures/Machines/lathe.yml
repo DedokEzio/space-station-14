@@ -346,11 +346,6 @@
       - EnergyDomeDirectionalTurtle
   - type: EmagLatheRecipes
     emagDynamicRecipes:
-      - TelescopicBaton
-      - MagazineBoxPistolRubber
-      - MagazineBoxMagnumRubber
-      - MagazineBoxLightRifleRubber
-      - MagazineBoxRifleRubber
       - ExplosivePayload
       - WeaponLaserCarbine
       - WeaponLaserPistol
