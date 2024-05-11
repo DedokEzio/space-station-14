@@ -25,3 +25,31 @@
   - type: ConditionalSpawner
     prototypes:
       - MechHonkerBattery
+
+- type: entity
+  name: HAMTR Spawner
+  id: SpawnMechHamtr
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Objects/Specific/Mech/mecha.rsi
+        state: hamtr
+  - type: ConditionalSpawner
+    prototypes:
+      - MechHamtrBattery
+
+- type: entity
+  name: Vim Spawner
+  id: SpawnMechVim
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - sprite: Objects/Specific/Mech/mecha.rsi
+        state: vim
+  - type: ConditionalSpawner
+    prototypes:
+      - MechVimBattery
