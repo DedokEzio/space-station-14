@@ -392,13 +392,6 @@
 
 - type: statusIcon
   parent: JobIcon
-  id: JobIconIAA
-  icon:
-    sprite: /Textures/Interface/Misc/job_icons.rsi
-    state: IAA
-
-- type: statusIcon
-  parent: JobIcon
   id: JobIconNanotrasenRepresentive
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
