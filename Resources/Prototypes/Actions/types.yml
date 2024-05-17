@@ -383,7 +383,6 @@
       state: chronobolt
     event: !type:ProjectileSpellEvent
       prototype: BulletKinetic
-      posData: !type:TargetCasterPos
 
 - type: entity
   id: ActionActivateSmokeImplant
