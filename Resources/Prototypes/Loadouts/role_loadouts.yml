@@ -439,3 +439,48 @@
   - Glasses
   - Trinkets
   - Inventory # Corvax-Loadouts
+
+- type: roleLoadout
+  id: JobBlueshield
+  groups:
+  - Trinkets
+
+- type: roleLoadout
+  id: JobMagistrat
+  groups:
+  - Trinkets
+  - CommonBackpack
+
+- type: roleLoadout
+  id: JobNanotrasenRepresentive
+  groups:
+  - Trinkets
+  - HoPBackpack
+
+- type: roleLoadout
+  id: JobSeniorEngineer
+  groups:
+  - Trinkets
+  - StationEngineerJumpsuit
+  - StationEngineerBackpack
+
+- type: roleLoadout
+  id: JobSeniorPhysician
+  groups:
+  - Trinkets
+  - MedicalBackpack
+  - MedicalDoctorJumpsuit
+
+- type: roleLoadout
+  id: JobSeniorResearcher
+  groups:
+  - Trinkets
+  - ScientistJumpsuit
+  - ScientistBackpack
+
+- type: roleLoadout
+  id: JobSeniorOfficer
+  groups:
+  - Trinkets
+  - SecurityBackpack
+  - SecurityJumpsuit
