@@ -401,6 +401,7 @@
   - CommonBackpack
   - Glasses
   - Trinkets
+  - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
   id: JobBlueshield
