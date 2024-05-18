@@ -803,6 +803,7 @@
       - WeaponLaserCarbinePractice
       - Zipties
     dynamicRecipes:
+      - EnergyBola
       - TelescopicBaton
       - MagazineBoxPistolRubber
       - MagazineBoxMagnumRubber

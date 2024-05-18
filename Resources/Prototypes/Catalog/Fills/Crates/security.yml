@@ -39,8 +39,12 @@
         amount: 2
       - id: BoxBeanbag
         amount: 2 #Backmen Rebalance End
-#      - Pepperspray
-#      - GrenadeTeargas
+      - id: PepperSprayFilled
+        amount: 3
+      - id: TearGasGrenade
+        amount: 3 
+      - id: EnergyBola
+        amount: 3
 
 - type: entity
   id: CrateSecurityRiot
@@ -62,7 +66,8 @@
         amount: 2 #Backmen Rebalance End
       - id: RiotShield
         amount: 2
-#      - SecGasmask
+      - id: ClothingMaskGasSwat
+        amount: 2
 
 - type: entity
   id: CrateSecuritySupplies
@@ -74,8 +79,10 @@
     contents:
       - id: BoxHandcuff
       - id: BoxSechud
-#      - SecBelt
-#      - SecGasmask
+      - id: ClothingBeltSecurity
+        amount: 3
+      - id: ClothingMaskGasSecurity
+        amount: 3
 #      - SpacelawBook
 
 - type: entity

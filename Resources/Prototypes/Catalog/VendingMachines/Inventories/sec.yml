@@ -21,7 +21,7 @@
     RiotBulletShield: 2
     RadioHandheldSecurity: 5
     PepperSprayFilled: 5
-    Bola: 5
+    EnergyBola: 5
   # security officers need to follow a diet regimen!
   contrabandInventory:
     FoodDonutHomer: 12
