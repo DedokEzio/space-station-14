@@ -487,6 +487,7 @@
         - Whistle
         - HolosignProjector
         - BalloonPopper
+        - Ensnaring
   - type: ItemMapper
     mapLayers:
       flashbang:
