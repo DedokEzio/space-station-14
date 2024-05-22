@@ -194,21 +194,6 @@
         },
         {
             "name": "Admin"
-        },
-        {
-            "name": "BlueShield"
-        },
-        {
-            "name": "NanotrasenRepresentive"
-        },
-        {
-            "name": "Magistrat"
-        },
-        {
-            "name": "Coroner"
-        },
-        {
-            "name": "Judge"
         }
     ]
 }
