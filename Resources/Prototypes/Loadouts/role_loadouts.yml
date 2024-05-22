@@ -8,6 +8,7 @@
   - CaptainBackpack
   - CaptainOuterClothing
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -19,6 +20,7 @@
   - HoPBackpack
   - HoPOuterClothing
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 # Civilian
@@ -33,6 +35,7 @@
   - PassengerShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -44,6 +47,7 @@
   - BartenderOuterClothing
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -53,6 +57,7 @@
   - CommonBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -65,6 +70,7 @@
   - ChefOuterClothing
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -74,6 +80,7 @@
   - CommonBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -84,6 +91,7 @@
   - LawyerBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -97,6 +105,7 @@
   - ChaplainOuterClothing
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -109,6 +118,7 @@
   - JanitorOuterClothing
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -120,6 +130,7 @@
   - BotanistOuterClothing
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -132,6 +143,7 @@
   - ClownShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -144,6 +156,7 @@
   - MimeOuterClothing
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -153,6 +166,7 @@
   - MusicianOuterClothing
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 # Cargo
@@ -167,6 +181,7 @@
   - QuartermasterShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -179,6 +194,7 @@
   - CargoTechnicianShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -189,6 +205,7 @@
   - SalvageSpecialistShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 # Engineering
@@ -202,6 +219,7 @@
   - ChiefEngineerOuterClothing
   - ChiefEngineerShoes
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -210,6 +228,7 @@
   - TechnicalAssistantJumpsuit
   - StationEngineerBackpack
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -222,6 +241,7 @@
   - StationEngineerShoes
   - StationEngineerID
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -232,6 +252,7 @@
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 # Science
@@ -247,6 +268,7 @@
   - ResearchDirectorShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -262,6 +284,7 @@
   - ScientistPDA
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -271,6 +294,7 @@
   - ScientistBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 # Security
@@ -287,6 +311,7 @@
   - SecurityOfficerPocket #Backmen
   - SecurityOfficerPocket2 #Backmen
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -301,6 +326,7 @@
   - SecurityPocket #Backmen
   - SecurityPocket2 #Backmen
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -316,6 +342,7 @@
   - SecurityPocket #Backmen
   - SecurityPocket2 #Backmen
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -328,6 +355,7 @@
   - DetectiveOuterClothing
   - SecurityShoes
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -336,6 +364,7 @@
   - SecurityCadetJumpsuit
   - SecurityBackpack
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 # Medical
@@ -352,6 +381,7 @@
   - ChiefMedicalOfficerShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -367,6 +397,7 @@
   - MedicalDoctorPDA
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -376,6 +407,7 @@
   - MedicalBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -388,6 +420,7 @@
   - ChemistOuterClothing
   - MedicalShoes
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -402,6 +435,7 @@
   - ParamedicShoes
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 # Wildcards
@@ -411,6 +445,7 @@
   - CommonBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -420,6 +455,7 @@
   - CommonBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -428,6 +464,7 @@
   - PsychologistBackpack # Corvax-MRP
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
@@ -438,6 +475,7 @@
   - CommonBackpack
   - Glasses
   - Trinkets
+  - Medals #backmen
   - Inventory # Corvax-Loadouts
 
 - type: roleLoadout
