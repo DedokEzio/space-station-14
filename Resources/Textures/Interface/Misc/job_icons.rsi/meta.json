@@ -193,6 +193,9 @@
             "name": "InitialInfected"
         },
         {
+            "name": "Admin"
+        },
+        {
             "name": "BlueShield"
         },
         {
