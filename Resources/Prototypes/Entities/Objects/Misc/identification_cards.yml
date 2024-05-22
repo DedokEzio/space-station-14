@@ -876,8 +876,6 @@
     layers:
     - state: default
     - state: idseniorofficer
-  - type: PresetIdCard # dedok seniors
-    job: SeniorOfficer
 
 - type: entity
   parent: IDCardStandard
