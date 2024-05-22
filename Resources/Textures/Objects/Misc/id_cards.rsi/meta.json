@@ -271,20 +271,5 @@
       "name": "green-inhand-right",
       "directions": 4
     },
-    {
-      "name": "idntr"
-    },
-    {
-      "name": "idblueshield"
-    },
-    {
-      "name": "idcoroner"
-    },
-    {
-      "name": "idmagistrat"
-    },
-    {
-      "name": "idjudge"
-    }
   ]
 }
