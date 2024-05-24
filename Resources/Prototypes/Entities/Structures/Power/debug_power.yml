@@ -179,3 +179,33 @@
   - type: ApcPowerReceiver
   - type: ExtensionCableReceiver
   - type: Anchorable
+
+- type: entity
+  parent: GeneratorRTG
+  id: GeneratorRTGDamaged100kW
+  name: RTG
+  description: A Radioisotope Thermoelectric Generator for long term power.
+  suffix: 100kW, Debug
+  components:
+  - type: PowerSupplier
+    supplyRate: 100000
+
+- type: entity
+  parent: GeneratorRTG
+  id: GeneratorRTGDamaged1MW
+  name: RTG
+  description: A Radioisotope Thermoelectric Generator for long term power.
+  suffix: 1MW, Debug
+  components:
+  - type: PowerSupplier
+    supplyRate: 1000000
+
+- type: entity
+  parent: GeneratorRTG
+  id: GeneratorRTGDamaged100MW
+  name: RTG
+  description: A Radioisotope Thermoelectric Generator for long term power.
+  suffix: 100MW, Debug
+  components:
+  - type: PowerSupplier
+    supplyRate: 100000000

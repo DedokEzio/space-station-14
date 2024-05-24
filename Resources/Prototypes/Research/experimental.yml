@@ -84,6 +84,18 @@
 # Tier 2
 
 - type: technology
+  id: BluespaceMining
+  name: research-technology-bluespace-mining
+  icon:
+    sprite: Objects/Misc/stock_parts.rsi
+    state: ansible_crystal
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - MachineBluespaceHarvesterCircuitboard
+
+- type: technology
   id: AbnormalArtifactManipulation
   name: research-technology-abnormal-artifact-manipulation
   icon:

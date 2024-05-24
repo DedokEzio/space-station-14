@@ -554,6 +554,7 @@
       - MassMediaCircuitboard
       - ShipyardCircuitboard # backmen
       - ReagentGrinderIndustrialMachineCircuitboard
+      - MachineBluespaceHarvesterCircuitboard
       - JukeboxCircuitBoard
   - type: EmagLatheRecipes
     emagDynamicRecipes:
