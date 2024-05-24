@@ -19,10 +19,6 @@
     contents:
     - id: ClothingEyesHudMultiversal
       amount: 1
-    - id: ClothingEyesGlassesMedicineMeson
-      amount: 3
-    - id: ClothingEyesGlassesTray
-      amount: 3
 
 - type: entity
   id: CrateHarvesterMaterials
