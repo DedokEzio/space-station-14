@@ -6,7 +6,7 @@
   startingGear: PrisonerGear
   alwaysUseSpawner: true
   canBeAntag: false
-  whitelistRequired: false
+  whitelistRequired: true
   icon: JobIconPrisoner
   supervisors: job-supervisors-security
   requirements:
