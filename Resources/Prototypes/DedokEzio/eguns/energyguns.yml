@@ -1,0 +1,139 @@
+- type: entity
+  name: Energy gun
+  parent: BaseWeaponBattery
+  id: WeaponEnergyGun
+  description: An energy gun for self defeating provided for nanotrasens security and heads on station.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/energy_gun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: X01Attack
+    fireCost: 100
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: X01Attack
+      fireCost: 100
+    - proto: BulletDisabler
+      fireCost: 100
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  name: Laser
+  id: LaserImmolator
+  parent: BaseBulletTrigger
+  noSpawn: true
+  components:
+  - type: Reflective
+    reflective:
+    - Energy
+  - type: FlyBySound
+    sound:
+      collection: EnergyMiss
+      params:
+        volume: 5
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      color: "#ff0000"
+  - type: Physics
+  - type: Ammo
+  - type: Projectile
+    damage:
+      types:
+        Heat: 10
+    soundHit:
+      path: "/Audio/Weapons/Guns/Hits/energy_meat2.ogg"
+  - type: PointLight
+    enabled: true
+    color: "#ff0000"
+    radius: 2.0
+    energy: 7.0
+  - type: IgniteOnCollide
+    fireStacks: 2
+
+- type: entity
+  name: Immolator
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: WeaponImmolator
+  description: A modified laser cannon that fires highly concentrated beams with higher intensity that ignite the target, at the expense of losing most of the power per shot.
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/immolator.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/immolator.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: LaserImmolator
+    fireCost: 80
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  id: BulletEMP
+  name: EMP impulse
+  parent: BaseBulletTrigger
+  noSpawn: true
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    layers:
+    - state: omnilaser_greyscale
+      color: blue
+  - type: EmpOnTrigger
+    range: 2
+    energyConsumption: 30000
+    disableDuration: 10
+  - type: Ammo
+    muzzleFlash: null
+  - type: PointLight
+    radius: 3.5
+    color: blue
+    energy: 0.5
+
+- type: entity
+  name: Ion rifle
+  parent: BaseWeaponBattery
+  id: WeaponIonRifleGun
+  description: A specialized rifle that fires ion charges capable of disrupting and interfering with electronic devices. The damage extends to all parts/components. It's huge and has a sniper scope.
+  components:
+  - type: Item
+    size: Ginormous
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/ion_rifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/ion_rifle.rsi
+  - type: Gun
+    fireRate: 1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletEMP
+    fireCost: 200
+  - type: StaticPrice
+    price: 2000
