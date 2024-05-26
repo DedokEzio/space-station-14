@@ -23,7 +23,7 @@
       fireCost: 100
     - proto: BulletDisabler
       fireCost: 100
-  - type: StaticPrice
+ - type: StaticPrice
    price: 1000
 
 - type: entity
