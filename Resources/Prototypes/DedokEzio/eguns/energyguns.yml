@@ -15,11 +15,11 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
   - type: ProjectileBatteryAmmoProvider
-    proto: RedMediumLaser
+    proto: X01Attack
     fireCost: 100
   - type: BatteryWeaponFireModes
     fireModes:
-    - proto: RedMediumLaser
+    - proto: X01Attack
       fireCost: 100
     - proto: BulletDisabler
       fireCost: 100
@@ -27,7 +27,7 @@
     price: 1000
 
 - type: entity
-  name: LaserImmolator
+  name: Laser
   id: LaserImmolator
   parent: BaseBulletTrigger
   noSpawn: true
@@ -52,8 +52,7 @@
       types:
         Heat: 10
     soundHit:
-      path: "/Audio/Weapons/tap.ogg"
-    soundForce: true
+      path: "/Audio/Weapons/Guns/Hits/energy_meat2.ogg"
   - type: PointLight
     enabled: true
     color: "#ff0000"
