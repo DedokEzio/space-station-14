@@ -23,8 +23,8 @@
       fireCost: 100
     - proto: BulletDisabler
       fireCost: 100
- - type: StaticPrice
-   price: 1000
+  - type: StaticPrice
+    price: 1000
 
 - type: entity
   name: LaserImmolator
