@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Paradise (ex666): https://github.com/ss220-space/Paradise/blob/master220/icons/goonstation/48x48/pods.dmi",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "pod_black",
+      "directions": 4
+    },
+    {
+      "name": "pod_civ",
+      "directions": 4
+    },
+    {
+      "name": "pod_fire",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "pod_gold",
+      "directions": 4
+    },
+    {
+      "name": "pod_industrial",
+      "directions": 4
+    },
+    {
+      "name": "pod_mil",
+      "directions": 4
+    },
+    {
+      "name": "pod_skin3",
+      "directions": 4
+    },
+    {
+      "name": "pod_synd",
+      "directions": 4
+    },
+    {
+      "name": "Windows",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "RIM",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "PAINT",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "LIGHTS"
+    },
+    {
+      "name": "pod_weapon_laser"
+    },
+    {
+      "name": "pod_weapon_taser"
+    },
+    {
+      "name": "pod_damage"
+    },
+    {
+      "name": "pod_dece",
+      "directions": 4
+    }
+  ]
+}
