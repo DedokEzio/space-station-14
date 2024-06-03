@@ -5,7 +5,6 @@
   playTimeTracker: JobNanotrasenRepresentive
   requireAdminNotify: true
   joinNotifyCrew: true
-  whitelistRequired: false
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
