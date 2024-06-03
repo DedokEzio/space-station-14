@@ -468,14 +468,3 @@
         amount: 2
       - id: DartYellow
         amount: 2
-
-- type: entity
-  name: tracking implants box
-  parent: BoxCardboard
-  id: BoxTrackers
-  description: This box is filled with tracking implants.
-  components:
-    - type: StorageFill
-      contents:
-        - id: TrackingImplanter
-          amount: 4
