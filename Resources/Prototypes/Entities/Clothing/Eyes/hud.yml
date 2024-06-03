@@ -8,6 +8,18 @@
   - type: ShowCriminalRecordIcons
 
 - type: entity
+  id: ShowMedicalIcons
+  abstract: true
+  noSpawn: true
+  components:
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+
+- type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudDiagnostic
   name: diagnostic hud
@@ -213,10 +225,6 @@
     damageContainers:
     - Biological
     - Inorganic
-    - Silicon
-  - type: ShowHealthIcons
-    damageContainers:
-    - Biological
   - type: ShowHungerIcons
   - type: ShowThirstIcons
   - type: ShowSyndicateIcons
