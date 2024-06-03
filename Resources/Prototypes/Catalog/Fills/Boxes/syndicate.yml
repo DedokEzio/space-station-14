@@ -69,3 +69,20 @@
         amount: 6
       - id: HandheldGPSBasic
         amount: 6
+
+- type: entity # dedok observations kit
+  id: Observationskit
+  parent: BoxCardboard
+  name: Observations kit
+  suffix: Filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: SyndiCrewMonitorEmpty
+          amount: 1
+        - id: PowerCellHigh
+          amount: 1
+        - id: ClothingEyesGlassesHiddenSecurity
+          amount: 1
+        - id: SurveillanceCameraMonitorCircuitboard
+          amount: 1
