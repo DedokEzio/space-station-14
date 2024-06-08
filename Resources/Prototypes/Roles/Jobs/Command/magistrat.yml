@@ -56,6 +56,10 @@
     pocket1: Flash
   inhand:
     - BriefcasemagistratFilled
+  storage:
+    back:
+    - BoxSurvival
+    - Telebaton
 #  innerClothingSkirt: MagistratUniformSuit
 #  satchel: ClothingBackpackSatchelFilled
 #  duffelbag: ClothingBackpackDuffelFilled
