@@ -59,7 +59,7 @@
   equipment:
     head: ClothingHeadHatCapNtr
     jumpsuit: ClothingUniformJumpsuitNTRepresentive
-    back: ClothingBackpackHOPFilled
+    back: ClothingBackpack
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesCommand
     gloves: ClothingHandsGlovesColorWhite
@@ -68,6 +68,11 @@
     ears: ClothingHeadsetAltCommand
     pocket1: FlippoEngravedLighter
     pocket2: BoxFolderClipboard
+  storage:
+    back:
+    - BoxSurvival
+    - Flash
+    - Telebaton
   #innerClothingSkirt: ClothingUniformJumpsuitNTRepresentive
  # satchel: ClothingBackpackSatchelHOPFilled
  # duffelbag: ClothingBackpackDuffelHOPFilled
