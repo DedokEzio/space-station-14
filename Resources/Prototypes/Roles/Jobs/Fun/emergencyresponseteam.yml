@@ -38,6 +38,7 @@
     - BoxZiptie
     - CrowbarRed
     - MagazineMagnum
+    - Telebaton
 
 - type: startingGear
   id: ERTLeaderGearEVA
@@ -64,6 +65,7 @@
     - BoxZiptie
     - CrowbarRed
     - MagazineMagnum
+    - Telebaton
 
 - type: startingGear
   id: ERTLeaderGearEVALecter
@@ -92,6 +94,7 @@
     - BoxZiptie
     - CrowbarRed
     - MagazineMagnum
+    - Telebaton
 
 # Chaplain
 - type: job
