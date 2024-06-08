@@ -8,11 +8,10 @@
       state: bluespace
     - type: MachineBoard
       prototype: BluespaceHarvester
-      requirements:
+      stackRequirements:
         Manipulator: 5
         Capacitor: 5
         MatterBin: 15
-      materialRequirements:
         Glass: 15
         Steel: 15
         CableHV: 5
