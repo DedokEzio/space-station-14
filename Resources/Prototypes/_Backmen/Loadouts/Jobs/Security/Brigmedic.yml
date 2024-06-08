@@ -6,7 +6,11 @@
     eyes: ClothingEyesHudMedSec
     id: BrigmedicPDA
     belt: ClothingBeltMedicalFilled
-
+  storage:
+    back:
+    - BoxSurvivalSecurity
+    - Flash
+    - Telebaton
 #Suit
 - type: loadout
   id: ClothingUniformJumpsuitBrigmedic
