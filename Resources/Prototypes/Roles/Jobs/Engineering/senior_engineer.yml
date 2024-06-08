@@ -27,12 +27,15 @@
   equipment:	
     head: ClothingHeadHatBeretEngineering	
     jumpsuit: ClothingUniformJumpsuitSeniorEngineer	
-    back: ClothingBackpackEngineeringFilled	
+    back: ClothingBackpackEngineering
     shoes: ClothingShoesBootsWork	
     id: SeniorEngineerPDA	
     eyes: ClothingEyesGlassesMeson	
     belt: ClothingBeltUtilityEngineering	
     ears: ClothingHeadsetEngineering	
+  storage:
+    back:
+    - BoxSurvivalEngineering
  # innerClothingSkirt: ClothingUniformJumpskirtSeniorEngineer	
  # satchel: ClothingBackpackSatchelEngineeringFilled	
  # duffelbag: ClothingBackpackDuffelEngineeringFilled
