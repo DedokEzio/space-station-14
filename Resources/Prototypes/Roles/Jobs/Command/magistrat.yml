@@ -44,7 +44,7 @@
   equipment:
     jumpsuit: MagistratUniformSuit
     belt: BoxFolderClipboard
-    back: ClothingBackpackFilled
+    back: ClothingBackpack
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesColorWhite
