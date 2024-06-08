@@ -24,6 +24,9 @@
     outerClothing: ClothingOuterCoatLabSeniorResearcher
     id: SeniorResearcherPDA
     ears: ClothingHeadsetScience
+  storage:
+    back:
+    - BoxSurvival
 #  innerClothingSkirt: ClothingUniformJumpskirtSeniorResearcher
 #  satchel: ClothingBackpackSatchelScienceFilled
 #  duffelbag: ClothingBackpackDuffelScienceFilled
