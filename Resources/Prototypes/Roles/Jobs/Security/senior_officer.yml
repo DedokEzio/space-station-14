@@ -43,6 +43,11 @@
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponRevolverDeckard
+  storage:
+    back:
+    - BoxSurvivalSecurity
+    - Flash
+    - SpeedLoaderMagnum
  # innerClothingSkirt: ClothingUniformJumpskirtSeniorOfficer
  # satchel: ClothingBackpackSatchelSecurityFilled
  # duffelbag: ClothingBackpackDuffelSecurityFilled
