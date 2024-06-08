@@ -1,0 +1,48 @@
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconBlueShield
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: BlueShield
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconMagistrat
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Magistrat
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconNanotrasenRepresentive
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: NanotrasenRepresentive
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSeniorPhysician
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SeniorPhysician
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSeniorOfficer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SeniorOfficer
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSeniorEngineer
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SeniorEngineer
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconSeniorResearcher
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: SeniorResearcher
