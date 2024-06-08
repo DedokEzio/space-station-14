@@ -1250,7 +1250,7 @@
       state: medical
     - type: MachineBoard
       prototype: ImpLathe
-      requirements:
+      stackRequirements:
         MatterBin: 2
         Manipulator: 2
       tagRequirements:
