@@ -15,10 +15,5 @@
         Glass: 15
         Steel: 15
         CableHV: 5
-      tagRequirements:
-        GlassBeaker:
-          Amount: 5
-          DefaultPrototype: Beaker
-          ExamineName: Glass Beaker
     - type: Item
       size: Normal
