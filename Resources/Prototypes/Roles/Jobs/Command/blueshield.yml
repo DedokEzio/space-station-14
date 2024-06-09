@@ -62,6 +62,12 @@
     ears: ClothingHeadsetAltCentCom
     mask: ClothingMaskGasSecurity
     pocket1: RubberStampBlueshield
+  storage:
+    back:
+    - BoxSurvivalEngineering
+    - Flash
+    - MagazinePistolSubMachineGun
+    - MagazinePistolSubMachineGunRubber
  # innerClothingSkirt: ClothingUniformJumpskirtBlueShield
  # satchel: ClothingBackpackBlueshieldFilled # blueshield didnt need duffels and satchels
  # duffelbag: ClothingBackpackBlueshieldFilled

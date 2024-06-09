@@ -44,7 +44,7 @@
   equipment:
     jumpsuit: MagistratUniformSuit
     belt: BoxFolderClipboard
-    back: ClothingBackpackFilled
+    back: ClothingBackpack
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesColorWhite
@@ -56,6 +56,10 @@
     pocket1: Flash
   inhand:
     - BriefcasemagistratFilled
+  storage:
+    back:
+    - BoxSurvival
+    - Telebaton
 #  innerClothingSkirt: MagistratUniformSuit
 #  satchel: ClothingBackpackSatchelFilled
 #  duffelbag: ClothingBackpackDuffelFilled

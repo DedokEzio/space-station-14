@@ -1,5 +1,6 @@
 - type: entity
-  noSpawn: true
+  noSpawn: false
+  suffix: Secret
   parent: BoxFolderBlack
   id: BoxFolderSecretBlack
   components:
