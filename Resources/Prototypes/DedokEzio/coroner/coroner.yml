@@ -29,7 +29,7 @@
   id: CoronerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCoroner
-    back: ClothingBackpackMedicalFilled
+    back: ClothingBackpackMedical
     pocket1: Paper
     shoes: ClothingShoesColorWhite
     mask: ClothingMaskSterile
@@ -38,6 +38,9 @@
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalFilled
     outerClothing: ClothingOuterApronBar
+  storage:
+    back:
+    - BoxSurvivalMedical
   #innerclothingskirt: ClothingUniformJumpskirtCoroner
   #satchel: ClothingBackpackSatchelMedicalFilled
   #duffelbag: ClothingBackpackDuffelMedicalFilled
