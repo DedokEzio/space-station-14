@@ -80,8 +80,6 @@ ent-CrateHarvesterBorg = { ent-CrateTechnologicalSecure }
     .desc = { ent-CrateTechnologicalSecure.desc }
 ent-CrateHarvesterMech = { ent-CrateTechnologicalSecure }
     .desc = { ent-CrateTechnologicalSecure.desc }
-ent-CrateHarvesterReagentSlime = { ent-CrateTechnologicalSecure }
-    .desc = { ent-CrateTechnologicalSecure.desc }
 ent-CrateHarvesterTechnologyDisk = { ent-CrateTechnologicalSecure }
     .desc = { ent-CrateTechnologicalSecure.desc }
 
