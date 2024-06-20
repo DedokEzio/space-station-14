@@ -215,6 +215,7 @@
     zeroVisible: true
   - type: Appearance
 
+- type: entity
   name: Foam Force Astro Ace
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponRifleFoam
