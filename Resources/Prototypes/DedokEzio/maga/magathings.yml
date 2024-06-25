@@ -72,3 +72,16 @@
   icon:
     sprite: Interface/Misc/job_icons.rsi 
     state: Judge
+
+- type: entity
+  id: BriefcasemagistratFilled
+  parent: Briefcaseblack
+  suffix: magistrat filled
+  components:
+    - type: StorageFill
+      contents:
+        - id: Paper
+        - id: Paper
+        - id: Paper
+        - id: RubberStampDenied
+        - id: RubberStampApproved
